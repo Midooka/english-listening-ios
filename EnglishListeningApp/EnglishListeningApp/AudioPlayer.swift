@@ -29,22 +29,24 @@ class AudioPlayer: NSObject, AVAudioPlayerDelegate {
         }
     }
     
-    func play(clipId: String) {
+    func play(clip: Clip) {
+        let audioFileName = clip.audioId ?? clip.id
+
         // If already playing the same clip, just resume
-        if currentClipId == clipId, let player = audioPlayer {
+        if currentClipId == clip.id, let player = audioPlayer {
             if !player.isPlaying {
                 player.play()
                 isPlaying = true
             }
             return
         }
-        
+
         // Stop current playback if any
         stop()
-        
+
         // Try to find audio file
-        guard let audioURL = findAudioFile(clipId: clipId) else {
-            errorMessage = "Audio file not found: \(clipId).m4a"
+        guard let audioURL = findAudioFile(audioFileName: audioFileName) else {
+            errorMessage = "Audio file not found: \(audioFileName).m4a"
             return
         }
         
@@ -58,7 +60,7 @@ class AudioPlayer: NSObject, AVAudioPlayerDelegate {
             player.play()
             
             audioPlayer = player
-            currentClipId = clipId
+            currentClipId = clip.id
             isPlaying = true
             errorMessage = nil
         } catch {
@@ -74,11 +76,11 @@ class AudioPlayer: NSObject, AVAudioPlayerDelegate {
         currentClipId = nil
     }
     
-    func togglePlayPause(clipId: String) {
-        if isPlaying && currentClipId == clipId {
+    func togglePlayPause(clip: Clip) {
+        if isPlaying && currentClipId == clip.id {
             pause()
         } else {
-            play(clipId: clipId)
+            play(clip: clip)
         }
     }
     
@@ -87,22 +89,22 @@ class AudioPlayer: NSObject, AVAudioPlayerDelegate {
         isPlaying = false
     }
     
-    private func findAudioFile(clipId: String) -> URL? {
+    private func findAudioFile(audioFileName: String) -> URL? {
         // Try with subdirectory first (preferred)
-        if let url = Bundle.main.url(forResource: clipId, withExtension: "m4a", subdirectory: "AudioSample") {
+        if let url = Bundle.main.url(forResource: audioFileName, withExtension: "m4a", subdirectory: "AudioSample") {
             return url
         }
-        
+
         // Fallback: try without subdirectory
-        if let url = Bundle.main.url(forResource: clipId, withExtension: "m4a") {
+        if let url = Bundle.main.url(forResource: audioFileName, withExtension: "m4a") {
             return url
         }
-        
+
         // Try Resources directory variants
-        if let url = Bundle.main.url(forResource: clipId, withExtension: "m4a", subdirectory: "Resources/AudioSample") {
+        if let url = Bundle.main.url(forResource: audioFileName, withExtension: "m4a", subdirectory: "Resources/AudioSample") {
             return url
         }
-        
+
         return nil
     }
     

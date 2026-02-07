@@ -1,53 +1,58 @@
 [
   {
     "id": "clip001",
-    "level": 1,
-    "genre": "Daily Conversation",
-    "transcript": "Hello, how are you today? I'm doing well, thank you.",
-    "question": "What is the speaker asking about?",
-    "choices": ["The weather", "Someone's well-being", "The time", "Directions"],
+    "audioId": "2412-153954-0019",
+    "level": 2,
+    "genre": "Literature",
+    "transcript": "But by and by they came to my watch which I had hidden away in the inmost pocket that I had and had forgotten when they began their search.",
+    "question": "Where was the watch hidden?",
+    "choices": ["In the outer pocket", "In the inmost pocket", "In the bag", "Under the bed"],
     "answerIndex": 1,
-    "explanation": "The phrase 'how are you' is asking about someone's well-being or current state."
+    "explanation": "The text states the watch was 'hidden away in the inmost pocket'."
   },
   {
     "id": "clip002",
-    "level": 1,
-    "genre": "Shopping",
-    "transcript": "Can I help you find something? Yes, I'm looking for a blue shirt.",
-    "question": "What is the customer looking for?",
-    "choices": ["A red jacket", "A blue shirt", "A green hat", "Black shoes"],
+    "audioId": "2412-153954-0023",
+    "level": 2,
+    "genre": "Literature",
+    "transcript": "This had some effect in calming him.",
+    "question": "What was the effect mentioned?",
+    "choices": ["It made him angry", "It calmed him", "It confused him", "It excited him"],
     "answerIndex": 1,
-    "explanation": "The customer clearly states 'I'm looking for a blue shirt'."
+    "explanation": "The text states 'this had some effect in calming him'."
   },
   {
     "id": "clip003",
-    "level": 2,
-    "genre": "Travel",
-    "transcript": "Excuse me, where is the nearest subway station? It's two blocks down on your left.",
-    "question": "Where is the subway station located?",
-    "choices": ["One block ahead", "Two blocks down on the left", "Behind the building", "Across the street"],
+    "audioId": "2412-153954-0015",
+    "level": 3,
+    "genre": "Literature",
+    "transcript": "Suffice it that I found myself taken before the chief magistrate and by his orders was placed in an apartment with two other people who were the first I had seen looking anything but well and handsome.",
+    "question": "Who ordered the placement in the apartment?",
+    "choices": ["The narrator himself", "The chief magistrate", "The two other people", "A random officer"],
     "answerIndex": 1,
-    "explanation": "The direction given is 'two blocks down on your left'."
+    "explanation": "The text states 'by his orders' referring to the chief magistrate."
   },
   {
     "id": "clip004",
+    "audioId": "2412-153954-0003",
     "level": 2,
-    "genre": "Restaurant",
-    "transcript": "I'd like to make a reservation for two people at seven o'clock tonight.",
-    "question": "How many people is the reservation for?",
-    "choices": ["One person", "Two people", "Three people", "Four people"],
+    "genre": "Literature",
+    "transcript": "The vine grew outside many of the houses and there were some with sign boards on which was painted a bottle and a glass that made me feel much at home.",
+    "question": "What was painted on the sign boards?",
+    "choices": ["A tree and a bird", "A bottle and a glass", "A house and a garden", "A road and a car"],
     "answerIndex": 1,
-    "explanation": "The speaker says 'for two people'."
+    "explanation": "The text mentions 'a bottle and a glass' painted on the sign boards."
   },
   {
     "id": "clip005",
-    "level": 2,
-    "genre": "Business",
-    "transcript": "The meeting has been rescheduled to next Wednesday at three p.m.",
-    "question": "When is the new meeting time?",
-    "choices": ["This Friday at 2pm", "Next Wednesday at 3pm", "Tomorrow at 3pm", "Next Monday at 3pm"],
+    "audioId": "2412-153954-0002",
+    "level": 1,
+    "genre": "Literature",
+    "transcript": "The streets were narrow and unpaved but very fairly clean.",
+    "question": "What was the condition of the streets?",
+    "choices": ["Wide and paved", "Narrow and unpaved", "Wide and dirty", "Narrow and muddy"],
     "answerIndex": 1,
-    "explanation": "The meeting is 'rescheduled to next Wednesday at three p.m.'."
+    "explanation": "The text describes the streets as 'narrow and unpaved but very fairly clean'."
   },
   {
     "id": "clip006",

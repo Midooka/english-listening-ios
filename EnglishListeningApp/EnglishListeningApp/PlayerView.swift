@@ -71,7 +71,7 @@ struct PlayerView: View {
                 .opacity(0.3)
 
                 Button(action: {
-                    audioPlayer.togglePlayPause(clipId: clip.id)
+                    audioPlayer.togglePlayPause(clip: clip)
                 }) {
                     Image(systemName: audioPlayer.isPlaying ? "pause.circle.fill" : "play.circle.fill")
                         .font(.system(size: 50))
