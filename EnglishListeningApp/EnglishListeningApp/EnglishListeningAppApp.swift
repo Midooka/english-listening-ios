@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct EnglishListeningAppApp: App {
+    @State private var dataStore = DataStore()
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LibraryView()
+                .environment(dataStore)
         }
     }
 }

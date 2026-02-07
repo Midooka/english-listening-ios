@@ -1,0 +1,102 @@
+[
+  {
+    "id": "clip001",
+    "level": 1,
+    "genre": "Daily Conversation",
+    "transcript": "Hello, how are you today? I'm doing well, thank you.",
+    "question": "What is the speaker asking about?",
+    "choices": ["The weather", "Someone's well-being", "The time", "Directions"],
+    "answerIndex": 1,
+    "explanation": "The phrase 'how are you' is asking about someone's well-being or current state."
+  },
+  {
+    "id": "clip002",
+    "level": 1,
+    "genre": "Shopping",
+    "transcript": "Can I help you find something? Yes, I'm looking for a blue shirt.",
+    "question": "What is the customer looking for?",
+    "choices": ["A red jacket", "A blue shirt", "A green hat", "Black shoes"],
+    "answerIndex": 1,
+    "explanation": "The customer clearly states 'I'm looking for a blue shirt'."
+  },
+  {
+    "id": "clip003",
+    "level": 2,
+    "genre": "Travel",
+    "transcript": "Excuse me, where is the nearest subway station? It's two blocks down on your left.",
+    "question": "Where is the subway station located?",
+    "choices": ["One block ahead", "Two blocks down on the left", "Behind the building", "Across the street"],
+    "answerIndex": 1,
+    "explanation": "The direction given is 'two blocks down on your left'."
+  },
+  {
+    "id": "clip004",
+    "level": 2,
+    "genre": "Restaurant",
+    "transcript": "I'd like to make a reservation for two people at seven o'clock tonight.",
+    "question": "How many people is the reservation for?",
+    "choices": ["One person", "Two people", "Three people", "Four people"],
+    "answerIndex": 1,
+    "explanation": "The speaker says 'for two people'."
+  },
+  {
+    "id": "clip005",
+    "level": 2,
+    "genre": "Business",
+    "transcript": "The meeting has been rescheduled to next Wednesday at three p.m.",
+    "question": "When is the new meeting time?",
+    "choices": ["This Friday at 2pm", "Next Wednesday at 3pm", "Tomorrow at 3pm", "Next Monday at 3pm"],
+    "answerIndex": 1,
+    "explanation": "The meeting is 'rescheduled to next Wednesday at three p.m.'."
+  },
+  {
+    "id": "clip006",
+    "level": 3,
+    "genre": "Academic",
+    "transcript": "The theory of evolution suggests that species adapt to their environment over generations through natural selection.",
+    "question": "What mechanism drives species adaptation according to this theory?",
+    "choices": ["Artificial selection", "Natural selection", "Random mutation only", "Human intervention"],
+    "answerIndex": 1,
+    "explanation": "The text explicitly mentions 'through natural selection' as the mechanism."
+  },
+  {
+    "id": "clip007",
+    "level": 3,
+    "genre": "News",
+    "transcript": "The economic report indicates that unemployment rates have decreased by two percent over the last quarter.",
+    "question": "What happened to unemployment rates?",
+    "choices": ["Increased by 2%", "Decreased by 2%", "Remained stable", "Increased by 5%"],
+    "answerIndex": 1,
+    "explanation": "The report states rates 'have decreased by two percent'."
+  },
+  {
+    "id": "clip008",
+    "level": 1,
+    "genre": "Daily Conversation",
+    "transcript": "What time does the movie start? It starts at eight thirty.",
+    "question": "When does the movie begin?",
+    "choices": ["Seven thirty", "Eight thirty", "Nine o'clock", "Seven o'clock"],
+    "answerIndex": 1,
+    "explanation": "The response is 'It starts at eight thirty'."
+  },
+  {
+    "id": "clip009",
+    "level": 3,
+    "genre": "Science",
+    "transcript": "Photosynthesis is the process by which plants convert sunlight, water, and carbon dioxide into glucose and oxygen.",
+    "question": "What do plants produce through photosynthesis?",
+    "choices": ["Only oxygen", "Glucose and oxygen", "Only carbon dioxide", "Water and sunlight"],
+    "answerIndex": 1,
+    "explanation": "The text states plants convert ingredients 'into glucose and oxygen'."
+  },
+  {
+    "id": "clip010",
+    "level": 2,
+    "genre": "Weather",
+    "transcript": "Tomorrow's forecast calls for partly cloudy skies with a high of twenty-two degrees Celsius.",
+    "question": "What will the high temperature be?",
+    "choices": ["18 degrees", "20 degrees", "22 degrees", "25 degrees"],
+    "answerIndex": 2,
+    "explanation": "The forecast mentions 'a high of twenty-two degrees Celsius'."
+  }
+]
