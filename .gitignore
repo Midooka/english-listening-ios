@@ -42,3 +42,10 @@ data/raw/
 # 処理済みデータも原則除外（再生成可能なため）
 data/processed/
 
+
+# AudioSample: MVP用の少量サンプル音声のみGit管理
+# 大量データ（data/raw/, data/processed/）は引き続き除外
+!EnglishListeningApp/EnglishListeningApp/Resources/AudioSample/
+!EnglishListeningApp/EnglishListeningApp/Resources/AudioSample/*.m4a
+!EnglishListeningApp/EnglishListeningApp/Resources/AudioSample/*.mp3
+!EnglishListeningApp/EnglishListeningApp/Resources/AudioSample/*.wav
