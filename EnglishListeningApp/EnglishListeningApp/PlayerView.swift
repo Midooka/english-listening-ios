@@ -2,7 +2,8 @@ import SwiftUI
 
 struct PlayerView: View {
     let clip: Clip
-    
+
+    @State private var audioPlayer = AudioPlayer()
     @State private var showTranscript = false
     @State private var selectedAnswer: Int? = nil
     @State private var hasAnswered = false
@@ -54,37 +55,67 @@ struct PlayerView: View {
     
     private var audioPlayerSection: some View {
         VStack(spacing: 16) {
-            // Placeholder for audio player
-            Image(systemName: "waveform")
+            // Waveform icon
+            Image(systemName: audioPlayer.isPlaying ? "waveform" : "waveform.circle")
                 .font(.system(size: 60))
-                .foregroundStyle(.blue)
-            
+                .foregroundStyle(audioPlayer.isPlaying ? .blue : .gray)
+                .symbolEffect(.variableColor, isActive: audioPlayer.isPlaying)
+
+            // Play/Pause button
             HStack(spacing: 30) {
                 Button(action: {}) {
                     Image(systemName: "gobackward.10")
                         .font(.title2)
                 }
-                
-                Button(action: {}) {
-                    Image(systemName: "play.circle.fill")
+                .disabled(true)
+                .opacity(0.3)
+
+                Button(action: {
+                    audioPlayer.togglePlayPause(clipId: clip.id)
+                }) {
+                    Image(systemName: audioPlayer.isPlaying ? "pause.circle.fill" : "play.circle.fill")
                         .font(.system(size: 50))
                 }
-                
+
                 Button(action: {}) {
                     Image(systemName: "goforward.10")
                         .font(.title2)
                 }
+                .disabled(true)
+                .opacity(0.3)
             }
             .foregroundStyle(.blue)
-            
-            Text("Audio playback not yet implemented")
-                .font(.caption)
-                .foregroundStyle(.secondary)
+
+            // Speed picker
+            HStack {
+                Text("Speed:")
+                    .font(.subheadline)
+                    .foregroundStyle(.secondary)
+
+                Picker("Speed", selection: $audioPlayer.rate) {
+                    Text("0.75x").tag(Float(0.75))
+                    Text("1.0x").tag(Float(1.0))
+                    Text("1.25x").tag(Float(1.25))
+                }
+                .pickerStyle(.segmented)
+            }
+            .padding(.horizontal)
+
+            // Error message
+            if let errorMessage = audioPlayer.errorMessage {
+                Text(errorMessage)
+                    .font(.caption)
+                    .foregroundStyle(.red)
+                    .multilineTextAlignment(.center)
+            }
         }
         .frame(maxWidth: .infinity)
         .padding()
         .background(Color(.systemGray6))
         .clipShape(RoundedRectangle(cornerRadius: 12))
+        .onDisappear {
+            audioPlayer.stop()
+        }
     }
     
     private var transcriptSection: some View {
