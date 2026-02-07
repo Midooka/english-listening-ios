@@ -1,0 +1,44 @@
+# Xcode
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+*.xcworkspace/*
+!*.xcworkspace/contents.xcworkspacedata
+!*.xcworkspace/xcshareddata/
+xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+
+# Build products
+build/
+DerivedData/
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# Swift Package Manager
+.swiftpm/
+Packages/
+*.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/
+
+# LibriSpeech: 音声データは原則除外（大容量のため）
+data/raw/
+*.flac
+*.wav
+*.mp3
+*.m4a
+*.opus
+
+# 将来、少量サンプル同梱する場合は下記のように個別に許可
+# 例: !data/samples/demo.flac
+
+# 処理済みデータも原則除外（再生成可能なため）
+data/processed/
+
