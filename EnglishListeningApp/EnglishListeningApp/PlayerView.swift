@@ -3,6 +3,7 @@ import SwiftUI
 struct PlayerView: View {
     let clip: Clip
 
+    @Environment(ProgressStore.self) private var progressStore
     @State private var audioPlayer = AudioPlayer()
     @State private var showTranscript = false
     @State private var selectedAnswer: Int? = nil
@@ -33,6 +34,9 @@ struct PlayerView: View {
         }
         .navigationTitle(clip.id)
         .navigationBarTitleDisplayMode(.inline)
+        .onAppear {
+            progressStore.recordPlay(clipId: clip.id)
+        }
     }
     
     private var headerSection: some View {
@@ -45,10 +49,19 @@ struct PlayerView: View {
                     .background(levelColor)
                     .foregroundStyle(.white)
                     .clipShape(Capsule())
-                
+
                 Text(clip.genre)
                     .font(.caption)
                     .foregroundStyle(.secondary)
+
+                Spacer()
+
+                let p = progressStore.progress(for: clip.id)
+                if p.attempts > 0 {
+                    Text("\(p.corrects)/\(p.attempts) correct")
+                        .font(.caption)
+                        .foregroundStyle(.secondary)
+                }
             }
         }
     }
@@ -202,10 +215,13 @@ struct PlayerView: View {
     
     private func selectAnswer(_ index: Int) {
         guard !hasAnswered else { return }
-        
+
         selectedAnswer = index
         hasAnswered = true
-        
+
+        let isCorrect = index == clip.answerIndex
+        progressStore.recordAnswer(clipId: clip.id, isCorrect: isCorrect)
+
         withAnimation(.easeInOut(duration: 0.5).delay(0.5)) {
             showExplanation = true
         }

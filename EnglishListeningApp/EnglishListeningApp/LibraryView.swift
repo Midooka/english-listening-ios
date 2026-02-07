@@ -2,6 +2,7 @@ import SwiftUI
 
 struct LibraryView: View {
     @Environment(DataStore.self) private var dataStore
+    @Environment(ProgressStore.self) private var progressStore
     @State private var selectedLevel: Int? = nil
     @State private var selectedGenre: String = "All"
     @State private var showCredits = false
@@ -16,7 +17,7 @@ struct LibraryView: View {
                 List {
                     ForEach(filteredClips) { clip in
                         NavigationLink(value: clip) {
-                            ClipRow(clip: clip)
+                            ClipRow(clip: clip, progress: progressStore.progress(for: clip.id))
                         }
                     }
                 }
@@ -81,13 +82,19 @@ struct LibraryView: View {
 
 struct ClipRow: View {
     let clip: Clip
-    
+    let progress: ClipProgress
+
     var body: some View {
         VStack(alignment: .leading, spacing: 4) {
             HStack {
                 Text(clip.id)
                     .font(.headline)
                 Spacer()
+                if progress.attempts > 0 {
+                    Text("\(progress.corrects)/\(progress.attempts)")
+                        .font(.caption)
+                        .foregroundStyle(progress.corrects > 0 ? .green : .secondary)
+                }
                 Text("Level \(clip.level)")
                     .font(.caption)
                     .padding(.horizontal, 8)
@@ -96,11 +103,20 @@ struct ClipRow: View {
                     .foregroundStyle(.white)
                     .clipShape(Capsule())
             }
-            
-            Text(clip.genre)
-                .font(.subheadline)
-                .foregroundStyle(.secondary)
-            
+
+            HStack {
+                Text(clip.genre)
+                    .font(.subheadline)
+                    .foregroundStyle(.secondary)
+
+                if let lastPlayed = progress.lastPlayedAt {
+                    Spacer()
+                    Text("Last: \(lastPlayed, format: .dateTime.month().day())")
+                        .font(.caption2)
+                        .foregroundStyle(.secondary)
+                }
+            }
+
             Text(clip.transcript)
                 .font(.callout)
                 .lineLimit(2)
