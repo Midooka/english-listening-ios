@@ -10,6 +10,8 @@ struct PlayerView: View {
     @State private var selectedAnswer: Int? = nil
     @State private var hasAnswered = false
     @State private var showExplanation = false
+    @State private var gistCorrect = false
+    @State private var showScriptOrder = false
 
     private var clip: Clip { clips[currentIndex] }
 
@@ -36,6 +38,27 @@ struct PlayerView: View {
                 // Explanation (shown after answering)
                 if showExplanation {
                     explanationSection
+                }
+
+                // Script Order Tap (shown after gist correct)
+                if gistCorrect && !showScriptOrder {
+                    Button(action: {
+                        withAnimation { showScriptOrder = true }
+                    }) {
+                        Label("Next: Word Order", systemImage: "textformat.abc")
+                            .font(.headline)
+                            .frame(maxWidth: .infinity)
+                            .padding()
+                            .background(Color.green)
+                            .foregroundStyle(.white)
+                            .clipShape(RoundedRectangle(cornerRadius: 10))
+                    }
+                }
+
+                if showScriptOrder {
+                    ScriptOrderTapView(transcript: clip.transcript) {
+                        // onComplete — could record progress here later
+                    }
                 }
 
             }
@@ -239,6 +262,10 @@ struct PlayerView: View {
         let isCorrect = index == clip.answerIndex
         progressStore.recordAnswer(clipId: clip.id, isCorrect: isCorrect)
 
+        if isCorrect {
+            gistCorrect = true
+        }
+
         withAnimation(.easeInOut(duration: 0.5).delay(0.5)) {
             showExplanation = true
         }
@@ -249,6 +276,8 @@ struct PlayerView: View {
             selectedAnswer = nil
             hasAnswered = false
             showExplanation = false
+            gistCorrect = false
+            showScriptOrder = false
         }
     }
     
@@ -282,6 +311,8 @@ struct PlayerView: View {
             selectedAnswer = nil
             hasAnswered = false
             showExplanation = false
+            gistCorrect = false
+            showScriptOrder = false
             showTranscript = false
             currentIndex = newIndex
         }
