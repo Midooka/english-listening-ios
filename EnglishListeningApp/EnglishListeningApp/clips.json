@@ -5,10 +5,10 @@
     "level": 2,
     "genre": "Literature",
     "transcript": "But by and by they came to my watch which I had hidden away in the inmost pocket that I had and had forgotten when they began their search.",
-    "question": "Where was the watch hidden?",
-    "choices": ["In the outer pocket", "In the inmost pocket", "In the bag", "Under the bed"],
+    "question": "Why wasn't the watch found at first during the search?",
+    "choices": ["It was left at home", "The narrator had forgotten about it himself", "They deliberately ignored it", "It was too small to notice"],
     "answerIndex": 1,
-    "explanation": "The text states the watch was 'hidden away in the inmost pocket'."
+    "explanation": "He 'had forgotten' about the watch in his deepest pocket when the search began."
   },
   {
     "id": "clip002",
@@ -16,10 +16,10 @@
     "level": 2,
     "genre": "Literature",
     "transcript": "This had some effect in calming him.",
-    "question": "What was the effect mentioned?",
-    "choices": ["It made him angry", "It calmed him", "It confused him", "It excited him"],
+    "question": "How did the person react as a result?",
+    "choices": ["He got more angry", "He became a little calmer", "He fell asleep right away", "He started shouting"],
     "answerIndex": 1,
-    "explanation": "The text states 'this had some effect in calming him'."
+    "explanation": "'Some effect in calming him' means he became a little calmer."
   },
   {
     "id": "clip003",
@@ -27,10 +27,10 @@
     "level": 3,
     "genre": "Literature",
     "transcript": "Suffice it that I found myself taken before the chief magistrate and by his orders was placed in an apartment with two other people who were the first I had seen looking anything but well and handsome.",
-    "question": "Who ordered the placement in the apartment?",
-    "choices": ["The narrator himself", "The chief magistrate", "The two other people", "A random officer"],
+    "question": "What was unusual about the two people in the apartment?",
+    "choices": ["They spoke a strange language", "They looked sick and not good-looking", "They were very tall", "They would not talk at all"],
     "answerIndex": 1,
-    "explanation": "The text states 'by his orders' referring to the chief magistrate."
+    "explanation": "'Looking anything but well and handsome' means they looked sick and not good-looking."
   },
   {
     "id": "clip004",
@@ -38,10 +38,10 @@
     "level": 2,
     "genre": "Literature",
     "transcript": "The vine grew outside many of the houses and there were some with sign boards on which was painted a bottle and a glass that made me feel much at home.",
-    "question": "What was painted on the sign boards?",
-    "choices": ["A tree and a bird", "A bottle and a glass", "A house and a garden", "A road and a car"],
+    "question": "Why did the sign boards make the narrator feel at home?",
+    "choices": ["They were written in his language", "They showed pictures of drinks, like a bar", "They had his family name", "They pointed to his hometown"],
     "answerIndex": 1,
-    "explanation": "The text mentions 'a bottle and a glass' painted on the sign boards."
+    "explanation": "A bottle and a glass on the signs reminded him of bars or pubs he knew from home."
   },
   {
     "id": "clip005",
@@ -49,10 +49,10 @@
     "level": 1,
     "genre": "Literature",
     "transcript": "The streets were narrow and unpaved but very fairly clean.",
-    "question": "What was the condition of the streets?",
-    "choices": ["Wide and paved", "Narrow and unpaved", "Wide and dirty", "Narrow and muddy"],
+    "question": "What was surprising about the streets?",
+    "choices": ["They were very wide", "They had no pavement but were quite clean", "They were covered in stone", "They were full of mud"],
     "answerIndex": 1,
-    "explanation": "The text describes the streets as 'narrow and unpaved but very fairly clean'."
+    "explanation": "The streets were 'narrow and unpaved but very fairly clean' — no pavement, yet quite clean."
   },
   {
     "id": "clip006",
@@ -60,10 +60,10 @@
     "level": 2,
     "genre": "Essay",
     "transcript": "Mister Quilter is the apostle of the middle classes and we are glad to welcome his gospel.",
-    "question": "Who is described as the apostle of the middle classes?",
-    "choices": ["Mister Ruskin", "Mister Quilter", "Mister Foster", "The narrator"],
+    "question": "How does the speaker characterize Mister Quilter's role?",
+    "choices": ["A strong critic of rich people", "A leader and voice for common people", "A teacher at a church", "A member of the government"],
     "answerIndex": 1,
-    "explanation": "The text states 'Mister Quilter is the apostle of the middle classes'."
+    "explanation": "'Apostle of the middle classes' means he speaks for and leads common, ordinary people."
   },
   {
     "id": "clip007",
@@ -71,10 +71,10 @@
     "level": 1,
     "genre": "Drama",
     "transcript": "But in less than five minutes the staircase groaned beneath an extraordinary weight.",
-    "question": "What happened to the staircase?",
-    "choices": ["It collapsed completely", "It groaned under a heavy weight", "It was repaired quickly", "It was blocked by furniture"],
+    "question": "What does the passage suggest was happening on the staircase?",
+    "choices": ["Someone was repairing it", "Something very heavy was being carried on it", "It was collapsing from age", "A storm was shaking the building"],
     "answerIndex": 1,
-    "explanation": "The text says 'the staircase groaned beneath an extraordinary weight'."
+    "explanation": "The staircase 'groaned beneath an extraordinary weight' implies something very heavy was on it."
   },
   {
     "id": "clip008",
@@ -82,10 +82,10 @@
     "level": 2,
     "genre": "History",
     "transcript": "That night the enemy slipped away leaving hundreds and hundreds of his dead and wounded on the field.",
-    "question": "What did the enemy do that night?",
-    "choices": ["They attacked again", "They surrendered", "They slipped away", "They sent reinforcements"],
-    "answerIndex": 2,
-    "explanation": "The text states 'the enemy slipped away' that night."
+    "question": "What did the enemy leave behind when they retreated?",
+    "choices": ["Their weapons and food", "Many dead and hurt soldiers", "A letter asking for peace", "Nothing at all"],
+    "answerIndex": 1,
+    "explanation": "They left 'hundreds and hundreds of dead and wounded' — many dead and hurt soldiers."
   },
   {
     "id": "clip009",
@@ -93,10 +93,10 @@
     "level": 2,
     "genre": "Literature",
     "transcript": "The houses seemed miserable in the extreme especially to an eye accustomed to the smiling neatness of English cottages.",
-    "question": "What were the houses compared to?",
-    "choices": ["French villas", "English cottages", "Scottish castles", "German farmhouses"],
+    "question": "Why did the narrator find the houses so unpleasant?",
+    "choices": ["They cost too much money", "He was used to cleaner, nicer homes", "He thought they were dangerous", "They had no doors or windows"],
     "answerIndex": 1,
-    "explanation": "The text compares the houses to 'the smiling neatness of English cottages'."
+    "explanation": "The houses seemed bad 'especially to an eye accustomed to the smiling neatness of English cottages'."
   },
   {
     "id": "clip010",
@@ -104,10 +104,10 @@
     "level": 2,
     "genre": "Drama",
     "transcript": "She stopped with her hand on the latch of the Wilsons' door to still her beating heart and listened to the hushed quiet within.",
-    "question": "Why did she stop at the door?",
-    "choices": ["She forgot the key", "She heard a loud noise", "To still her beating heart", "To knock and wait"],
-    "answerIndex": 2,
-    "explanation": "The text says she stopped 'to still her beating heart'."
+    "question": "What was she trying to do before entering?",
+    "choices": ["Find the right key", "Calm herself down", "Listen for danger inside", "Wait for someone to open"],
+    "answerIndex": 1,
+    "explanation": "She stopped 'to still her beating heart' — she was trying to calm herself before going in."
   },
   {
     "id": "clip011",
@@ -115,10 +115,10 @@
     "level": 3,
     "genre": "Literature",
     "transcript": "Shortly after passing one of these chapels we came suddenly upon a village which started up out of the mist and I was alarmed lest I should be made an object of curiosity or dislike.",
-    "question": "What was the narrator alarmed about?",
-    "choices": ["Getting lost in the mist", "Being an object of curiosity or dislike", "The village being dangerous", "The chapels being closed"],
+    "question": "What worried the narrator about encountering the village?",
+    "choices": ["He thought the village was empty", "He was afraid people would watch him or not like him", "He worried about wild animals", "He thought he was lost"],
     "answerIndex": 1,
-    "explanation": "The narrator was 'alarmed lest I should be made an object of curiosity or dislike'."
+    "explanation": "He feared being 'an object of curiosity or dislike' — people watching him or not liking him."
   },
   {
     "id": "clip012",
@@ -126,10 +126,10 @@
     "level": 1,
     "genre": "Drama",
     "transcript": "For some time nothing was heard in that chamber but sobs, exclamations, and prayers.",
-    "question": "What sounds were heard in the chamber?",
-    "choices": ["Laughter and music", "Sobs, exclamations, and prayers", "Complete silence", "Footsteps and whispers"],
+    "question": "What was the atmosphere in the room?",
+    "choices": ["Happy and cheerful", "Full of sadness and crying", "Completely quiet and empty", "Noisy with fighting"],
     "answerIndex": 1,
-    "explanation": "The text says 'nothing was heard but sobs, exclamations, and prayers'."
+    "explanation": "Sobs, exclamations, and prayers mean the room was full of sadness and crying."
   },
   {
     "id": "clip013",
@@ -137,10 +137,10 @@
     "level": 2,
     "genre": "Essay",
     "transcript": "Painting, he tells us, is of a different quality to mathematics and finish in art is adding more fact.",
-    "question": "What is painting compared to in quality?",
-    "choices": ["Literature", "Mathematics", "Music", "Architecture"],
+    "question": "What does the speaker say about finishing a painting?",
+    "choices": ["It needs less skill than science", "It means adding more true details", "It should be done as fast as possible", "You need to be good at math"],
     "answerIndex": 1,
-    "explanation": "The text states painting 'is of a different quality to mathematics'."
+    "explanation": "'Finish in art is adding more fact' means finishing a painting is about adding more true details."
   },
   {
     "id": "clip014",
@@ -148,10 +148,10 @@
     "level": 2,
     "genre": "History",
     "transcript": "With a few lanterns our men then went about and tried to gather up the wounded. The dead were left till morning.",
-    "question": "What happened to the dead soldiers?",
-    "choices": ["Buried immediately", "Carried to the hospital", "Left till morning", "Sent back home"],
+    "question": "Why were only the wounded attended to that night?",
+    "choices": ["There were no dead to attend to", "Darkness made it impossible to see anything", "The dead could wait but the wounded could not", "They ran out of medical supplies"],
     "answerIndex": 2,
-    "explanation": "The text states 'the dead were left till morning'."
+    "explanation": "They prioritized the wounded with lanterns; the dead were left till morning as they could no longer be helped."
   },
   {
     "id": "clip015",
@@ -159,10 +159,10 @@
     "level": 2,
     "genre": "Literature",
     "transcript": "The country was highly cultivated, every ledge being planted with chestnuts, walnuts, and apple trees from which the apples were now gathering.",
-    "question": "What trees were planted on the ledges?",
-    "choices": ["Oak and pine trees", "Chestnuts, walnuts, and apple trees", "Olive and fig trees", "Palm and coconut trees"],
+    "question": "What does the passage tell us about the landscape?",
+    "choices": ["It was wild and untouched", "It was carefully farmed with fruit and nut trees", "It was mostly covered in grass", "It had recently been cleared of all trees"],
     "answerIndex": 1,
-    "explanation": "The text lists 'chestnuts, walnuts, and apple trees' on the ledges."
+    "explanation": "'Highly cultivated' with chestnuts, walnuts, and apple trees indicates careful farming with fruit and nut trees."
   },
   {
     "id": "clip016",
@@ -170,10 +170,10 @@
     "level": 2,
     "genre": "Literature",
     "transcript": "The court was spacious, well paved, and perfectly clean, there being probably another entrance behind the stables for removing the litter.",
-    "question": "How was the court described?",
-    "choices": ["Small and dirty", "Spacious and perfectly clean", "Large but messy", "Narrow and crowded"],
+    "question": "How did they likely keep the courtyard so clean?",
+    "choices": ["They washed it every morning", "Dirty things were taken out through a back door", "No animals were allowed inside", "Workers cleaned it all day"],
     "answerIndex": 1,
-    "explanation": "The text describes the court as 'spacious, well paved, and perfectly clean'."
+    "explanation": "'Another entrance behind the stables for removing the litter' means dirty things went out a back door."
   },
   {
     "id": "clip017",
@@ -181,10 +181,10 @@
     "level": 3,
     "genre": "Literature",
     "transcript": "But Don Quixote, whom his thoughts far more than hunger kept awake, could not close an eye and roamed in fancy to and fro through all sorts of places.",
-    "question": "What kept Don Quixote awake?",
-    "choices": ["Hunger", "His thoughts", "Noise from outside", "Pain from injuries"],
+    "question": "What was Don Quixote doing while unable to sleep?",
+    "choices": ["Eating a meal", "Wandering through imaginary places in his mind", "Walking around the campsite", "Reading a book by firelight"],
     "answerIndex": 1,
-    "explanation": "The text says 'his thoughts far more than hunger kept awake'."
+    "explanation": "'Roamed in fancy to and fro through all sorts of places' means he wandered through places in his imagination."
   },
   {
     "id": "clip018",
@@ -192,10 +192,10 @@
     "level": 3,
     "genre": "Drama",
     "transcript": "It was something terrible to witness the silent agony, the mute despair of Noirtier, whose tears silently rolled down his cheeks.",
-    "question": "How did Noirtier express his despair?",
-    "choices": ["He shouted loudly", "Tears silently rolled down his cheeks", "He threw objects around", "He spoke in whispers"],
+    "question": "How was Noirtier showing his pain?",
+    "choices": ["He was crying out loud", "He was quiet, with tears running down his face", "He was very angry", "He would not show any feeling at all"],
     "answerIndex": 1,
-    "explanation": "The text describes 'tears silently rolled down his cheeks'."
+    "explanation": "'Silent agony' and 'mute despair' with tears rolling silently — quiet, with tears on his face."
   },
   {
     "id": "clip019",
@@ -203,10 +203,10 @@
     "level": 2,
     "genre": "History",
     "transcript": "Under the same quiet moonlight and only six hundred yards away from us also lay the victorious rebel army.",
-    "question": "How far away was the rebel army?",
-    "choices": ["Two miles", "Six hundred yards", "One hundred feet", "A few steps"],
+    "question": "What made the situation so dangerous that night?",
+    "choices": ["A big storm was coming", "The enemy was very close to them", "They had no food left", "They could not see in the dark"],
     "answerIndex": 1,
-    "explanation": "The text states the rebel army was 'only six hundred yards away'."
+    "explanation": "The rebel army was 'only six hundred yards away' — very close and dangerous."
   },
   {
     "id": "clip020",
@@ -214,9 +214,9 @@
     "level": 2,
     "genre": "Literature",
     "transcript": "In fact one of them was plainly very much out of health and coughed violently from time to time in spite of manifest efforts to suppress it.",
-    "question": "What was wrong with one of the people?",
-    "choices": ["They were sleeping heavily", "They were very much out of health", "They were angry and shouting", "They were lost and confused"],
+    "question": "What was the sick person trying to do about their coughing?",
+    "choices": ["They were asking for medicine", "They were trying to hold it back", "They were ignoring it completely", "They were leaving the room"],
     "answerIndex": 1,
-    "explanation": "The text says 'one of them was plainly very much out of health'."
+    "explanation": "'In spite of manifest efforts to suppress it' means they were clearly trying to hold back the coughing."
   }
 ]
