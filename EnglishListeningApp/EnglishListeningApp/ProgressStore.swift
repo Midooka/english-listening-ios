@@ -25,11 +25,30 @@ class ProgressStore {
         save()
     }
 
+    func hasProgress(for clipId: String) -> Bool {
+        (progressMap[clipId]?.attempts ?? 0) > 0
+    }
+
+    func hasCorrect(for clipId: String) -> Bool {
+        (progressMap[clipId]?.corrects ?? 0) > 0
+    }
+
     func recordPlay(clipId: String) {
         var p = progress(for: clipId)
         p.lastPlayedAt = Date()
         progressMap[clipId] = p
         save()
+    }
+
+    func toggleBookmark(clipId: String) {
+        var p = progress(for: clipId)
+        p.isBookmarked.toggle()
+        progressMap[clipId] = p
+        save()
+    }
+
+    func isBookmarked(clipId: String) -> Bool {
+        progressMap[clipId]?.isBookmarked ?? false
     }
 
     // MARK: - Persistence

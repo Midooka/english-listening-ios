@@ -1,11 +1,20 @@
 import SwiftUI
 
+private enum StatusFilter: String, CaseIterable {
+    case all = "All"
+    case new = "New"
+    case correct = "Correct"
+    case review = "Review"
+    case bookmarked = "★"
+}
+
 struct LibraryView: View {
     @Environment(DataStore.self) private var dataStore
     @Environment(ProgressStore.self) private var progressStore
     @State private var selectedLevel: Int? = nil
     @State private var selectedGenre: String = "All"
     @State private var showCredits = false
+    @State private var selectedStatus: StatusFilter = .all
     
     var body: some View {
         NavigationStack {
@@ -20,6 +29,19 @@ struct LibraryView: View {
                             ClipRow(clip: clip, progress: progressStore.progress(for: clip.id))
                         }
                     }
+
+                    Section {
+                        Button {
+                            showCredits = true
+                        } label: {
+                            Text("Credits")
+                                .font(.footnote)
+                                .foregroundStyle(.secondary)
+                                .frame(maxWidth: .infinity)
+                        }
+                        .listRowBackground(Color.clear)
+                        .listRowSeparator(.hidden)
+                    }
                 }
                 .listStyle(.plain)
             }
@@ -28,13 +50,6 @@ struct LibraryView: View {
                 let clips = filteredClips
                 let index = clips.firstIndex(where: { $0.id == clip.id }) ?? 0
                 PlayerView(clips: clips, startIndex: index)
-            }
-            .toolbar {
-                ToolbarItem(placement: .topBarTrailing) {
-                    Button("Credits") {
-                        showCredits = true
-                    }
-                }
             }
             .sheet(isPresented: $showCredits) {
                 CreditsView()
@@ -59,12 +74,26 @@ struct LibraryView: View {
                 .pickerStyle(.segmented)
             }
             
+            // Status Filter
+            HStack {
+                Text("Status:")
+                    .font(.subheadline)
+                    .foregroundStyle(.secondary)
+
+                Picker("Status", selection: $selectedStatus) {
+                    ForEach(StatusFilter.allCases, id: \.self) { status in
+                        Text(status.rawValue).tag(status)
+                    }
+                }
+                .pickerStyle(.segmented)
+            }
+
             // Genre Filter
             HStack {
                 Text("Genre:")
                     .font(.subheadline)
                     .foregroundStyle(.secondary)
-                
+
                 Picker("Genre", selection: $selectedGenre) {
                     ForEach(dataStore.allGenres, id: \.self) { genre in
                         Text(genre).tag(genre)
@@ -78,7 +107,19 @@ struct LibraryView: View {
     }
     
     private var filteredClips: [Clip] {
-        dataStore.clips(filteredBy: selectedLevel, genre: selectedGenre)
+        let clips = dataStore.clips(filteredBy: selectedLevel, genre: selectedGenre)
+        switch selectedStatus {
+        case .all:
+            return clips
+        case .new:
+            return clips.filter { !progressStore.hasProgress(for: $0.id) }
+        case .correct:
+            return clips.filter { progressStore.hasCorrect(for: $0.id) }
+        case .review:
+            return clips.filter { progressStore.hasProgress(for: $0.id) && !progressStore.hasCorrect(for: $0.id) }
+        case .bookmarked:
+            return clips.filter { progressStore.isBookmarked(clipId: $0.id) }
+        }
     }
 }
 
@@ -86,11 +127,28 @@ struct ClipRow: View {
     let clip: Clip
     let progress: ClipProgress
 
+    private var statusIcon: some View {
+        Group {
+            if progress.attempts == 0 {
+                Image(systemName: "circle")
+                    .foregroundStyle(.gray)
+            } else if progress.corrects > 0 {
+                Image(systemName: "checkmark.circle.fill")
+                    .foregroundStyle(.green)
+            } else {
+                Image(systemName: "xmark.circle")
+                    .foregroundStyle(.orange)
+            }
+        }
+    }
+
     var body: some View {
-        VStack(alignment: .leading, spacing: 4) {
-            HStack {
-                Text(clip.id)
-                    .font(.headline)
+        HStack(spacing: 10) {
+            statusIcon
+            VStack(alignment: .leading, spacing: 4) {
+                HStack {
+                    Text(clip.id)
+                        .font(.headline)
                 Spacer()
                 if progress.attempts > 0 {
                     Text("\(progress.corrects)/\(progress.attempts)")
@@ -123,6 +181,7 @@ struct ClipRow: View {
                 .font(.callout)
                 .lineLimit(2)
                 .foregroundStyle(.primary)
+            }
         }
         .padding(.vertical, 4)
     }

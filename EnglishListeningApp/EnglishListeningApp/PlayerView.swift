@@ -9,9 +9,14 @@ struct PlayerView: View {
     @State private var showTranscript = false
     @State private var selectedAnswer: Int? = nil
     @State private var hasAnswered = false
-    @State private var showExplanation = false
-    @State private var gistCorrect = false
-    @State private var showScriptOrder = false
+    @State private var phase: LearningPhase = .listening
+    @State private var showClipList = false
+
+    private enum LearningPhase {
+        case listening   // Audio + transcript + quiz
+        case reviewing   // Explanation + word order button
+        case wordOrder   // ScriptOrderTapView
+    }
 
     private var clip: Clip { clips[currentIndex] }
 
@@ -23,27 +28,25 @@ struct PlayerView: View {
     var body: some View {
         ScrollView {
             VStack(alignment: .leading, spacing: 20) {
-                // Clip Info
                 headerSection
-
-                // Audio Player
                 audioPlayerSection
 
-                // Transcript Toggle
-                transcriptSection
-
-                // Quiz Section
-                quizSection
-
-                // Explanation (shown after answering)
-                if showExplanation {
-                    explanationSection
+                if phase != .listening {
+                    Button(action: resetQuiz) {
+                        Label("Back to Quiz", systemImage: "arrow.uturn.backward")
+                            .font(.subheadline)
+                    }
                 }
 
-                // Script Order Tap (shown after gist correct)
-                if gistCorrect && !showScriptOrder {
+                switch phase {
+                case .listening:
+                    transcriptSection
+                    quizSection
+
+                case .reviewing:
+                    explanationSection
                     Button(action: {
-                        withAnimation { showScriptOrder = true }
+                        withAnimation { phase = .wordOrder }
                     }) {
                         Label("Next: Word Order", systemImage: "textformat.abc")
                             .font(.headline)
@@ -53,14 +56,12 @@ struct PlayerView: View {
                             .foregroundStyle(.white)
                             .clipShape(RoundedRectangle(cornerRadius: 10))
                     }
-                }
 
-                if showScriptOrder {
-                    ScriptOrderTapView(transcript: clip.transcript) {
-                        // onComplete — could record progress here later
+                case .wordOrder:
+                    ScriptOrderTapView(transcript: clip.transcript, level: clip.level) {
+                        // onComplete
                     }
                 }
-
             }
             .padding()
         }
@@ -74,6 +75,27 @@ struct PlayerView: View {
         }
         .navigationTitle(clip.id)
         .navigationBarTitleDisplayMode(.inline)
+        .toolbar {
+            ToolbarItem(placement: .topBarTrailing) {
+                HStack(spacing: 16) {
+                    Button {
+                        progressStore.toggleBookmark(clipId: clip.id)
+                    } label: {
+                        Image(systemName: progressStore.isBookmarked(clipId: clip.id) ? "star.fill" : "star")
+                            .foregroundStyle(progressStore.isBookmarked(clipId: clip.id) ? .yellow : .gray)
+                    }
+
+                    Button {
+                        showClipList = true
+                    } label: {
+                        Image(systemName: "list.bullet")
+                    }
+                }
+            }
+        }
+        .sheet(isPresented: $showClipList) {
+            clipListSheet
+        }
         .onAppear {
             progressStore.recordPlay(clipId: clip.id)
         }
@@ -116,12 +138,12 @@ struct PlayerView: View {
 
             // Play/Pause button
             HStack(spacing: 30) {
-                Button(action: {}) {
+                Button(action: { audioPlayer.skip(seconds: -10) }) {
                     Image(systemName: "gobackward.10")
                         .font(.title2)
                 }
-                .disabled(true)
-                .opacity(0.3)
+                .disabled(audioPlayer.currentClipId == nil)
+                .opacity(audioPlayer.currentClipId == nil ? 0.3 : 1.0)
 
                 Button(action: {
                     audioPlayer.togglePlayPause(clip: clip)
@@ -130,14 +152,39 @@ struct PlayerView: View {
                         .font(.system(size: 50))
                 }
 
-                Button(action: {}) {
+                Button(action: { audioPlayer.skip(seconds: 10) }) {
                     Image(systemName: "goforward.10")
                         .font(.title2)
                 }
-                .disabled(true)
-                .opacity(0.3)
+                .disabled(audioPlayer.currentClipId == nil)
+                .opacity(audioPlayer.currentClipId == nil ? 0.3 : 1.0)
             }
             .foregroundStyle(.blue)
+
+            // Seek bar
+            HStack(spacing: 8) {
+                Text(formatTime(audioPlayer.currentTime))
+                    .font(.caption.monospacedDigit())
+                    .foregroundStyle(.secondary)
+                    .frame(width: 44, alignment: .trailing)
+
+                Slider(
+                    value: $audioPlayer.currentTime,
+                    in: 0...max(audioPlayer.duration, 1)
+                ) { editing in
+                    audioPlayer.isSeeking = editing
+                    if !editing {
+                        audioPlayer.seek(to: audioPlayer.currentTime)
+                    }
+                }
+                .tint(.blue)
+
+                Text(formatTime(audioPlayer.duration))
+                    .font(.caption.monospacedDigit())
+                    .foregroundStyle(.secondary)
+                    .frame(width: 44, alignment: .leading)
+            }
+            .padding(.horizontal)
 
             // Speed picker
             HStack {
@@ -146,9 +193,12 @@ struct PlayerView: View {
                     .foregroundStyle(.secondary)
 
                 Picker("Speed", selection: $audioPlayer.rate) {
-                    Text("0.75x").tag(Float(0.75))
+                    Text("0.7x").tag(Float(0.7))
+                    Text("0.8x").tag(Float(0.8))
+                    Text("0.9x").tag(Float(0.9))
                     Text("1.0x").tag(Float(1.0))
-                    Text("1.25x").tag(Float(1.25))
+                    Text("1.2x").tag(Float(1.2))
+                    Text("1.4x").tag(Float(1.4))
                 }
                 .pickerStyle(.segmented)
             }
@@ -263,11 +313,9 @@ struct PlayerView: View {
         progressStore.recordAnswer(clipId: clip.id, isCorrect: isCorrect)
 
         if isCorrect {
-            gistCorrect = true
-        }
-
-        withAnimation(.easeInOut(duration: 0.5).delay(0.5)) {
-            showExplanation = true
+            withAnimation(.easeInOut(duration: 0.5).delay(0.5)) {
+                phase = .reviewing
+            }
         }
     }
     
@@ -275,33 +323,105 @@ struct PlayerView: View {
         withAnimation {
             selectedAnswer = nil
             hasAnswered = false
-            showExplanation = false
-            gistCorrect = false
-            showScriptOrder = false
+            phase = .listening
         }
     }
     
     private var navigationSection: some View {
-        HStack(spacing: 16) {
-            Button(action: goToNext) {
-                Label("Next", systemImage: "forward.fill")
-                    .font(.headline)
+        HStack(spacing: 10) {
+            Button(action: goToPrevious) {
+                Label("Prev", systemImage: "chevron.left")
+                    .font(.subheadline.weight(.semibold))
                     .frame(maxWidth: .infinity)
-                    .padding()
+                    .padding(.vertical, 12)
                     .background(Color.blue)
                     .foregroundStyle(.white)
                     .clipShape(RoundedRectangle(cornerRadius: 10))
             }
 
             Button(action: goToRandom) {
-                Label("Random", systemImage: "shuffle")
-                    .font(.headline)
-                    .frame(maxWidth: .infinity)
-                    .padding()
+                Image(systemName: "shuffle")
+                    .font(.subheadline.weight(.semibold))
+                    .padding(.vertical, 12)
+                    .padding(.horizontal, 16)
                     .background(Color.purple)
                     .foregroundStyle(.white)
                     .clipShape(RoundedRectangle(cornerRadius: 10))
             }
+
+            Button(action: goToNext) {
+                Label("Next", systemImage: "chevron.right")
+                    .labelStyle(.titleAndIcon)
+                    .font(.subheadline.weight(.semibold))
+                    .frame(maxWidth: .infinity)
+                    .padding(.vertical, 12)
+                    .background(Color.blue)
+                    .foregroundStyle(.white)
+                    .clipShape(RoundedRectangle(cornerRadius: 10))
+            }
+        }
+    }
+
+    private var clipListSheet: some View {
+        NavigationStack {
+            List {
+                ForEach(Array(clips.enumerated()), id: \.element.id) { index, c in
+                    Button {
+                        showClipList = false
+                        switchClip(to: index)
+                    } label: {
+                        HStack(spacing: 10) {
+                            let p = progressStore.progress(for: c.id)
+                            Group {
+                                if p.attempts == 0 {
+                                    Image(systemName: "circle")
+                                        .foregroundStyle(.gray)
+                                } else if p.corrects > 0 {
+                                    Image(systemName: "checkmark.circle.fill")
+                                        .foregroundStyle(.green)
+                                } else {
+                                    Image(systemName: "xmark.circle")
+                                        .foregroundStyle(.orange)
+                                }
+                            }
+
+                            Text(c.id)
+                                .font(.body)
+                                .fontWeight(index == currentIndex ? .bold : .regular)
+
+                            Spacer()
+
+                            Text("Lv\(c.level)")
+                                .font(.caption)
+                                .padding(.horizontal, 6)
+                                .padding(.vertical, 2)
+                                .background(levelColorFor(c.level))
+                                .foregroundStyle(.white)
+                                .clipShape(Capsule())
+                        }
+                    }
+                    .listRowBackground(index == currentIndex ? Color.blue.opacity(0.1) : nil)
+                }
+            }
+            .listStyle(.plain)
+            .navigationTitle("Clips")
+            .navigationBarTitleDisplayMode(.inline)
+            .toolbar {
+                ToolbarItem(placement: .topBarTrailing) {
+                    Button("Done") {
+                        showClipList = false
+                    }
+                }
+            }
+        }
+    }
+
+    private func levelColorFor(_ level: Int) -> Color {
+        switch level {
+        case 1: return .green
+        case 2: return .orange
+        case 3: return .red
+        default: return .gray
         }
     }
 
@@ -310,13 +430,16 @@ struct PlayerView: View {
         withAnimation {
             selectedAnswer = nil
             hasAnswered = false
-            showExplanation = false
-            gistCorrect = false
-            showScriptOrder = false
+            phase = .listening
             showTranscript = false
             currentIndex = newIndex
         }
         progressStore.recordPlay(clipId: clips[newIndex].id)
+    }
+
+    private func goToPrevious() {
+        let prevIndex = (currentIndex - 1 + clips.count) % clips.count
+        switchClip(to: prevIndex)
     }
 
     private func goToNext() {
@@ -331,6 +454,12 @@ struct PlayerView: View {
             randomIndex = Int.random(in: 0..<clips.count)
         } while randomIndex == currentIndex
         switchClip(to: randomIndex)
+    }
+
+    private func formatTime(_ time: TimeInterval) -> String {
+        let minutes = Int(time) / 60
+        let seconds = Int(time) % 60
+        return String(format: "%d:%02d", minutes, seconds)
     }
 
     private var levelColor: Color {
