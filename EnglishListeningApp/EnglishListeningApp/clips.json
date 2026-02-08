@@ -6,7 +6,12 @@
     "genre": "Literature",
     "transcript": "But by and by they came to my watch which I had hidden away in the inmost pocket that I had and had forgotten when they began their search.",
     "question": "Why wasn't the watch found at first during the search?",
-    "choices": ["It was left at home", "The narrator had forgotten about it himself", "They deliberately ignored it", "It was too small to notice"],
+    "choices": [
+      "It was left at home",
+      "The narrator had forgotten about it himself",
+      "They deliberately ignored it",
+      "It was too small to notice"
+    ],
     "answerIndex": 1,
     "explanation": "He 'had forgotten' about the watch in his deepest pocket when the search began."
   },
@@ -17,7 +22,12 @@
     "genre": "Literature",
     "transcript": "This had some effect in calming him.",
     "question": "How did the person react as a result?",
-    "choices": ["He got more angry", "He became a little calmer", "He fell asleep right away", "He started shouting"],
+    "choices": [
+      "He got more angry",
+      "He became a little calmer",
+      "He fell asleep right away",
+      "He started shouting"
+    ],
     "answerIndex": 1,
     "explanation": "'Some effect in calming him' means he became a little calmer."
   },
@@ -28,7 +38,12 @@
     "genre": "Literature",
     "transcript": "Suffice it that I found myself taken before the chief magistrate and by his orders was placed in an apartment with two other people who were the first I had seen looking anything but well and handsome.",
     "question": "What was unusual about the two people in the apartment?",
-    "choices": ["They spoke a strange language", "They looked sick and not good-looking", "They were very tall", "They would not talk at all"],
+    "choices": [
+      "They spoke a strange language",
+      "They looked sick and not good-looking",
+      "They were very tall",
+      "They would not talk at all"
+    ],
     "answerIndex": 1,
     "explanation": "'Looking anything but well and handsome' means they looked sick and not good-looking."
   },
@@ -39,7 +54,12 @@
     "genre": "Literature",
     "transcript": "The vine grew outside many of the houses and there were some with sign boards on which was painted a bottle and a glass that made me feel much at home.",
     "question": "Why did the sign boards make the narrator feel at home?",
-    "choices": ["They were written in his language", "They showed pictures of drinks, like a bar", "They had his family name", "They pointed to his hometown"],
+    "choices": [
+      "They were written in his language",
+      "They showed pictures of drinks, like a bar",
+      "They had his family name",
+      "They pointed to his hometown"
+    ],
     "answerIndex": 1,
     "explanation": "A bottle and a glass on the signs reminded him of bars or pubs he knew from home."
   },
@@ -50,7 +70,12 @@
     "genre": "Literature",
     "transcript": "The streets were narrow and unpaved but very fairly clean.",
     "question": "What was surprising about the streets?",
-    "choices": ["They were very wide", "They had no pavement but were quite clean", "They were covered in stone", "They were full of mud"],
+    "choices": [
+      "They were very wide",
+      "They had no pavement but were quite clean",
+      "They were covered in stone",
+      "They were full of mud"
+    ],
     "answerIndex": 1,
     "explanation": "The streets were 'narrow and unpaved but very fairly clean' — no pavement, yet quite clean."
   },
@@ -61,7 +86,12 @@
     "genre": "Essay",
     "transcript": "Mister Quilter is the apostle of the middle classes and we are glad to welcome his gospel.",
     "question": "How does the speaker characterize Mister Quilter's role?",
-    "choices": ["A strong critic of rich people", "A leader and voice for common people", "A teacher at a church", "A member of the government"],
+    "choices": [
+      "A strong critic of rich people",
+      "A leader and voice for common people",
+      "A teacher at a church",
+      "A member of the government"
+    ],
     "answerIndex": 1,
     "explanation": "'Apostle of the middle classes' means he speaks for and leads common, ordinary people."
   },
@@ -72,7 +102,12 @@
     "genre": "Drama",
     "transcript": "But in less than five minutes the staircase groaned beneath an extraordinary weight.",
     "question": "What does the passage suggest was happening on the staircase?",
-    "choices": ["Someone was repairing it", "Something very heavy was being carried on it", "It was collapsing from age", "A storm was shaking the building"],
+    "choices": [
+      "Someone was repairing it",
+      "Something very heavy was being carried on it",
+      "It was collapsing from age",
+      "A storm was shaking the building"
+    ],
     "answerIndex": 1,
     "explanation": "The staircase 'groaned beneath an extraordinary weight' implies something very heavy was on it."
   },
@@ -83,7 +118,12 @@
     "genre": "History",
     "transcript": "That night the enemy slipped away leaving hundreds and hundreds of his dead and wounded on the field.",
     "question": "What did the enemy leave behind when they retreated?",
-    "choices": ["Their weapons and food", "Many dead and hurt soldiers", "A letter asking for peace", "Nothing at all"],
+    "choices": [
+      "Their weapons and food",
+      "Many dead and hurt soldiers",
+      "A letter asking for peace",
+      "Nothing at all"
+    ],
     "answerIndex": 1,
     "explanation": "They left 'hundreds and hundreds of dead and wounded' — many dead and hurt soldiers."
   },
@@ -94,7 +134,12 @@
     "genre": "Literature",
     "transcript": "The houses seemed miserable in the extreme especially to an eye accustomed to the smiling neatness of English cottages.",
     "question": "Why did the narrator find the houses so unpleasant?",
-    "choices": ["They cost too much money", "He was used to cleaner, nicer homes", "He thought they were dangerous", "They had no doors or windows"],
+    "choices": [
+      "They cost too much money",
+      "He was used to cleaner, nicer homes",
+      "He thought they were dangerous",
+      "They had no doors or windows"
+    ],
     "answerIndex": 1,
     "explanation": "The houses seemed bad 'especially to an eye accustomed to the smiling neatness of English cottages'."
   },
@@ -105,7 +150,12 @@
     "genre": "Drama",
     "transcript": "She stopped with her hand on the latch of the Wilsons' door to still her beating heart and listened to the hushed quiet within.",
     "question": "What was she trying to do before entering?",
-    "choices": ["Find the right key", "Calm herself down", "Listen for danger inside", "Wait for someone to open"],
+    "choices": [
+      "Find the right key",
+      "Calm herself down",
+      "Listen for danger inside",
+      "Wait for someone to open"
+    ],
     "answerIndex": 1,
     "explanation": "She stopped 'to still her beating heart' — she was trying to calm herself before going in."
   },
@@ -116,7 +166,12 @@
     "genre": "Literature",
     "transcript": "Shortly after passing one of these chapels we came suddenly upon a village which started up out of the mist and I was alarmed lest I should be made an object of curiosity or dislike.",
     "question": "What worried the narrator about encountering the village?",
-    "choices": ["He thought the village was empty", "He was afraid people would watch him or not like him", "He worried about wild animals", "He thought he was lost"],
+    "choices": [
+      "He thought the village was empty",
+      "He was afraid people would watch him or not like him",
+      "He worried about wild animals",
+      "He thought he was lost"
+    ],
     "answerIndex": 1,
     "explanation": "He feared being 'an object of curiosity or dislike' — people watching him or not liking him."
   },
@@ -127,7 +182,12 @@
     "genre": "Drama",
     "transcript": "For some time nothing was heard in that chamber but sobs, exclamations, and prayers.",
     "question": "What was the atmosphere in the room?",
-    "choices": ["Happy and cheerful", "Full of sadness and crying", "Completely quiet and empty", "Noisy with fighting"],
+    "choices": [
+      "Happy and cheerful",
+      "Full of sadness and crying",
+      "Completely quiet and empty",
+      "Noisy with fighting"
+    ],
     "answerIndex": 1,
     "explanation": "Sobs, exclamations, and prayers mean the room was full of sadness and crying."
   },
@@ -138,7 +198,12 @@
     "genre": "Essay",
     "transcript": "Painting, he tells us, is of a different quality to mathematics and finish in art is adding more fact.",
     "question": "What does the speaker say about finishing a painting?",
-    "choices": ["It needs less skill than science", "It means adding more true details", "It should be done as fast as possible", "You need to be good at math"],
+    "choices": [
+      "It needs less skill than science",
+      "It means adding more true details",
+      "It should be done as fast as possible",
+      "You need to be good at math"
+    ],
     "answerIndex": 1,
     "explanation": "'Finish in art is adding more fact' means finishing a painting is about adding more true details."
   },
@@ -149,7 +214,12 @@
     "genre": "History",
     "transcript": "With a few lanterns our men then went about and tried to gather up the wounded. The dead were left till morning.",
     "question": "Why were only the wounded attended to that night?",
-    "choices": ["There were no dead to attend to", "Darkness made it impossible to see anything", "The dead could wait but the wounded could not", "They ran out of medical supplies"],
+    "choices": [
+      "There were no dead to attend to",
+      "Darkness made it impossible to see anything",
+      "The dead could wait but the wounded could not",
+      "They ran out of medical supplies"
+    ],
     "answerIndex": 2,
     "explanation": "They prioritized the wounded with lanterns; the dead were left till morning as they could no longer be helped."
   },
@@ -160,7 +230,12 @@
     "genre": "Literature",
     "transcript": "The country was highly cultivated, every ledge being planted with chestnuts, walnuts, and apple trees from which the apples were now gathering.",
     "question": "What does the passage tell us about the landscape?",
-    "choices": ["It was wild and untouched", "It was carefully farmed with fruit and nut trees", "It was mostly covered in grass", "It had recently been cleared of all trees"],
+    "choices": [
+      "It was wild and untouched",
+      "It was carefully farmed with fruit and nut trees",
+      "It was mostly covered in grass",
+      "It had recently been cleared of all trees"
+    ],
     "answerIndex": 1,
     "explanation": "'Highly cultivated' with chestnuts, walnuts, and apple trees indicates careful farming with fruit and nut trees."
   },
@@ -171,7 +246,12 @@
     "genre": "Literature",
     "transcript": "The court was spacious, well paved, and perfectly clean, there being probably another entrance behind the stables for removing the litter.",
     "question": "How did they likely keep the courtyard so clean?",
-    "choices": ["They washed it every morning", "Dirty things were taken out through a back door", "No animals were allowed inside", "Workers cleaned it all day"],
+    "choices": [
+      "They washed it every morning",
+      "Dirty things were taken out through a back door",
+      "No animals were allowed inside",
+      "Workers cleaned it all day"
+    ],
     "answerIndex": 1,
     "explanation": "'Another entrance behind the stables for removing the litter' means dirty things went out a back door."
   },
@@ -182,7 +262,12 @@
     "genre": "Literature",
     "transcript": "But Don Quixote, whom his thoughts far more than hunger kept awake, could not close an eye and roamed in fancy to and fro through all sorts of places.",
     "question": "What was Don Quixote doing while unable to sleep?",
-    "choices": ["Eating a meal", "Wandering through imaginary places in his mind", "Walking around the campsite", "Reading a book by firelight"],
+    "choices": [
+      "Eating a meal",
+      "Wandering through imaginary places in his mind",
+      "Walking around the campsite",
+      "Reading a book by firelight"
+    ],
     "answerIndex": 1,
     "explanation": "'Roamed in fancy to and fro through all sorts of places' means he wandered through places in his imagination."
   },
@@ -193,7 +278,12 @@
     "genre": "Drama",
     "transcript": "It was something terrible to witness the silent agony, the mute despair of Noirtier, whose tears silently rolled down his cheeks.",
     "question": "How was Noirtier showing his pain?",
-    "choices": ["He was crying out loud", "He was quiet, with tears running down his face", "He was very angry", "He would not show any feeling at all"],
+    "choices": [
+      "He was crying out loud",
+      "He was quiet, with tears running down his face",
+      "He was very angry",
+      "He would not show any feeling at all"
+    ],
     "answerIndex": 1,
     "explanation": "'Silent agony' and 'mute despair' with tears rolling silently — quiet, with tears on his face."
   },
@@ -204,7 +294,12 @@
     "genre": "History",
     "transcript": "Under the same quiet moonlight and only six hundred yards away from us also lay the victorious rebel army.",
     "question": "What made the situation so dangerous that night?",
-    "choices": ["A big storm was coming", "The enemy was very close to them", "They had no food left", "They could not see in the dark"],
+    "choices": [
+      "A big storm was coming",
+      "The enemy was very close to them",
+      "They had no food left",
+      "They could not see in the dark"
+    ],
     "answerIndex": 1,
     "explanation": "The rebel army was 'only six hundred yards away' — very close and dangerous."
   },
@@ -215,8 +310,1293 @@
     "genre": "Literature",
     "transcript": "In fact one of them was plainly very much out of health and coughed violently from time to time in spite of manifest efforts to suppress it.",
     "question": "What was the sick person trying to do about their coughing?",
-    "choices": ["They were asking for medicine", "They were trying to hold it back", "They were ignoring it completely", "They were leaving the room"],
+    "choices": [
+      "They were asking for medicine",
+      "They were trying to hold it back",
+      "They were ignoring it completely",
+      "They were leaving the room"
+    ],
     "answerIndex": 1,
     "explanation": "'In spite of manifest efforts to suppress it' means they were clearly trying to hold back the coughing."
+  },
+  {
+    "id": "clip021",
+    "audioId": "1272-128104-0001",
+    "level": 1,
+    "genre": "Essay",
+    "transcript": "Nor is Mister Quilter's manner less interesting than his matter.",
+    "question": "What does the speaker say about Mister Quilter's style?",
+    "choices": [
+      "His style is boring",
+      "His way of speaking is just as interesting as what he says",
+      "He talks too much",
+      "Nobody listens to him"
+    ],
+    "answerIndex": 1,
+    "explanation": "'Manner less interesting than his matter' means his style is equally interesting as his content."
+  },
+  {
+    "id": "clip022",
+    "audioId": "1462-170138-0000",
+    "level": 3,
+    "genre": "Literature",
+    "transcript": "He had written a number of books himself, among them a history of dancing, a history of costume, a key to Shakespeare's sonnets, a study of the poetry of Ernest Dowson, et cetera.",
+    "question": "What kind of person was he?",
+    "choices": [
+      "A famous dancer",
+      "A writer who had published many different books",
+      "A costume designer",
+      "A well-known poet"
+    ],
+    "answerIndex": 1,
+    "explanation": "He wrote books on dancing, costume, Shakespeare, and poetry — many different topics."
+  },
+  {
+    "id": "clip023",
+    "audioId": "1673-143396-0002",
+    "level": 3,
+    "genre": "Essay",
+    "transcript": "Yet the most charitable criticism must refuse these sectaries any knowledge of the pure and proper divinity of Christ.",
+    "question": "What does even the kindest judgment say about these people?",
+    "choices": [
+      "They were very religious",
+      "They did not truly understand the holy nature of Christ",
+      "They were great teachers",
+      "They knew more than anyone"
+    ],
+    "answerIndex": 1,
+    "explanation": "Even 'the most charitable criticism must refuse' them knowledge of Christ's divinity."
+  },
+  {
+    "id": "clip024",
+    "audioId": "174-168635-0000",
+    "level": 1,
+    "genre": "Literature",
+    "transcript": "He had never been father, lover, husband, friend.",
+    "question": "What does this tell us about the man's life?",
+    "choices": [
+      "He had many friends",
+      "He had no close relationships with anyone",
+      "He was a loving father",
+      "He was happily married"
+    ],
+    "answerIndex": 1,
+    "explanation": "Never a father, lover, husband, or friend means he had no close relationships."
+  },
+  {
+    "id": "clip025",
+    "audioId": "1919-142785-0001",
+    "level": 3,
+    "genre": "Science",
+    "transcript": "Long pepper: this is the produce of a different plant from that which produces the black, it consisting of the half-ripe flower heads of what naturalists call Piper Longum and Chaba.",
+    "question": "How is long pepper different from black pepper?",
+    "choices": [
+      "It tastes much stronger",
+      "It comes from a different kind of plant",
+      "It is the same plant but dried longer",
+      "It is not really pepper at all"
+    ],
+    "answerIndex": 1,
+    "explanation": "Long pepper is 'the produce of a different plant from that which produces the black.'"
+  },
+  {
+    "id": "clip026",
+    "audioId": "1988-147956-0001",
+    "level": 2,
+    "genre": "Literature",
+    "transcript": "Occasionally one of the horses would tear off with his teeth a plant full of blossoms and walk along munching it, the flowers nodding in time to his bites as he ate down toward them.",
+    "question": "What were the horses doing as they walked?",
+    "choices": [
+      "Running through the field",
+      "Eating flowers from plants they pulled up",
+      "Drinking from a stream",
+      "Sleeping by the road"
+    ],
+    "answerIndex": 1,
+    "explanation": "The horse would 'tear off a plant full of blossoms and walk along munching it.'"
+  },
+  {
+    "id": "clip027",
+    "audioId": "1993-147149-0000",
+    "level": 2,
+    "genre": "Literature",
+    "transcript": "How infinite the wealth of love and hope garnered in these same tiny treasure houses, and oh!",
+    "question": "What does the speaker say is kept in these small places?",
+    "choices": [
+      "Gold and silver",
+      "A great amount of love and hope",
+      "Books and papers",
+      "Food and water"
+    ],
+    "answerIndex": 1,
+    "explanation": "'Infinite wealth of love and hope' means a great amount of love and hope."
+  },
+  {
+    "id": "clip028",
+    "audioId": "2035-147960-0000",
+    "level": 2,
+    "genre": "Literature",
+    "transcript": "She was four years older than I, to be sure, and had seen more of the world, but I was a boy and she was a girl, and I resented her protecting manner.",
+    "question": "Why did the boy feel upset with the girl?",
+    "choices": [
+      "She was younger than him",
+      "He didn't like the way she tried to look after him",
+      "She was unkind to him",
+      "She ignored him all the time"
+    ],
+    "answerIndex": 1,
+    "explanation": "He 'resented her protecting manner' — he didn't like being looked after by her."
+  },
+  {
+    "id": "clip029",
+    "audioId": "2078-142845-0010",
+    "level": 3,
+    "genre": "Science",
+    "transcript": "Italian millet, or great Indian millet, is cultivated in Egypt and Nubia, where it is called dhourra, and is used as human food as well as for the fermentation of beer.",
+    "question": "What is the millet used for?",
+    "choices": [
+      "Only for feeding animals",
+      "Both as food for people and for making beer",
+      "Only for making bread",
+      "Only for making medicine"
+    ],
+    "answerIndex": 1,
+    "explanation": "It is 'used as human food as well as for the fermentation of beer.'"
+  },
+  {
+    "id": "clip030",
+    "audioId": "2086-149214-0000",
+    "level": 3,
+    "genre": "Literature",
+    "transcript": "The narrative, it may be, is woven of so humble a texture as to require this advantage, and at the same time to render it the more difficult of attainment.",
+    "question": "How does the author describe his own story?",
+    "choices": [
+      "He thinks it is very exciting",
+      "He admits it is simple and not very grand",
+      "He says it is the best ever",
+      "He believes it is too short"
+    ],
+    "answerIndex": 1,
+    "explanation": "'So humble a texture' means the author sees his own story as simple and modest."
+  },
+  {
+    "id": "clip031",
+    "audioId": "2277-149874-0001",
+    "level": 2,
+    "genre": "Literature",
+    "transcript": "To Carrie, the sound of the little bells upon the horse cars, as they tinkled in and out of hearing, was as pleasing as it was novel.",
+    "question": "How did Carrie feel about the sound of the bells?",
+    "choices": [
+      "She thought it was annoying",
+      "She found it both pleasant and new to her",
+      "She was scared by it",
+      "She did not notice it at all"
+    ],
+    "answerIndex": 1,
+    "explanation": "'As pleasing as it was novel' means the sound was both nice and new to Carrie."
+  },
+  {
+    "id": "clip032",
+    "audioId": "2412-153947-0001",
+    "level": 1,
+    "genre": "Literature",
+    "transcript": "This is a mistake, though a perfectly natural one.",
+    "question": "What does the speaker think about the mistake?",
+    "choices": [
+      "It was done on purpose",
+      "It is wrong but easy to understand why someone would make it",
+      "It was a very serious error",
+      "It could never happen"
+    ],
+    "answerIndex": 1,
+    "explanation": "'A mistake, though a perfectly natural one' means it's wrong but understandable."
+  },
+  {
+    "id": "clip033",
+    "audioId": "2428-83699-0002",
+    "level": 1,
+    "genre": "Literature",
+    "transcript": "The reply was written in a sprawling feminine hand. It was a little vague.",
+    "question": "What was the letter like?",
+    "choices": [
+      "It was typed neatly",
+      "It was written by a woman and was not very clear",
+      "It was very long and detailed",
+      "It was written in a foreign language"
+    ],
+    "answerIndex": 1,
+    "explanation": "'Sprawling feminine hand' means a woman's writing; 'a little vague' means not very clear."
+  },
+  {
+    "id": "clip034",
+    "audioId": "251-118436-0000",
+    "level": 1,
+    "genre": "Literature",
+    "transcript": "He was young. No spear had touched him, no poison lurked in his wine.",
+    "question": "What does this tell us about the young man?",
+    "choices": [
+      "He was a great fighter",
+      "He had not been hurt by weapons or poison",
+      "He was very sick",
+      "He loved to drink wine"
+    ],
+    "answerIndex": 1,
+    "explanation": "'No spear had touched him, no poison lurked' means he was unharmed by weapons or poison."
+  },
+  {
+    "id": "clip035",
+    "audioId": "2803-154320-0000",
+    "level": 2,
+    "genre": "Literature",
+    "transcript": "Fortunately Will Halley was not a man in a hurry and did not use a press of canvas, or his masts would inevitably have come down.",
+    "question": "Why did Will Halley sail slowly?",
+    "choices": [
+      "He enjoyed watching the sea",
+      "Using too many sails would have broken the masts",
+      "He had no wind at all",
+      "He wanted to fish along the way"
+    ],
+    "answerIndex": 1,
+    "explanation": "If he had used 'a press of canvas' (too many sails), 'his masts would have come down.'"
+  },
+  {
+    "id": "clip036",
+    "audioId": "2902-9006-0000",
+    "level": 2,
+    "genre": "Essay",
+    "transcript": "One who writes of such an era labours under a troublesome disadvantage.",
+    "question": "What does the writer say about writing about this time?",
+    "choices": [
+      "It is very easy",
+      "It is difficult and causes problems",
+      "It brings great fame",
+      "It is the most fun kind of writing"
+    ],
+    "answerIndex": 1,
+    "explanation": "'Labours under a troublesome disadvantage' means working with difficulty and problems."
+  },
+  {
+    "id": "clip037",
+    "audioId": "3000-15664-0002",
+    "level": 1,
+    "genre": "Essay",
+    "transcript": "Perhaps the profession of doing good may be full, but everybody should be kind at least to himself.",
+    "question": "What is the speaker's advice?",
+    "choices": [
+      "Help as many people as you can",
+      "Even if you cannot help everyone, at least be good to yourself",
+      "Never think about yourself",
+      "Working hard is what matters most"
+    ],
+    "answerIndex": 1,
+    "explanation": "Even if the job of 'doing good' is full, 'everybody should be kind at least to himself.'"
+  },
+  {
+    "id": "clip038",
+    "audioId": "3081-166546-0000",
+    "level": 2,
+    "genre": "Drama",
+    "transcript": "When we took our seats at the breakfast table it was with the feeling of being no longer looked upon as connected in any way with this case.",
+    "question": "How did they feel at breakfast?",
+    "choices": [
+      "They were very hungry",
+      "They felt free from being linked to the case",
+      "They were worried about the case",
+      "They wanted to leave right away"
+    ],
+    "answerIndex": 1,
+    "explanation": "'No longer looked upon as connected with this case' means feeling free from the case."
+  },
+  {
+    "id": "clip039",
+    "audioId": "3170-137482-0004",
+    "level": 1,
+    "genre": "Literature",
+    "transcript": "Our scandalous proceedings often exposed us to the greatest danger.",
+    "question": "What did their bad behavior lead to?",
+    "choices": [
+      "They became very rich",
+      "They were often put in very dangerous situations",
+      "People looked up to them",
+      "They received many rewards"
+    ],
+    "answerIndex": 1,
+    "explanation": "'Scandalous proceedings exposed us to the greatest danger' means their bad actions brought danger."
+  },
+  {
+    "id": "clip040",
+    "audioId": "3536-23268-0002",
+    "level": 3,
+    "genre": "Drama",
+    "transcript": "Yet did the watchful Miss Woodley oftentimes hear a sigh escape from her, unknown to herself, till she was reminded of it, and then a sudden blush would instantly overspread her face.",
+    "question": "What happened when the girl was told about her sighing?",
+    "choices": [
+      "She started to cry",
+      "Her face turned red right away",
+      "She laughed out loud",
+      "She ran out of the room"
+    ],
+    "answerIndex": 1,
+    "explanation": "'A sudden blush would instantly overspread her face' means she turned red with embarrassment."
+  },
+  {
+    "id": "clip041",
+    "audioId": "3576-138058-0007",
+    "level": 1,
+    "genre": "Literature",
+    "transcript": "Dost thou revolt against thy master and natural lord?",
+    "question": "What is the speaker accusing someone of?",
+    "choices": [
+      "Stealing food",
+      "Fighting back against the person in charge",
+      "Running away from home",
+      "Telling lies to everyone"
+    ],
+    "answerIndex": 1,
+    "explanation": "'Revolt against thy master' means to fight or rebel against the person in charge."
+  },
+  {
+    "id": "clip042",
+    "audioId": "3752-4943-0000",
+    "level": 3,
+    "genre": "Drama",
+    "transcript": "He had been a clerk in a banking house and was transported for embezzlement, though by some, grave doubts as to his guilt were entertained.",
+    "question": "Why was the man sent away?",
+    "choices": [
+      "He wanted to travel",
+      "He was accused of stealing money from the bank",
+      "He was given a better job",
+      "He was too old to work"
+    ],
+    "answerIndex": 1,
+    "explanation": "'Transported for embezzlement' means sent away for stealing money, though some doubted his guilt."
+  },
+  {
+    "id": "clip043",
+    "audioId": "3853-163249-0000",
+    "level": 3,
+    "genre": "Drama",
+    "transcript": "Her meeting with Letty was indescribably tender, and the days that followed were pretty equally divided between her and her brother, in nursing the one and loving the other.",
+    "question": "What did she spend her time doing after the meeting?",
+    "choices": [
+      "Working at a hospital",
+      "Taking care of one person and showing love to another",
+      "Traveling to a new city",
+      "Studying at a school"
+    ],
+    "answerIndex": 1,
+    "explanation": "'Nursing the one and loving the other' means caring for one and giving love to the other."
+  },
+  {
+    "id": "clip044",
+    "audioId": "422-122949-0001",
+    "level": 3,
+    "genre": "Essay",
+    "transcript": "The distinctions of moral values have either originated in a ruling caste, pleasantly conscious of being different from the ruled, or among the ruled class, the slaves and dependents of all sorts.",
+    "question": "Where did ideas about right and wrong come from?",
+    "choices": [
+      "From religious books only",
+      "From either the powerful group or the people they controlled",
+      "From nature itself",
+      "From schools and teachers"
+    ],
+    "answerIndex": 1,
+    "explanation": "Moral values came from 'a ruling caste' or 'the ruled class' — the powerful or the powerless."
+  },
+  {
+    "id": "clip045",
+    "audioId": "5338-24615-0000",
+    "level": 2,
+    "genre": "Literature",
+    "transcript": "It was about noon when Captain Waverley entered the straggling village, or rather hamlet, of Tully-Veolan, close to which was situated the mansion of the proprietor.",
+    "question": "When did Captain Waverley arrive at the village?",
+    "choices": [
+      "Early in the morning",
+      "Around the middle of the day",
+      "Late at night",
+      "Just before sunset"
+    ],
+    "answerIndex": 1,
+    "explanation": "'About noon' means around the middle of the day."
+  },
+  {
+    "id": "clip046",
+    "audioId": "5536-43358-0001",
+    "level": 3,
+    "genre": "Essay",
+    "transcript": "The original attitude of the American Indian toward the Eternal, the Great Mystery that surrounds and embraces us, was as simple as it was exalted.",
+    "question": "How did the American Indian view the great mystery of life?",
+    "choices": [
+      "With fear and anger",
+      "With a feeling that was both simple and noble",
+      "With no interest at all",
+      "With confusion and doubt"
+    ],
+    "answerIndex": 1,
+    "explanation": "'As simple as it was exalted' means their view was both simple and noble."
+  },
+  {
+    "id": "clip047",
+    "audioId": "5694-64025-0001",
+    "level": 1,
+    "genre": "History",
+    "transcript": "This was the first big battle in which our regiment had ever been engaged.",
+    "question": "What was special about this battle for the soldiers?",
+    "choices": [
+      "They won very easily",
+      "It was the first large fight their group had been in",
+      "It lasted only a few minutes",
+      "They had the best weapons"
+    ],
+    "answerIndex": 1,
+    "explanation": "'The first big battle' their regiment 'had ever been engaged' in — their first large fight."
+  },
+  {
+    "id": "clip048",
+    "audioId": "5895-34615-0002",
+    "level": 2,
+    "genre": "Literature",
+    "transcript": "Had Gwynplaine, when a child, been so worthy of attention that his face had been subjected to transmutation? Why not?",
+    "question": "What happened to Gwynplaine's face as a child?",
+    "choices": [
+      "It was naturally beautiful",
+      "It was changed or altered on purpose",
+      "It was covered with paint",
+      "Nothing happened to it"
+    ],
+    "answerIndex": 1,
+    "explanation": "'Subjected to transmutation' means his face was changed or altered deliberately."
+  },
+  {
+    "id": "clip049",
+    "audioId": "6241-61943-0000",
+    "level": 2,
+    "genre": "Literature",
+    "transcript": "On the second of the month, at two in the morning, our precious cargo of luggage was taken on board the good ship Valkyrie.",
+    "question": "When was the luggage loaded onto the ship?",
+    "choices": [
+      "In the afternoon",
+      "Very early in the morning",
+      "At sunset",
+      "The next evening"
+    ],
+    "answerIndex": 1,
+    "explanation": "'At two in the morning' is very early in the morning."
+  },
+  {
+    "id": "clip050",
+    "audioId": "6295-244435-0001",
+    "level": 2,
+    "genre": "History",
+    "transcript": "Colonel Leonidas Talbot regarded the white flag with feelings in which triumph and sadness were mingled strangely.",
+    "question": "How did the Colonel feel about the white flag?",
+    "choices": [
+      "Only proud and happy",
+      "Both happy and sad at the same time",
+      "Very angry",
+      "He did not care at all"
+    ],
+    "answerIndex": 1,
+    "explanation": "'Triumph and sadness were mingled' means he felt both happy and sad together."
+  },
+  {
+    "id": "clip051",
+    "audioId": "6313-66125-0000",
+    "level": 1,
+    "genre": "Literature",
+    "transcript": "You'll all be over if you don't have a care.",
+    "question": "What is the speaker warning about?",
+    "choices": [
+      "The game is almost done",
+      "Something bad will happen if they are not careful",
+      "They should go home now",
+      "The food is getting cold"
+    ],
+    "answerIndex": 1,
+    "explanation": "'You'll all be over if you don't have a care' is a warning to be careful."
+  },
+  {
+    "id": "clip052",
+    "audioId": "6319-275224-0000",
+    "level": 1,
+    "genre": "Literature",
+    "transcript": "What a fuss is made about you, my dear little friends!",
+    "question": "What is the speaker saying about these little friends?",
+    "choices": [
+      "Nobody cares about them",
+      "People give them too much attention",
+      "They are very dangerous",
+      "They are hard to find"
+    ],
+    "answerIndex": 1,
+    "explanation": "'What a fuss is made about you' means people make too much of a big deal about them."
+  },
+  {
+    "id": "clip053",
+    "audioId": "6345-64257-0002",
+    "level": 2,
+    "genre": "Drama",
+    "transcript": "When she opened the door of it, the bright fire which Beenie, undesired, had kindled there startled her. The room looked unnatural, uncanny, because it was cheerful.",
+    "question": "Why was the room strange to her?",
+    "choices": [
+      "It was completely dark",
+      "It looked too bright and cheerful, which felt wrong",
+      "The furniture was missing",
+      "There was a stranger inside"
+    ],
+    "answerIndex": 1,
+    "explanation": "The room looked 'unnatural, uncanny, because it was cheerful' — the brightness felt wrong."
+  },
+  {
+    "id": "clip054",
+    "audioId": "652-129742-0000",
+    "level": 1,
+    "genre": "Recipe",
+    "transcript": "Asparagus salad: cook the asparagus in salted water, drain, and chill.",
+    "question": "What should you do with the asparagus after cooking?",
+    "choices": [
+      "Add more salt to it",
+      "Remove the water and make it cold",
+      "Cook it again slowly",
+      "Cut it into small pieces"
+    ],
+    "answerIndex": 1,
+    "explanation": "'Drain and chill' means remove the water and make it cold."
+  },
+  {
+    "id": "clip055",
+    "audioId": "777-126732-0002",
+    "level": 2,
+    "genre": "Essay",
+    "transcript": "At best they can only interpret the mind of the prophet and can have no objective value.",
+    "question": "What is the limit of what they can do?",
+    "choices": [
+      "They can see the future clearly",
+      "They can only try to explain what the prophet meant",
+      "They can create new ideas from nothing",
+      "They can change how people think"
+    ],
+    "answerIndex": 1,
+    "explanation": "'Only interpret the mind of the prophet' means they can only try to explain his meaning."
+  },
+  {
+    "id": "clip056",
+    "audioId": "7850-111771-0000",
+    "level": 2,
+    "genre": "History",
+    "transcript": "Through the influence of Honorable Thomas L. Hamer, he was admitted at West Point in eighteen thirty-nine.",
+    "question": "How did he get into West Point?",
+    "choices": [
+      "He passed a very hard test",
+      "With the help of an important person",
+      "He paid a lot of money",
+      "He was the best student in school"
+    ],
+    "answerIndex": 1,
+    "explanation": "'Through the influence of' Thomas Hamer means an important person helped him get in."
+  },
+  {
+    "id": "clip057",
+    "audioId": "7976-105575-0000",
+    "level": 3,
+    "genre": "History",
+    "transcript": "Grant was only a few miles away, but although commander in chief, he knew nothing of the hardest-fought battle of the Civil War until it was over.",
+    "question": "What is surprising about Grant in this passage?",
+    "choices": [
+      "He fought in the battle himself",
+      "He was nearby but didn't know about the battle until it ended",
+      "He was far away from the fighting",
+      "He ordered the attack himself"
+    ],
+    "answerIndex": 1,
+    "explanation": "Grant was 'only a few miles away' but 'knew nothing' of the battle 'until it was over.'"
+  },
+  {
+    "id": "clip058",
+    "audioId": "8297-275154-0000",
+    "level": 2,
+    "genre": "Literature",
+    "transcript": "Not having heard from Captain Bennydeck for some little time, Randal thought it desirable, in Sydney's interests, to make inquiries at his club.",
+    "question": "Why did Randal go to the club?",
+    "choices": [
+      "To have dinner with friends",
+      "To find out about the Captain who had not been in touch",
+      "To play cards",
+      "To meet Sydney there"
+    ],
+    "answerIndex": 1,
+    "explanation": "'Not having heard from Captain Bennydeck,' Randal went to ask about him at the club."
+  },
+  {
+    "id": "clip059",
+    "audioId": "84-121123-0003",
+    "level": 2,
+    "genre": "Drama",
+    "transcript": "And the cry issued from his pores, if we may thus speak, a cry frightful in its silence.",
+    "question": "What was unusual about the cry?",
+    "choices": [
+      "It was very loud",
+      "It was silent but still felt terrifying",
+      "It was happy and cheerful",
+      "It lasted for a very long time"
+    ],
+    "answerIndex": 1,
+    "explanation": "'A cry frightful in its silence' — the cry had no sound but was still terrifying."
+  },
+  {
+    "id": "clip060",
+    "audioId": "8842-302196-0001",
+    "level": 3,
+    "genre": "Essay",
+    "transcript": "This book, in its original form, was received with favour and settled the claim of Rossetti to rank as a poetic translator, or indeed as a poet in his own right.",
+    "question": "What did the book prove about Rossetti?",
+    "choices": [
+      "That he was a bad writer",
+      "That he was a real poet and good at translating poetry",
+      "That he copied other people's work",
+      "That he should stop writing books"
+    ],
+    "answerIndex": 1,
+    "explanation": "The book 'settled the claim of Rossetti to rank as a poetic translator or as a poet.'"
+  },
+  {
+    "id": "clip061",
+    "audioId": "1272-128104-0002",
+    "level": 3,
+    "genre": "Essay",
+    "transcript": "He tells us that at this festive season of the year, with Christmas and roast beef looming before us, similes drawn from eating and its results occur most readily to the mind.",
+    "question": "Why does the speaker mention food comparisons?",
+    "choices": [
+      "Because the food was very bad",
+      "Because the Christmas season makes people think about eating",
+      "Because nobody could afford food",
+      "Because cooking is a great art form"
+    ],
+    "answerIndex": 1,
+    "explanation": "At Christmas time, with food on everyone's mind, food-based comparisons come easily."
+  },
+  {
+    "id": "clip062",
+    "audioId": "1462-170138-0001",
+    "level": 1,
+    "genre": "Literature",
+    "transcript": "Hugh's written a delightful part for her, and she's quite inexpressible.",
+    "question": "What has Hugh done?",
+    "choices": [
+      "He painted a beautiful picture",
+      "He wrote a wonderful role for a woman to play",
+      "He built a new house",
+      "He wrote a sad letter to her"
+    ],
+    "answerIndex": 1,
+    "explanation": "'Written a delightful part for her' means he created a wonderful role for her."
+  },
+  {
+    "id": "clip063",
+    "audioId": "1673-143396-0003",
+    "level": 3,
+    "genre": "Literature",
+    "transcript": "His progress from infancy to youth and manhood was marked by a regular increase in stature and wisdom, and after a painful agony of mind and body, he expired on the cross.",
+    "question": "How did this person's life end?",
+    "choices": [
+      "He lived to a very old age",
+      "He died after great suffering",
+      "He disappeared without a trace",
+      "He became a king"
+    ],
+    "answerIndex": 1,
+    "explanation": "'After a painful agony of mind and body, he expired' means he died after great suffering."
+  },
+  {
+    "id": "clip064",
+    "audioId": "174-168635-0001",
+    "level": 1,
+    "genre": "Literature",
+    "transcript": "The heart of that ex-convict was full of virginity.",
+    "question": "What is surprising about the ex-convict?",
+    "choices": [
+      "He was very dangerous",
+      "Despite his past, his heart was pure and innocent",
+      "He had no feelings at all",
+      "He wanted to go back to prison"
+    ],
+    "answerIndex": 1,
+    "explanation": "'Heart full of virginity' means his heart was pure and innocent despite his criminal past."
+  },
+  {
+    "id": "clip065",
+    "audioId": "1919-142785-0002",
+    "level": 2,
+    "genre": "History",
+    "transcript": "Originally the most valuable of these were found in the Spice Islands, or Moluccas, of the Indian Ocean, and were highly prized by the nations of antiquity.",
+    "question": "Where were the most valuable spices first found?",
+    "choices": [
+      "In the mountains of China",
+      "On islands in the Indian Ocean",
+      "In the forests of Africa",
+      "In the deserts of Arabia"
+    ],
+    "answerIndex": 1,
+    "explanation": "The most valuable spices 'were found in the Spice Islands of the Indian Ocean.'"
+  },
+  {
+    "id": "clip066",
+    "audioId": "1988-147956-0002",
+    "level": 1,
+    "genre": "Literature",
+    "transcript": "It's no better than a badger hole, no proper dugout at all.",
+    "question": "What is the speaker complaining about?",
+    "choices": [
+      "There are too many animals",
+      "The shelter is very poor, like an animal's hole",
+      "The food is very bad",
+      "The weather is terrible"
+    ],
+    "answerIndex": 1,
+    "explanation": "'No better than a badger hole' means the shelter is as bad as a hole an animal digs."
+  },
+  {
+    "id": "clip067",
+    "audioId": "1993-147149-0001",
+    "level": 3,
+    "genre": "Literature",
+    "transcript": "What bankrupts in the world we feel when death, like some remorseless creditor, seizes on all we fondly thought our own! The twins.",
+    "question": "How is death described in this passage?",
+    "choices": [
+      "Like a kind friend who comes gently",
+      "Like someone who takes away everything you thought was yours",
+      "Like a peaceful sleep at night",
+      "Like a quiet wind blowing past"
+    ],
+    "answerIndex": 1,
+    "explanation": "Death 'seizes on all we fondly thought our own' — it takes everything away from us."
+  },
+  {
+    "id": "clip068",
+    "audioId": "2035-147960-0001",
+    "level": 1,
+    "genre": "Literature",
+    "transcript": "This change came about from an adventure we had together.",
+    "question": "What caused the change between them?",
+    "choices": [
+      "A long letter they wrote",
+      "Something exciting they experienced together",
+      "A fight they had at school",
+      "Moving to a different city"
+    ],
+    "answerIndex": 1,
+    "explanation": "'An adventure we had together' means an exciting experience they shared."
+  },
+  {
+    "id": "clip069",
+    "audioId": "2078-142845-0011",
+    "level": 1,
+    "genre": "Science",
+    "transcript": "It will grow on poor soils and is extremely productive.",
+    "question": "What is good about this plant?",
+    "choices": [
+      "It tastes very good",
+      "It grows well even in bad ground and produces a lot",
+      "It grows very tall and strong",
+      "It needs a lot of sunshine"
+    ],
+    "answerIndex": 1,
+    "explanation": "'Grow on poor soils and extremely productive' means it thrives in bad ground and yields a lot."
+  },
+  {
+    "id": "clip070",
+    "audioId": "2086-149214-0001",
+    "level": 2,
+    "genre": "Literature",
+    "transcript": "In good faith, however, he is not sufficiently imaginative to flatter himself with the slightest hope of this kind.",
+    "question": "What does the speaker say about this person?",
+    "choices": [
+      "He is very creative and hopeful",
+      "He is too honest to fool himself with false hope",
+      "He is always lying to others",
+      "He is sure he will succeed"
+    ],
+    "answerIndex": 1,
+    "explanation": "'Not sufficiently imaginative to flatter himself with hope' means he's too honest to give himself false hope."
+  },
+  {
+    "id": "clip071",
+    "audioId": "2277-149874-0002",
+    "level": 2,
+    "genre": "Drama",
+    "transcript": "To him, the presence or absence of his wife's sister was a matter of indifference.",
+    "question": "How did he feel about his wife's sister?",
+    "choices": [
+      "He loved her very much",
+      "He did not care whether she was there or not",
+      "He was afraid of her",
+      "He wanted her to leave quickly"
+    ],
+    "answerIndex": 1,
+    "explanation": "'A matter of indifference' means he did not care at all about her being there or not."
+  },
+  {
+    "id": "clip072",
+    "audioId": "2412-153947-0002",
+    "level": 2,
+    "genre": "Literature",
+    "transcript": "On my return, I purposely avoided looking into it until I had sent back my last revises to the printer.",
+    "question": "Why did the narrator wait before looking at it?",
+    "choices": [
+      "He was too tired",
+      "He wanted to finish his other work first",
+      "He had lost his glasses",
+      "He was not interested in it"
+    ],
+    "answerIndex": 1,
+    "explanation": "He 'purposely avoided looking' until he finished sending 'his last revises to the printer.'"
+  },
+  {
+    "id": "clip073",
+    "audioId": "2428-83699-0003",
+    "level": 2,
+    "genre": "Literature",
+    "transcript": "It appeared that the terms would be five guineas, but there was no mention of the length of time which that fee would cover.",
+    "question": "What was unclear about the price?",
+    "choices": [
+      "How much it would cost",
+      "How long the payment would last for",
+      "Who should pay for it",
+      "Where to send the money"
+    ],
+    "answerIndex": 1,
+    "explanation": "'No mention of the length of time which that fee would cover' — the duration was unclear."
+  },
+  {
+    "id": "clip074",
+    "audioId": "251-118436-0001",
+    "level": 1,
+    "genre": "Drama",
+    "transcript": "I tell you it is not poison, she cried.",
+    "question": "What is the woman trying to say?",
+    "choices": [
+      "She wants something to drink",
+      "She insists that it is not poison",
+      "She found poison in the food",
+      "She is asking someone for help"
+    ],
+    "answerIndex": 1,
+    "explanation": "She cries out 'it is not poison' — she is strongly insisting something is safe."
+  },
+  {
+    "id": "clip075",
+    "audioId": "2803-154320-0001",
+    "level": 3,
+    "genre": "Literature",
+    "transcript": "John Mangles therefore hoped that the wretched hull would reach port without accident, but it grieved him that his companions should have to suffer so much discomfort from the defective arrangements of the brig.",
+    "question": "What worried John Mangles about the ship?",
+    "choices": [
+      "The ship was going too fast",
+      "His friends were very uncomfortable because the ship was in bad shape",
+      "There was not enough food on board",
+      "The weather was getting worse"
+    ],
+    "answerIndex": 1,
+    "explanation": "He was grieved that companions 'should suffer so much discomfort from the defective arrangements.'"
+  },
+  {
+    "id": "clip076",
+    "audioId": "2902-9006-0002",
+    "level": 3,
+    "genre": "Essay",
+    "transcript": "Not, be it ever remembered, that the slightest suspicion of immorality attaches either to the heroine of this book or to the leading philosophers of her school for several centuries.",
+    "question": "What does the author say about the heroine's character?",
+    "choices": [
+      "She was often in trouble",
+      "No one has ever doubted her good behavior",
+      "Many people disliked her",
+      "She was known to be dishonest"
+    ],
+    "answerIndex": 1,
+    "explanation": "'Not the slightest suspicion of immorality' means no one ever doubted her good character."
+  },
+  {
+    "id": "clip077",
+    "audioId": "3000-15664-0003",
+    "level": 1,
+    "genre": "Literature",
+    "transcript": "Go quietly, alone; no harm will befall you.",
+    "question": "What is the speaker promising?",
+    "choices": [
+      "Someone will come with you",
+      "Nothing bad will happen if you go by yourself",
+      "You must stay here for safety",
+      "The road will be very dangerous"
+    ],
+    "answerIndex": 1,
+    "explanation": "'No harm will befall you' means nothing bad will happen to you."
+  },
+  {
+    "id": "clip078",
+    "audioId": "3081-166546-0001",
+    "level": 2,
+    "genre": "Drama",
+    "transcript": "Instantly they absorbed all my attention, though I dared not give them a direct look, and continued to observe them only in the glass.",
+    "question": "How did the narrator watch them?",
+    "choices": [
+      "By hiding behind a door",
+      "By looking at them in a mirror, not directly",
+      "Through a small window",
+      "From very far away with a telescope"
+    ],
+    "answerIndex": 1,
+    "explanation": "'Observe them only in the glass' means watching them through a mirror reflection."
+  },
+  {
+    "id": "clip079",
+    "audioId": "3170-137482-0005",
+    "level": 2,
+    "genre": "Literature",
+    "transcript": "We would very often spend the whole night rambling about the city, inventing and carrying into execution the most impertinent practical jokes.",
+    "question": "What did they do at night in the city?",
+    "choices": [
+      "They worked late at a shop",
+      "They walked around playing rude tricks on people",
+      "They studied at the library",
+      "They helped sick people"
+    ],
+    "answerIndex": 1,
+    "explanation": "'Rambling about the city' playing 'impertinent practical jokes' means walking around doing rude tricks."
+  },
+  {
+    "id": "clip080",
+    "audioId": "3536-23268-0003",
+    "level": 3,
+    "genre": "Drama",
+    "transcript": "Night after night his sleep had been disturbed by fears for her when abroad; morning after morning it had been broken by the clamour of her return.",
+    "question": "What troubled his sleep?",
+    "choices": [
+      "He had bad dreams about work",
+      "He worried about her at night and her noisy return woke him each morning",
+      "The weather was too hot to sleep",
+      "His bed was very uncomfortable"
+    ],
+    "answerIndex": 1,
+    "explanation": "Fears 'for her when abroad' at night, and 'the clamour of her return' in the morning."
+  },
+  {
+    "id": "clip081",
+    "audioId": "3576-138058-0008",
+    "level": 1,
+    "genre": "Literature",
+    "transcript": "Dost thou rise against him who gives thee his bread?",
+    "question": "What is the speaker asking?",
+    "choices": [
+      "Do you want more food?",
+      "Are you fighting the person who feeds you?",
+      "Are you feeling hungry?",
+      "Can you pass me the bread?"
+    ],
+    "answerIndex": 1,
+    "explanation": "'Rise against him who gives thee his bread' means rebelling against the one who provides for you."
+  },
+  {
+    "id": "clip082",
+    "audioId": "3752-4943-0001",
+    "level": 3,
+    "genre": "Drama",
+    "transcript": "When the muster bell rang and the gang broke up, Rufus Dawes, on his silent way to his separate cell, observed a notable change of custom in the disposition of the new convict.",
+    "question": "What did Rufus Dawes notice about the new prisoner?",
+    "choices": [
+      "The new prisoner was very tall",
+      "Something was different about how the new prisoner was being treated",
+      "The bell was louder than usual",
+      "His own cell had been changed"
+    ],
+    "answerIndex": 1,
+    "explanation": "He 'observed a notable change of custom in the disposition of the new convict.'"
+  },
+  {
+    "id": "clip083",
+    "audioId": "3853-163249-0001",
+    "level": 3,
+    "genre": "Drama",
+    "transcript": "But even while she enjoyed every hour of life and begrudged the time given to sleep, she felt as if the dream was too beautiful to last, and often said.",
+    "question": "What did she worry about despite being happy?",
+    "choices": [
+      "That she was sleeping too much",
+      "That her happiness was too good to continue",
+      "That her friends would leave her",
+      "That she was getting too old"
+    ],
+    "answerIndex": 1,
+    "explanation": "'The dream was too beautiful to last' means she feared her happiness would not continue."
+  },
+  {
+    "id": "clip084",
+    "audioId": "422-122949-0002",
+    "level": 1,
+    "genre": "Essay",
+    "transcript": "We truthful ones, the nobility in ancient Greece called themselves.",
+    "question": "What did the noble class in ancient Greece call themselves?",
+    "choices": [
+      "The strongest fighters",
+      "The truthful or honest ones",
+      "The wisest teachers",
+      "The richest people in the land"
+    ],
+    "answerIndex": 1,
+    "explanation": "'We truthful ones' is what the Greek nobility called themselves."
+  },
+  {
+    "id": "clip085",
+    "audioId": "5338-24615-0003",
+    "level": 3,
+    "genre": "Essay",
+    "transcript": "The evil and remedy, such as it is, still exist, but this is remote from our present purpose and is only thrown out for consideration of the collectors under Mister Dent's Dog Bill.",
+    "question": "Why does the speaker mention this problem?",
+    "choices": [
+      "It is the most important point of all",
+      "Just as a side note, not as the main topic",
+      "Everyone should fix it right now",
+      "It has already been solved completely"
+    ],
+    "answerIndex": 1,
+    "explanation": "'Remote from our present purpose' and 'only thrown out' means it's just a side note."
+  },
+  {
+    "id": "clip086",
+    "audioId": "5536-43358-0002",
+    "level": 2,
+    "genre": "Essay",
+    "transcript": "It was silent because all speech is of necessity feeble and imperfect; therefore the souls of my ancestors ascended to God in wordless adoration.",
+    "question": "Why did they pray without speaking?",
+    "choices": [
+      "They did not know how to talk",
+      "They believed words were too weak to express their feelings",
+      "Speaking was against the rules",
+      "They were praying in a quiet place"
+    ],
+    "answerIndex": 1,
+    "explanation": "'All speech is feeble and imperfect' so they prayed in 'wordless adoration.'"
+  },
+  {
+    "id": "clip087",
+    "audioId": "5694-64025-0002",
+    "level": 3,
+    "genre": "History",
+    "transcript": "I do not pretend to tell of what command distinguished itself, of heroes, of blood and wounds, of shrieks and groans, of brilliant charges, of cannon captured, et cetera.",
+    "question": "What is the speaker saying about the battle?",
+    "choices": [
+      "He saw everything that happened",
+      "He will not try to describe all the details of the fighting",
+      "He was the hero of the battle himself",
+      "He captured many cannons that day"
+    ],
+    "answerIndex": 1,
+    "explanation": "'I do not pretend to tell' means he won't try to describe all the battle details."
+  },
+  {
+    "id": "clip088",
+    "audioId": "5895-34615-0003",
+    "level": 2,
+    "genre": "Literature",
+    "transcript": "According to all appearance, industrious manipulators of children had worked upon his face.",
+    "question": "What seems to have happened to his face?",
+    "choices": [
+      "He was born with a nice face",
+      "It was changed by people who did this to children",
+      "He hurt his face by accident",
+      "He painted his own face for fun"
+    ],
+    "answerIndex": 1,
+    "explanation": "'Industrious manipulators of children had worked upon his face' — people had changed it."
+  },
+  {
+    "id": "clip089",
+    "audioId": "6241-61943-0001",
+    "level": 1,
+    "genre": "Science",
+    "transcript": "But in the cause of science, men are expected to suffer.",
+    "question": "What does the speaker say about working for science?",
+    "choices": [
+      "Science is always fun and easy",
+      "People should be ready to go through hard times for it",
+      "Scientists never face any problems",
+      "Science does not need much effort"
+    ],
+    "answerIndex": 1,
+    "explanation": "'Men are expected to suffer' for science means being ready for hardship."
+  },
+  {
+    "id": "clip090",
+    "audioId": "6295-244435-0002",
+    "level": 2,
+    "genre": "History",
+    "transcript": "But the emotions of Harry and his comrades were, for the moment, those of victory only.",
+    "question": "What were Harry and his friends feeling?",
+    "choices": [
+      "They were very scared",
+      "At that moment, they only felt the joy of winning",
+      "They felt sad and tired",
+      "They were angry at each other"
+    ],
+    "answerIndex": 1,
+    "explanation": "'Emotions of victory only' means they felt nothing but the joy of winning at that moment."
+  },
+  {
+    "id": "clip091",
+    "audioId": "6313-66125-0001",
+    "level": 1,
+    "genre": "Literature",
+    "transcript": "Looks like a clump of bushes down there, but I ain't sure. Can you make it out?",
+    "question": "What is the speaker trying to do?",
+    "choices": [
+      "Cut down some trees",
+      "Figure out what they see in the distance",
+      "Find a place to eat",
+      "Hide from someone nearby"
+    ],
+    "answerIndex": 1,
+    "explanation": "'Can you make it out?' means 'Can you see what it is?' — trying to identify something far away."
+  },
+  {
+    "id": "clip092",
+    "audioId": "6319-275224-0001",
+    "level": 2,
+    "genre": "Literature",
+    "transcript": "You surely cannot suppose that in a natural state you would be forced to climb regularly up one tall bare stick, such as I see you upon now.",
+    "question": "What point is the speaker making?",
+    "choices": [
+      "Climbing is very good for your health",
+      "In nature, you would not have to climb something like this",
+      "Everyone should climb trees more often",
+      "This stick is too short to climb"
+    ],
+    "answerIndex": 1,
+    "explanation": "'In a natural state you would not be forced to climb' — this is not natural behavior."
+  },
+  {
+    "id": "clip093",
+    "audioId": "6345-64257-0003",
+    "level": 2,
+    "genre": "Drama",
+    "transcript": "She stood for a moment on the hearth and, in sad dreamy mood, listened to the howling swoops of the wind, making the house quiver and shake.",
+    "question": "What was she doing by the fireplace?",
+    "choices": [
+      "Cooking a warm meal",
+      "Standing sadly and listening to the strong wind",
+      "Reading a favorite book",
+      "Talking to her friend nearby"
+    ],
+    "answerIndex": 1,
+    "explanation": "She stood 'in sad dreamy mood' and 'listened to the howling swoops of the wind.'"
+  },
+  {
+    "id": "clip094",
+    "audioId": "652-129742-0001",
+    "level": 2,
+    "genre": "Recipe",
+    "transcript": "Bird's nest salad: have ready as many crisp leaves of lettuce as may be required to make a dainty little nest for each person.",
+    "question": "What is the lettuce used for in this recipe?",
+    "choices": [
+      "To cover the whole plate",
+      "To make a small pretty nest shape for each plate",
+      "To mix together with meat",
+      "To make a green soup"
+    ],
+    "answerIndex": 1,
+    "explanation": "Lettuce leaves are shaped into 'a dainty little nest for each person.'"
+  },
+  {
+    "id": "clip095",
+    "audioId": "777-126732-0003",
+    "level": 3,
+    "genre": "Literature",
+    "transcript": "Michaelis, the ticket-of-leave apostle, was speaking in an even voice, a voice that wheezed as if deadened and oppressed by the layer of fat on his chest.",
+    "question": "What was wrong with Michaelis's voice?",
+    "choices": [
+      "He spoke too loudly",
+      "It sounded heavy and weak because he was very fat",
+      "He had a high-pitched voice",
+      "He was speaking much too fast"
+    ],
+    "answerIndex": 1,
+    "explanation": "His voice 'wheezed as if deadened and oppressed by the layer of fat' — heavy and weak from being fat."
+  },
+  {
+    "id": "clip096",
+    "audioId": "7850-111771-0001",
+    "level": 2,
+    "genre": "History",
+    "transcript": "At this time Grant was not taken with war, and probably evinced little interest in army tactics.",
+    "question": "How did Grant feel about war at this time?",
+    "choices": [
+      "He loved war and battles",
+      "He was not interested in fighting or military plans",
+      "He was already a great general",
+      "He wanted to join the army right away"
+    ],
+    "answerIndex": 1,
+    "explanation": "'Not taken with war' and 'little interest in army tactics' means he didn't care about military matters."
+  },
+  {
+    "id": "clip097",
+    "audioId": "7976-105575-0003",
+    "level": 2,
+    "genre": "History",
+    "transcript": "There were no breastworks, yet that one little brigade of Hamilton's division stood there in the open and repulsed assault after assault.",
+    "question": "What made this small group's fight remarkable?",
+    "choices": [
+      "They had the best weapons",
+      "They fought without any walls or protection",
+      "They had thousands of soldiers",
+      "They were hiding in the forest"
+    ],
+    "answerIndex": 1,
+    "explanation": "'No breastworks' and 'stood in the open' means they fought without any protection at all."
+  },
+  {
+    "id": "clip098",
+    "audioId": "8297-275154-0001",
+    "level": 2,
+    "genre": "Literature",
+    "transcript": "The sailing master announced that he had orders to take the vessel back to her port, with no other explanation than that the cruise was over.",
+    "question": "What was the sailing master told to do?",
+    "choices": [
+      "Continue the journey forward",
+      "Bring the ship home with no reason given",
+      "Wait for more orders to arrive",
+      "Fix the ship before leaving"
+    ],
+    "answerIndex": 1,
+    "explanation": "'Take the vessel back to her port' with 'no other explanation' — return home, reason unknown."
+  },
+  {
+    "id": "clip099",
+    "audioId": "84-121123-0004",
+    "level": 1,
+    "genre": "Drama",
+    "transcript": "D'Avrigny rushed towards the old man and made him inhale a powerful restorative.",
+    "question": "What did D'Avrigny do to help the old man?",
+    "choices": [
+      "He gave him food to eat",
+      "He quickly gave him something strong to breathe in",
+      "He carried him outside",
+      "He called for another doctor"
+    ],
+    "answerIndex": 1,
+    "explanation": "'Rushed towards' and 'made him inhale a powerful restorative' means giving him something to breathe quickly."
+  },
+  {
+    "id": "clip100",
+    "audioId": "8842-302196-0002",
+    "level": 2,
+    "genre": "Essay",
+    "transcript": "The life-blood of rhythmical translation is this commandment: that a good poem shall not be turned into a bad one.",
+    "question": "What is the most important rule of translation?",
+    "choices": [
+      "Every word must be kept exactly the same",
+      "A good poem must stay good when translated",
+      "Only short poems should be translated",
+      "Translation is not possible for poetry"
+    ],
+    "answerIndex": 1,
+    "explanation": "'A good poem shall not be turned into a bad one' — the quality must be kept in translation."
   }
 ]
