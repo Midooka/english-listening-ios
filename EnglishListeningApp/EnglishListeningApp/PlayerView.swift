@@ -1,7 +1,8 @@
 import SwiftUI
 
 struct PlayerView: View {
-    let clip: Clip
+    let clips: [Clip]
+    @State private var currentIndex: Int
 
     @Environment(ProgressStore.self) private var progressStore
     @State private var audioPlayer = AudioPlayer()
@@ -9,28 +10,44 @@ struct PlayerView: View {
     @State private var selectedAnswer: Int? = nil
     @State private var hasAnswered = false
     @State private var showExplanation = false
-    
+
+    private var clip: Clip { clips[currentIndex] }
+
+    init(clips: [Clip], startIndex: Int) {
+        self.clips = clips
+        self._currentIndex = State(initialValue: startIndex)
+    }
+
     var body: some View {
         ScrollView {
             VStack(alignment: .leading, spacing: 20) {
                 // Clip Info
                 headerSection
-                
-                // Audio Player (Placeholder)
+
+                // Audio Player
                 audioPlayerSection
-                
+
                 // Transcript Toggle
                 transcriptSection
-                
+
                 // Quiz Section
                 quizSection
-                
+
                 // Explanation (shown after answering)
                 if showExplanation {
                     explanationSection
                 }
+
             }
             .padding()
+        }
+        .safeAreaInset(edge: .bottom) {
+            if clips.count > 1 {
+                navigationSection
+                    .padding(.horizontal)
+                    .padding(.vertical, 8)
+                    .background(.bar)
+            }
         }
         .navigationTitle(clip.id)
         .navigationBarTitleDisplayMode(.inline)
@@ -235,6 +252,56 @@ struct PlayerView: View {
         }
     }
     
+    private var navigationSection: some View {
+        HStack(spacing: 16) {
+            Button(action: goToNext) {
+                Label("Next", systemImage: "forward.fill")
+                    .font(.headline)
+                    .frame(maxWidth: .infinity)
+                    .padding()
+                    .background(Color.blue)
+                    .foregroundStyle(.white)
+                    .clipShape(RoundedRectangle(cornerRadius: 10))
+            }
+
+            Button(action: goToRandom) {
+                Label("Random", systemImage: "shuffle")
+                    .font(.headline)
+                    .frame(maxWidth: .infinity)
+                    .padding()
+                    .background(Color.purple)
+                    .foregroundStyle(.white)
+                    .clipShape(RoundedRectangle(cornerRadius: 10))
+            }
+        }
+    }
+
+    private func switchClip(to newIndex: Int) {
+        audioPlayer.stop()
+        withAnimation {
+            selectedAnswer = nil
+            hasAnswered = false
+            showExplanation = false
+            showTranscript = false
+            currentIndex = newIndex
+        }
+        progressStore.recordPlay(clipId: clips[newIndex].id)
+    }
+
+    private func goToNext() {
+        let nextIndex = (currentIndex + 1) % clips.count
+        switchClip(to: nextIndex)
+    }
+
+    private func goToRandom() {
+        guard clips.count > 1 else { return }
+        var randomIndex: Int
+        repeat {
+            randomIndex = Int.random(in: 0..<clips.count)
+        } while randomIndex == currentIndex
+        switchClip(to: randomIndex)
+    }
+
     private var levelColor: Color {
         switch clip.level {
         case 1: return .green

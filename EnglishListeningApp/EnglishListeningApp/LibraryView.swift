@@ -25,7 +25,9 @@ struct LibraryView: View {
             }
             .navigationTitle("Library")
             .navigationDestination(for: Clip.self) { clip in
-                PlayerView(clip: clip)
+                let clips = filteredClips
+                let index = clips.firstIndex(where: { $0.id == clip.id }) ?? 0
+                PlayerView(clips: clips, startIndex: index)
             }
             .toolbar {
                 ToolbarItem(placement: .topBarTrailing) {
