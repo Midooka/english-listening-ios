@@ -14,6 +14,10 @@ class AudioPlayer: NSObject, AVAudioPlayerDelegate {
     }
     var errorMessage: String?
     var currentClipId: String?
+    var currentTime: TimeInterval = 0
+    var duration: TimeInterval = 0
+    var isSeeking: Bool = false
+    private var positionTimer: Timer?
     
     override init() {
         super.init()
@@ -61,8 +65,11 @@ class AudioPlayer: NSObject, AVAudioPlayerDelegate {
             
             audioPlayer = player
             currentClipId = clip.id
+            duration = player.duration
+            currentTime = player.currentTime
             isPlaying = true
             errorMessage = nil
+            startPositionTimer()
         } catch {
             errorMessage = "Failed to play audio: \(error.localizedDescription)"
             isPlaying = false
@@ -70,10 +77,25 @@ class AudioPlayer: NSObject, AVAudioPlayerDelegate {
     }
     
     func stop() {
+        stopPositionTimer()
         audioPlayer?.stop()
         audioPlayer = nil
         isPlaying = false
         currentClipId = nil
+        currentTime = 0
+        duration = 0
+    }
+
+    func seek(to time: TimeInterval) {
+        guard let player = audioPlayer else { return }
+        let clamped = max(0, min(time, player.duration))
+        player.currentTime = clamped
+        currentTime = clamped
+    }
+
+    func skip(seconds: TimeInterval) {
+        guard let player = audioPlayer else { return }
+        seek(to: player.currentTime + seconds)
     }
     
     func togglePlayPause(clip: Clip) {
@@ -87,6 +109,7 @@ class AudioPlayer: NSObject, AVAudioPlayerDelegate {
     func pause() {
         audioPlayer?.pause()
         isPlaying = false
+        stopPositionTimer()
     }
     
     private func findAudioFile(audioFileName: String) -> URL? {
@@ -108,14 +131,33 @@ class AudioPlayer: NSObject, AVAudioPlayerDelegate {
         return nil
     }
     
+    // MARK: - Position Timer
+
+    private func startPositionTimer() {
+        positionTimer?.invalidate()
+        positionTimer = Timer.scheduledTimer(withTimeInterval: 0.25, repeats: true) { [weak self] _ in
+            guard let self, let player = self.audioPlayer, !self.isSeeking else { return }
+            self.currentTime = player.currentTime
+        }
+    }
+
+    private func stopPositionTimer() {
+        positionTimer?.invalidate()
+        positionTimer = nil
+    }
+
     // MARK: - AVAudioPlayerDelegate
-    
+
     func audioPlayerDidFinishPlaying(_ player: AVAudioPlayer, successfully flag: Bool) {
+        stopPositionTimer()
         isPlaying = false
         currentClipId = nil
+        currentTime = 0
+        duration = 0
     }
-    
+
     func audioPlayerDecodeErrorDidOccur(_ player: AVAudioPlayer, error: Error?) {
+        stopPositionTimer()
         errorMessage = "Decode error: \(error?.localizedDescription ?? "unknown")"
         isPlaying = false
         currentClipId = nil

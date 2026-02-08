@@ -2,21 +2,27 @@ import SwiftUI
 
 struct ScriptOrderTapView: View {
     let transcript: String
+    let level: Int
     let onComplete: () -> Void
 
+    /// 全トークン（固定語 + ブランク語）の並び
+    @State private var allTokens: [ClozeToken] = []
+    /// ブランク位置の正解単語列（出現順）
     @State private var answer: [String] = []
+    /// プール（ブランク単語のシャッフル）
     @State private var pool: [IndexedToken] = []
+    /// ユーザーが選択したブランク単語列
     @State private var selected: [IndexedToken] = []
     @State private var wrongIndex: Int? = nil
     @State private var isComplete: Bool = false
 
     var body: some View {
         VStack(alignment: .leading, spacing: 16) {
-            Text("Tap words in the correct order")
+            Text("Fill in the blanks")
                 .font(.headline)
 
-            // Selected tokens
-            selectedSection
+            // Inline cloze display
+            clozeSection
 
             Divider()
 
@@ -38,22 +44,63 @@ struct ScriptOrderTapView: View {
 
     // MARK: - Sections
 
-    private var selectedSection: some View {
-        FlowLayout(spacing: 6) {
-            ForEach(Array(selected.enumerated()), id: \.element.id) { index, token in
-                Text(token.token)
-                    .font(.body.monospaced())
-                    .padding(.horizontal, 10)
-                    .padding(.vertical, 6)
-                    .background(colorForSelected(at: index))
-                    .foregroundStyle(.white)
-                    .clipShape(RoundedRectangle(cornerRadius: 8))
+    private var clozeSection: some View {
+        FlowLayout(spacing: 4) {
+            ForEach(Array(allTokens.enumerated()), id: \.element.id) { _, token in
+                if token.isBlank {
+                    blankView(for: token)
+                } else {
+                    // 固定語: グレーテキスト
+                    Text(token.word)
+                        .font(.body)
+                        .foregroundStyle(.secondary)
+                        .padding(.horizontal, 2)
+                        .padding(.vertical, 6)
+                }
             }
         }
         .frame(maxWidth: .infinity, minHeight: 44, alignment: .topLeading)
         .padding(8)
         .background(Color(.systemBackground))
         .clipShape(RoundedRectangle(cornerRadius: 8))
+    }
+
+    @ViewBuilder
+    private func blankView(for token: ClozeToken) -> some View {
+        let blankOrder = token.blankOrder
+        if blankOrder < selected.count {
+            // 回答済みブランク
+            let filledToken = selected[blankOrder]
+            Text(filledToken.token)
+                .font(.body.monospaced())
+                .padding(.horizontal, 8)
+                .padding(.vertical, 6)
+                .background(colorForFilled(blankOrder: blankOrder))
+                .foregroundStyle(.white)
+                .clipShape(RoundedRectangle(cornerRadius: 6))
+        } else if blankOrder == selected.count {
+            // 次に埋まるブランク（ハイライト）
+            Text("___")
+                .font(.body.monospaced())
+                .padding(.horizontal, 8)
+                .padding(.vertical, 6)
+                .background(Color.blue.opacity(0.15))
+                .foregroundStyle(.blue)
+                .clipShape(RoundedRectangle(cornerRadius: 6))
+                .overlay(
+                    RoundedRectangle(cornerRadius: 6)
+                        .stroke(Color.blue, lineWidth: 1.5)
+                )
+        } else {
+            // 未到達のブランク
+            Text("___")
+                .font(.body.monospaced())
+                .padding(.horizontal, 8)
+                .padding(.vertical, 6)
+                .background(Color(.systemGray5))
+                .foregroundStyle(.gray)
+                .clipShape(RoundedRectangle(cornerRadius: 6))
+        }
     }
 
     private var poolSection: some View {
@@ -106,9 +153,27 @@ struct ScriptOrderTapView: View {
     // MARK: - Actions
 
     private func setup() {
-        answer = ScriptOrderLogic.tokenize(transcript)
-        let indexed = answer.enumerated().map { IndexedToken(id: $0.offset, token: $0.element) }
-        pool = indexed.shuffled()
+        let tokens = ScriptOrderLogic.tokenize(transcript)
+        let blankIndices = ScriptOrderLogic.selectBlankIndices(tokens: tokens, level: level)
+
+        var blankOrder = 0
+        var built: [ClozeToken] = []
+        var answerWords: [String] = []
+        var poolTokens: [IndexedToken] = []
+
+        for (i, word) in tokens.enumerated() {
+            let isBlank = blankIndices.contains(i)
+            built.append(ClozeToken(id: i, word: word, isBlank: isBlank, blankOrder: isBlank ? blankOrder : -1))
+            if isBlank {
+                answerWords.append(word)
+                poolTokens.append(IndexedToken(id: blankOrder, token: word))
+                blankOrder += 1
+            }
+        }
+
+        allTokens = built
+        answer = answerWords
+        pool = poolTokens.shuffled()
         selected = []
         wrongIndex = nil
         isComplete = false
@@ -155,15 +220,23 @@ struct ScriptOrderTapView: View {
         }
     }
 
-    private func colorForSelected(at index: Int) -> Color {
-        if let wi = wrongIndex, index == wi {
+    private func colorForFilled(blankOrder: Int) -> Color {
+        if let wi = wrongIndex, blankOrder == wi {
             return .red
         }
         return .blue
     }
 }
 
-// MARK: - IndexedToken
+// MARK: - Models
+
+private struct ClozeToken: Identifiable {
+    let id: Int
+    let word: String
+    let isBlank: Bool
+    /// ブランク内での順番（0-based）。固定語は -1。
+    let blankOrder: Int
+}
 
 private struct IndexedToken: Identifiable {
     let id: Int
