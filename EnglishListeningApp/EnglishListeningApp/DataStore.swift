@@ -24,22 +24,31 @@ class DataStore {
         }
     }
     
-    func clips(filteredBy level: Int?, genre: String?) -> [Clip] {
+    func clips(filteredBy level: Int?, genre: String?, accent: String? = nil) -> [Clip] {
         var filtered = clips
-        
+
         if let level = level {
             filtered = filtered.filter { $0.level == level }
         }
-        
+
         if let genre = genre, genre != "All" {
             filtered = filtered.filter { $0.genre == genre }
         }
-        
+
+        if let accent = accent, accent != "All" {
+            filtered = filtered.filter { $0.accent == accent }
+        }
+
         return filtered
     }
-    
+
     var allGenres: [String] {
         let genres = Set(clips.map { $0.genre })
         return ["All"] + genres.sorted()
+    }
+
+    var allAccents: [String] {
+        let accents = Set(clips.map { $0.accent })
+        return ["All"] + accents.sorted()
     }
 }

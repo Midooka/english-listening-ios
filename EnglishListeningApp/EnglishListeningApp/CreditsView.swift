@@ -2,7 +2,7 @@ import SwiftUI
 
 struct CreditsView: View {
     @Environment(\.dismiss) private var dismiss
-    
+
     var body: some View {
         NavigationStack {
             ScrollView {
@@ -11,59 +11,54 @@ struct CreditsView: View {
                         .font(.largeTitle)
                         .bold()
                         .padding(.bottom, 8)
-                    
+
                     VStack(alignment: .leading, spacing: 12) {
-                        Text("Audio Dataset")
+                        Text("Audio")
                             .font(.headline)
-                        
-                        Text("LibriSpeech ASR corpus")
+
+                        Text("Generated with macOS Text-to-Speech")
                             .font(.body)
-                        
-                        Text("OpenSLR SLR12")
+
+                        Text("8 voices across 6 accent varieties: American, British, Australian, Irish, Indian, and South African.")
                             .font(.subheadline)
                             .foregroundStyle(.secondary)
-                        
-                        Link("https://www.openslr.org/12", 
-                             destination: URL(string: "https://www.openslr.org/12")!)
-                            .font(.subheadline)
                     }
                     .padding()
                     .frame(maxWidth: .infinity, alignment: .leading)
                     .background(Color(.systemGray6))
                     .clipShape(RoundedRectangle(cornerRadius: 12))
-                    
+
                     VStack(alignment: .leading, spacing: 12) {
-                        Text("License")
+                        Text("Content")
                             .font(.headline)
-                        
-                        Text("CC BY 4.0")
+
+                        Text("IELTS-style Listening Practice")
                             .font(.body)
                             .bold()
-                        
-                        Text("Creative Commons Attribution 4.0 International License")
+
+                        Text("100 clips across 4 levels (Band 5-8) and 10 topic categories, designed for Japanese learners preparing for the IELTS exam.")
                             .font(.subheadline)
                             .foregroundStyle(.secondary)
-                        
-                        Link("https://creativecommons.org/licenses/by/4.0/", 
-                             destination: URL(string: "https://creativecommons.org/licenses/by/4.0/")!)
-                            .font(.subheadline)
                     }
                     .padding()
                     .frame(maxWidth: .infinity, alignment: .leading)
                     .background(Color(.systemGray6))
                     .clipShape(RoundedRectangle(cornerRadius: 12))
-                    
+
                     VStack(alignment: .leading, spacing: 12) {
-                        Text("Citation")
+                        Text("Voices")
                             .font(.headline)
-                        
-                        Text("""
-                        Vassil Panayotov, Guoguo Chen, Daniel Povey and Sanjeev Khudanpur. \
-                        "LibriSpeech: an ASR corpus based on public domain audio books", \
-                        ICASSP 2015.
-                        """)
-                            .font(.caption)
-                            .foregroundStyle(.secondary)
+
+                        VStack(alignment: .leading, spacing: 6) {
+                            voiceRow("Samantha", accent: "American")
+                            voiceRow("Reed", accent: "American")
+                            voiceRow("Daniel", accent: "British")
+                            voiceRow("Flo", accent: "British")
+                            voiceRow("Karen", accent: "Australian")
+                            voiceRow("Moira", accent: "Irish")
+                            voiceRow("Rishi", accent: "Indian")
+                            voiceRow("Tessa", accent: "South African")
+                        }
                     }
                     .padding()
                     .frame(maxWidth: .infinity, alignment: .leading)
@@ -79,6 +74,17 @@ struct CreditsView: View {
                     }
                 }
             }
+        }
+    }
+
+    private func voiceRow(_ name: String, accent: String) -> some View {
+        HStack {
+            Text(name)
+                .font(.subheadline)
+            Spacer()
+            Text(accent)
+                .font(.caption)
+                .foregroundStyle(.secondary)
         }
     }
 }

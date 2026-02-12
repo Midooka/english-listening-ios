@@ -7,8 +7,22 @@ class ProgressStore {
 
     private var progressMap: [String: ClipProgress] = [:]
 
+    /// コンテンツが変わったらリセットするためのバージョン。
+    /// クリップ内容を差し替えたらインクリメントすること。
+    private static let contentVersion = 2
+    private static let contentVersionKey = "clipContentVersion"
+
     init() {
+        migrateIfNeeded()
         load()
+    }
+
+    private func migrateIfNeeded() {
+        let saved = UserDefaults.standard.integer(forKey: Self.contentVersionKey)
+        if saved < Self.contentVersion {
+            UserDefaults.standard.removeObject(forKey: Self.userDefaultsKey)
+            UserDefaults.standard.set(Self.contentVersion, forKey: Self.contentVersionKey)
+        }
     }
 
     func progress(for clipId: String) -> ClipProgress {

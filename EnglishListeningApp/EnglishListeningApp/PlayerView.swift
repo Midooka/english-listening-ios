@@ -116,6 +116,10 @@ struct PlayerView: View {
                     .font(.caption)
                     .foregroundStyle(.secondary)
 
+                Text(clip.accent)
+                    .font(.caption)
+                    .foregroundStyle(.secondary)
+
                 Spacer()
 
                 let p = progressStore.progress(for: clip.id)
@@ -421,6 +425,7 @@ struct PlayerView: View {
         case 1: return .green
         case 2: return .orange
         case 3: return .red
+        case 4: return .purple
         default: return .gray
         }
     }
@@ -467,6 +472,7 @@ struct PlayerView: View {
         case 1: return .green
         case 2: return .orange
         case 3: return .red
+        case 4: return .purple
         default: return .gray
         }
     }

@@ -13,6 +13,7 @@ struct LibraryView: View {
     @Environment(ProgressStore.self) private var progressStore
     @State private var selectedLevel: Int? = nil
     @State private var selectedGenre: String = "All"
+    @State private var selectedAccent: String = "All"
     @State private var showCredits = false
     @State private var selectedStatus: StatusFilter = .all
     
@@ -70,6 +71,7 @@ struct LibraryView: View {
                     Text("1").tag(1 as Int?)
                     Text("2").tag(2 as Int?)
                     Text("3").tag(3 as Int?)
+                    Text("4").tag(4 as Int?)
                 }
                 .pickerStyle(.segmented)
             }
@@ -88,7 +90,7 @@ struct LibraryView: View {
                 .pickerStyle(.segmented)
             }
 
-            // Genre Filter
+            // Genre & Accent Filters
             HStack {
                 Text("Genre:")
                     .font(.subheadline)
@@ -100,6 +102,19 @@ struct LibraryView: View {
                     }
                 }
                 .pickerStyle(.menu)
+
+                Spacer()
+
+                Text("Accent:")
+                    .font(.subheadline)
+                    .foregroundStyle(.secondary)
+
+                Picker("Accent", selection: $selectedAccent) {
+                    ForEach(dataStore.allAccents, id: \.self) { accent in
+                        Text(accent).tag(accent)
+                    }
+                }
+                .pickerStyle(.menu)
             }
         }
         .padding()
@@ -107,7 +122,7 @@ struct LibraryView: View {
     }
     
     private var filteredClips: [Clip] {
-        let clips = dataStore.clips(filteredBy: selectedLevel, genre: selectedGenre)
+        let clips = dataStore.clips(filteredBy: selectedLevel, genre: selectedGenre, accent: selectedAccent)
         switch selectedStatus {
         case .all:
             return clips
@@ -169,6 +184,10 @@ struct ClipRow: View {
                     .font(.subheadline)
                     .foregroundStyle(.secondary)
 
+                Text(clip.accent)
+                    .font(.caption2)
+                    .foregroundStyle(.secondary)
+
                 if let lastPlayed = progress.lastPlayedAt {
                     Spacer()
                     Text("Last: \(lastPlayed, format: .dateTime.month().day())")
@@ -177,10 +196,6 @@ struct ClipRow: View {
                 }
             }
 
-            Text(clip.transcript)
-                .font(.callout)
-                .lineLimit(2)
-                .foregroundStyle(.primary)
             }
         }
         .padding(.vertical, 4)
@@ -191,6 +206,7 @@ struct ClipRow: View {
         case 1: return .green
         case 2: return .orange
         case 3: return .red
+        case 4: return .purple
         default: return .gray
         }
     }

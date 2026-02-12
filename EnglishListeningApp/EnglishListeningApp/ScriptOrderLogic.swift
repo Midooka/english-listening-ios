@@ -32,6 +32,7 @@ enum ScriptOrderLogic {
         switch level {
         case 1: return 5
         case 2: return 7
+        case 4: return 12
         default: return 10
         }
     }

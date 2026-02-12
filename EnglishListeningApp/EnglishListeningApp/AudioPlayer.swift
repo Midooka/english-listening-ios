@@ -34,7 +34,7 @@ class AudioPlayer: NSObject, AVAudioPlayerDelegate {
     }
     
     func play(clip: Clip) {
-        let audioFileName = clip.audioId ?? clip.id
+        let audioFileName = clip.id
 
         // If already playing the same clip, just resume
         if currentClipId == clip.id, let player = audioPlayer {

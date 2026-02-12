@@ -1,1602 +1,1202 @@
 [
   {
     "id": "clip001",
-    "audioId": "2412-153954-0019",
-    "level": 2,
-    "genre": "Literature",
-    "transcript": "But by and by they came to my watch which I had hidden away in the inmost pocket that I had and had forgotten when they began their search.",
-    "question": "Why wasn't the watch found at first during the search?",
-    "choices": [
-      "It was left at home",
-      "The narrator had forgotten about it himself",
-      "They deliberately ignored it",
-      "It was too small to notice"
-    ],
+    "level": 1,
+    "genre": "Daily Life",
+    "accent": "American",
+    "voice": "Samantha",
+    "transcript": "I usually wake up at seven and have coffee before work.",
+    "question": "What does the speaker do before work?",
+    "choices": ["Goes for a run", "Has coffee", "Reads the newspaper", "Takes a shower"],
     "answerIndex": 1,
-    "explanation": "He 'had forgotten' about the watch in his deepest pocket when the search began."
+    "explanation": "The speaker says they 'have coffee before work.'"
   },
   {
     "id": "clip002",
-    "audioId": "2412-153954-0023",
-    "level": 2,
-    "genre": "Literature",
-    "transcript": "This had some effect in calming him.",
-    "question": "How did the person react as a result?",
-    "choices": [
-      "He got more angry",
-      "He became a little calmer",
-      "He fell asleep right away",
-      "He started shouting"
-    ],
-    "answerIndex": 1,
-    "explanation": "'Some effect in calming him' means he became a little calmer."
+    "level": 1,
+    "genre": "Travel",
+    "accent": "British",
+    "voice": "Daniel",
+    "transcript": "The train to London leaves at half past nine every morning.",
+    "question": "What time does the train leave?",
+    "choices": ["9:00", "9:15", "9:30", "10:00"],
+    "answerIndex": 2,
+    "explanation": "'Half past nine' means 9:30."
   },
   {
     "id": "clip003",
-    "audioId": "2412-153954-0015",
-    "level": 3,
-    "genre": "Literature",
-    "transcript": "Suffice it that I found myself taken before the chief magistrate and by his orders was placed in an apartment with two other people who were the first I had seen looking anything but well and handsome.",
-    "question": "What was unusual about the two people in the apartment?",
-    "choices": [
-      "They spoke a strange language",
-      "They looked sick and not good-looking",
-      "They were very tall",
-      "They would not talk at all"
-    ],
-    "answerIndex": 1,
-    "explanation": "'Looking anything but well and handsome' means they looked sick and not good-looking."
+    "level": 1,
+    "genre": "Health",
+    "accent": "Australian",
+    "voice": "Karen",
+    "transcript": "You should drink at least eight glasses of water every day.",
+    "question": "How much water is recommended daily?",
+    "choices": ["Four glasses", "Six glasses", "Eight glasses", "Ten glasses"],
+    "answerIndex": 2,
+    "explanation": "The speaker recommends 'at least eight glasses' daily."
   },
   {
     "id": "clip004",
-    "audioId": "2412-153954-0003",
-    "level": 2,
-    "genre": "Literature",
-    "transcript": "The vine grew outside many of the houses and there were some with sign boards on which was painted a bottle and a glass that made me feel much at home.",
-    "question": "Why did the sign boards make the narrator feel at home?",
-    "choices": [
-      "They were written in his language",
-      "They showed pictures of drinks, like a bar",
-      "They had his family name",
-      "They pointed to his hometown"
-    ],
-    "answerIndex": 1,
-    "explanation": "A bottle and a glass on the signs reminded him of bars or pubs he knew from home."
+    "level": 1,
+    "genre": "Education",
+    "accent": "Irish",
+    "voice": "Moira",
+    "transcript": "The library closes at five on weekdays and three on Saturdays.",
+    "question": "When does the library close on Saturdays?",
+    "choices": ["At three", "At four", "At five", "At six"],
+    "answerIndex": 0,
+    "explanation": "The library closes 'at three on Saturdays.'"
   },
   {
     "id": "clip005",
-    "audioId": "2412-153954-0002",
     "level": 1,
-    "genre": "Literature",
-    "transcript": "The streets were narrow and unpaved but very fairly clean.",
-    "question": "What was surprising about the streets?",
-    "choices": [
-      "They were very wide",
-      "They had no pavement but were quite clean",
-      "They were covered in stone",
-      "They were full of mud"
-    ],
-    "answerIndex": 1,
-    "explanation": "The streets were 'narrow and unpaved but very fairly clean' — no pavement, yet quite clean."
+    "genre": "Work",
+    "accent": "Indian",
+    "voice": "Rishi",
+    "transcript": "My office is on the third floor of the building next to the park.",
+    "question": "Where is the speaker's office?",
+    "choices": ["First floor", "Second floor", "Third floor", "Fourth floor"],
+    "answerIndex": 2,
+    "explanation": "The office is 'on the third floor.'"
   },
   {
     "id": "clip006",
-    "audioId": "1272-128104-0000",
-    "level": 2,
-    "genre": "Essay",
-    "transcript": "Mister Quilter is the apostle of the middle classes and we are glad to welcome his gospel.",
-    "question": "How does the speaker characterize Mister Quilter's role?",
-    "choices": [
-      "A strong critic of rich people",
-      "A leader and voice for common people",
-      "A teacher at a church",
-      "A member of the government"
-    ],
-    "answerIndex": 1,
-    "explanation": "'Apostle of the middle classes' means he speaks for and leads common, ordinary people."
+    "level": 1,
+    "genre": "Technology",
+    "accent": "South African",
+    "voice": "Tessa",
+    "transcript": "Press the blue button to turn on the computer.",
+    "question": "What should you press to turn on the computer?",
+    "choices": ["The red button", "The green button", "The blue button", "The white button"],
+    "answerIndex": 2,
+    "explanation": "You should 'press the blue button.'"
   },
   {
     "id": "clip007",
-    "audioId": "84-121123-0001",
     "level": 1,
-    "genre": "Drama",
-    "transcript": "But in less than five minutes the staircase groaned beneath an extraordinary weight.",
-    "question": "What does the passage suggest was happening on the staircase?",
-    "choices": [
-      "Someone was repairing it",
-      "Something very heavy was being carried on it",
-      "It was collapsing from age",
-      "A storm was shaking the building"
-    ],
-    "answerIndex": 1,
-    "explanation": "The staircase 'groaned beneath an extraordinary weight' implies something very heavy was on it."
+    "genre": "Environment",
+    "accent": "American",
+    "voice": "Reed",
+    "transcript": "It will be sunny today with a high of twenty-five degrees.",
+    "question": "What will the weather be like today?",
+    "choices": ["Rainy", "Cloudy", "Sunny", "Windy"],
+    "answerIndex": 2,
+    "explanation": "The forecast says 'it will be sunny today.'"
   },
   {
     "id": "clip008",
-    "audioId": "7976-105575-0007",
-    "level": 2,
-    "genre": "History",
-    "transcript": "That night the enemy slipped away leaving hundreds and hundreds of his dead and wounded on the field.",
-    "question": "What did the enemy leave behind when they retreated?",
-    "choices": [
-      "Their weapons and food",
-      "Many dead and hurt soldiers",
-      "A letter asking for peace",
-      "Nothing at all"
-    ],
+    "level": 1,
+    "genre": "Business",
+    "accent": "British",
+    "voice": "Flo",
+    "transcript": "The shop opens at nine in the morning and closes at six.",
+    "question": "What time does the shop open?",
+    "choices": ["Eight", "Nine", "Ten", "Eleven"],
     "answerIndex": 1,
-    "explanation": "They left 'hundreds and hundreds of dead and wounded' — many dead and hurt soldiers."
+    "explanation": "The shop 'opens at nine in the morning.'"
   },
   {
     "id": "clip009",
-    "audioId": "5338-24615-0001",
-    "level": 2,
-    "genre": "Literature",
-    "transcript": "The houses seemed miserable in the extreme especially to an eye accustomed to the smiling neatness of English cottages.",
-    "question": "Why did the narrator find the houses so unpleasant?",
-    "choices": [
-      "They cost too much money",
-      "He was used to cleaner, nicer homes",
-      "He thought they were dangerous",
-      "They had no doors or windows"
-    ],
-    "answerIndex": 1,
-    "explanation": "The houses seemed bad 'especially to an eye accustomed to the smiling neatness of English cottages'."
+    "level": 1,
+    "genre": "News",
+    "accent": "Australian",
+    "voice": "Karen",
+    "transcript": "The new bridge will open to traffic next Monday.",
+    "question": "When will the bridge open?",
+    "choices": ["Today", "Tomorrow", "Next Monday", "Next Friday"],
+    "answerIndex": 2,
+    "explanation": "The bridge 'will open to traffic next Monday.'"
   },
   {
     "id": "clip010",
-    "audioId": "1993-147149-0005",
-    "level": 2,
-    "genre": "Drama",
-    "transcript": "She stopped with her hand on the latch of the Wilsons' door to still her beating heart and listened to the hushed quiet within.",
-    "question": "What was she trying to do before entering?",
-    "choices": [
-      "Find the right key",
-      "Calm herself down",
-      "Listen for danger inside",
-      "Wait for someone to open"
-    ],
-    "answerIndex": 1,
-    "explanation": "She stopped 'to still her beating heart' — she was trying to calm herself before going in."
+    "level": 1,
+    "genre": "Academic",
+    "accent": "Indian",
+    "voice": "Rishi",
+    "transcript": "Please hand in your homework by Friday afternoon.",
+    "question": "When is the homework due?",
+    "choices": ["Wednesday morning", "Thursday evening", "Friday afternoon", "Monday morning"],
+    "answerIndex": 2,
+    "explanation": "Homework is due 'by Friday afternoon.'"
   },
   {
     "id": "clip011",
-    "audioId": "2412-153954-0000",
-    "level": 3,
-    "genre": "Literature",
-    "transcript": "Shortly after passing one of these chapels we came suddenly upon a village which started up out of the mist and I was alarmed lest I should be made an object of curiosity or dislike.",
-    "question": "What worried the narrator about encountering the village?",
-    "choices": [
-      "He thought the village was empty",
-      "He was afraid people would watch him or not like him",
-      "He worried about wild animals",
-      "He thought he was lost"
-    ],
+    "level": 1,
+    "genre": "Daily Life",
+    "accent": "British",
+    "voice": "Daniel",
+    "transcript": "I take the bus to work because parking is too expensive.",
+    "question": "Why does the speaker take the bus?",
+    "choices": ["It is faster", "Parking costs too much", "No car available", "The office is close"],
     "answerIndex": 1,
-    "explanation": "He feared being 'an object of curiosity or dislike' — people watching him or not liking him."
+    "explanation": "The reason is 'parking is too expensive.'"
   },
   {
     "id": "clip012",
-    "audioId": "84-121123-0006",
     "level": 1,
-    "genre": "Drama",
-    "transcript": "For some time nothing was heard in that chamber but sobs, exclamations, and prayers.",
-    "question": "What was the atmosphere in the room?",
-    "choices": [
-      "Happy and cheerful",
-      "Full of sadness and crying",
-      "Completely quiet and empty",
-      "Noisy with fighting"
-    ],
+    "genre": "Travel",
+    "accent": "South African",
+    "voice": "Tessa",
+    "transcript": "The hotel is a five minute walk from the beach.",
+    "question": "How far is the hotel from the beach?",
+    "choices": ["Two minutes", "Five minutes", "Ten minutes", "Fifteen minutes"],
     "answerIndex": 1,
-    "explanation": "Sobs, exclamations, and prayers mean the room was full of sadness and crying."
+    "explanation": "It is 'a five minute walk from the beach.'"
   },
   {
     "id": "clip013",
-    "audioId": "1272-128104-0007",
-    "level": 2,
-    "genre": "Essay",
-    "transcript": "Painting, he tells us, is of a different quality to mathematics and finish in art is adding more fact.",
-    "question": "What does the speaker say about finishing a painting?",
-    "choices": [
-      "It needs less skill than science",
-      "It means adding more true details",
-      "It should be done as fast as possible",
-      "You need to be good at math"
-    ],
-    "answerIndex": 1,
-    "explanation": "'Finish in art is adding more fact' means finishing a painting is about adding more true details."
+    "level": 1,
+    "genre": "Health",
+    "accent": "American",
+    "voice": "Samantha",
+    "transcript": "The doctor said I need to rest for three days.",
+    "question": "How long should the speaker rest?",
+    "choices": ["One day", "Two days", "Three days", "One week"],
+    "answerIndex": 2,
+    "explanation": "The doctor said to 'rest for three days.'"
   },
   {
     "id": "clip014",
-    "audioId": "7976-105575-0008",
-    "level": 2,
-    "genre": "History",
-    "transcript": "With a few lanterns our men then went about and tried to gather up the wounded. The dead were left till morning.",
-    "question": "Why were only the wounded attended to that night?",
-    "choices": [
-      "There were no dead to attend to",
-      "Darkness made it impossible to see anything",
-      "The dead could wait but the wounded could not",
-      "They ran out of medical supplies"
-    ],
+    "level": 1,
+    "genre": "Education",
+    "accent": "Irish",
+    "voice": "Moira",
+    "transcript": "There are thirty students in our English class this term.",
+    "question": "How many students are in the class?",
+    "choices": ["Twenty", "Twenty-five", "Thirty", "Thirty-five"],
     "answerIndex": 2,
-    "explanation": "They prioritized the wounded with lanterns; the dead were left till morning as they could no longer be helped."
+    "explanation": "There are 'thirty students' in the class."
   },
   {
     "id": "clip015",
-    "audioId": "2412-153954-0012",
-    "level": 2,
-    "genre": "Literature",
-    "transcript": "The country was highly cultivated, every ledge being planted with chestnuts, walnuts, and apple trees from which the apples were now gathering.",
-    "question": "What does the passage tell us about the landscape?",
-    "choices": [
-      "It was wild and untouched",
-      "It was carefully farmed with fruit and nut trees",
-      "It was mostly covered in grass",
-      "It had recently been cleared of all trees"
-    ],
+    "level": 1,
+    "genre": "Work",
+    "accent": "American",
+    "voice": "Reed",
+    "transcript": "The meeting starts at two and should finish by four.",
+    "question": "How long is the meeting expected to last?",
+    "choices": ["One hour", "Two hours", "Three hours", "Four hours"],
     "answerIndex": 1,
-    "explanation": "'Highly cultivated' with chestnuts, walnuts, and apple trees indicates careful farming with fruit and nut trees."
+    "explanation": "From two to four is two hours."
   },
   {
     "id": "clip016",
-    "audioId": "5338-24615-0013",
-    "level": 2,
-    "genre": "Literature",
-    "transcript": "The court was spacious, well paved, and perfectly clean, there being probably another entrance behind the stables for removing the litter.",
-    "question": "How did they likely keep the courtyard so clean?",
-    "choices": [
-      "They washed it every morning",
-      "Dirty things were taken out through a back door",
-      "No animals were allowed inside",
-      "Workers cleaned it all day"
-    ],
+    "level": 1,
+    "genre": "Technology",
+    "accent": "British",
+    "voice": "Flo",
+    "transcript": "You can connect to the free wifi in the lobby.",
+    "question": "Where can you connect to wifi?",
+    "choices": ["In the room", "In the lobby", "In the restaurant", "Outside"],
     "answerIndex": 1,
-    "explanation": "'Another entrance behind the stables for removing the litter' means dirty things went out a back door."
+    "explanation": "Free wifi is available 'in the lobby.'"
   },
   {
     "id": "clip017",
-    "audioId": "3576-138058-0001",
-    "level": 3,
-    "genre": "Literature",
-    "transcript": "But Don Quixote, whom his thoughts far more than hunger kept awake, could not close an eye and roamed in fancy to and fro through all sorts of places.",
-    "question": "What was Don Quixote doing while unable to sleep?",
-    "choices": [
-      "Eating a meal",
-      "Wandering through imaginary places in his mind",
-      "Walking around the campsite",
-      "Reading a book by firelight"
-    ],
-    "answerIndex": 1,
-    "explanation": "'Roamed in fancy to and fro through all sorts of places' means he wandered through places in his imagination."
+    "level": 1,
+    "genre": "Environment",
+    "accent": "Australian",
+    "voice": "Karen",
+    "transcript": "Please put glass bottles in the green recycling bin.",
+    "question": "Where should glass bottles go?",
+    "choices": ["The red bin", "The blue bin", "The green bin", "The yellow bin"],
+    "answerIndex": 2,
+    "explanation": "Glass bottles go 'in the green recycling bin.'"
   },
   {
     "id": "clip018",
-    "audioId": "84-121123-0020",
-    "level": 3,
-    "genre": "Drama",
-    "transcript": "It was something terrible to witness the silent agony, the mute despair of Noirtier, whose tears silently rolled down his cheeks.",
-    "question": "How was Noirtier showing his pain?",
-    "choices": [
-      "He was crying out loud",
-      "He was quiet, with tears running down his face",
-      "He was very angry",
-      "He would not show any feeling at all"
-    ],
-    "answerIndex": 1,
-    "explanation": "'Silent agony' and 'mute despair' with tears rolling silently — quiet, with tears on his face."
+    "level": 1,
+    "genre": "Business",
+    "accent": "Indian",
+    "voice": "Rishi",
+    "transcript": "The price of the ticket is fifteen dollars for adults.",
+    "question": "How much is an adult ticket?",
+    "choices": ["Ten dollars", "Twelve dollars", "Fifteen dollars", "Twenty dollars"],
+    "answerIndex": 2,
+    "explanation": "The ticket costs 'fifteen dollars for adults.'"
   },
   {
     "id": "clip019",
-    "audioId": "7976-105575-0015",
-    "level": 2,
-    "genre": "History",
-    "transcript": "Under the same quiet moonlight and only six hundred yards away from us also lay the victorious rebel army.",
-    "question": "What made the situation so dangerous that night?",
-    "choices": [
-      "A big storm was coming",
-      "The enemy was very close to them",
-      "They had no food left",
-      "They could not see in the dark"
-    ],
-    "answerIndex": 1,
-    "explanation": "The rebel army was 'only six hundred yards away' — very close and dangerous."
+    "level": 1,
+    "genre": "News",
+    "accent": "South African",
+    "voice": "Tessa",
+    "transcript": "The city will build a new sports centre near the river.",
+    "question": "What will be built near the river?",
+    "choices": ["A hospital", "A school", "A sports centre", "A shopping mall"],
+    "answerIndex": 2,
+    "explanation": "A 'new sports centre' will be built near the river."
   },
   {
     "id": "clip020",
-    "audioId": "2412-153954-0016",
-    "level": 2,
-    "genre": "Literature",
-    "transcript": "In fact one of them was plainly very much out of health and coughed violently from time to time in spite of manifest efforts to suppress it.",
-    "question": "What was the sick person trying to do about their coughing?",
-    "choices": [
-      "They were asking for medicine",
-      "They were trying to hold it back",
-      "They were ignoring it completely",
-      "They were leaving the room"
-    ],
-    "answerIndex": 1,
-    "explanation": "'In spite of manifest efforts to suppress it' means they were clearly trying to hold back the coughing."
+    "level": 1,
+    "genre": "Academic",
+    "accent": "American",
+    "voice": "Samantha",
+    "transcript": "The test has forty questions and you have one hour to finish.",
+    "question": "How many questions are on the test?",
+    "choices": ["Twenty", "Thirty", "Forty", "Fifty"],
+    "answerIndex": 2,
+    "explanation": "The test has 'forty questions.'"
   },
   {
     "id": "clip021",
-    "audioId": "1272-128104-0001",
     "level": 1,
-    "genre": "Essay",
-    "transcript": "Nor is Mister Quilter's manner less interesting than his matter.",
-    "question": "What does the speaker say about Mister Quilter's style?",
-    "choices": [
-      "His style is boring",
-      "His way of speaking is just as interesting as what he says",
-      "He talks too much",
-      "Nobody listens to him"
-    ],
+    "genre": "Daily Life",
+    "accent": "Irish",
+    "voice": "Moira",
+    "transcript": "We need to buy milk, bread and eggs from the shop.",
+    "question": "What does the speaker need to buy?",
+    "choices": ["Milk, bread and butter", "Milk, bread and eggs", "Cheese, bread and eggs", "Milk, rice and eggs"],
     "answerIndex": 1,
-    "explanation": "'Manner less interesting than his matter' means his style is equally interesting as his content."
+    "explanation": "They need 'milk, bread and eggs.'"
   },
   {
     "id": "clip022",
-    "audioId": "1462-170138-0000",
-    "level": 3,
-    "genre": "Literature",
-    "transcript": "He had written a number of books himself, among them a history of dancing, a history of costume, a key to Shakespeare's sonnets, a study of the poetry of Ernest Dowson, et cetera.",
-    "question": "What kind of person was he?",
-    "choices": [
-      "A famous dancer",
-      "A writer who had published many different books",
-      "A costume designer",
-      "A well-known poet"
-    ],
-    "answerIndex": 1,
-    "explanation": "He wrote books on dancing, costume, Shakespeare, and poetry — many different topics."
+    "level": 1,
+    "genre": "Travel",
+    "accent": "American",
+    "voice": "Reed",
+    "transcript": "The flight to Tokyo takes about twelve hours from here.",
+    "question": "How long is the flight to Tokyo?",
+    "choices": ["Eight hours", "Ten hours", "Twelve hours", "Fourteen hours"],
+    "answerIndex": 2,
+    "explanation": "The flight 'takes about twelve hours.'"
   },
   {
     "id": "clip023",
-    "audioId": "1673-143396-0002",
-    "level": 3,
-    "genre": "Essay",
-    "transcript": "Yet the most charitable criticism must refuse these sectaries any knowledge of the pure and proper divinity of Christ.",
-    "question": "What does even the kindest judgment say about these people?",
-    "choices": [
-      "They were very religious",
-      "They did not truly understand the holy nature of Christ",
-      "They were great teachers",
-      "They knew more than anyone"
-    ],
+    "level": 1,
+    "genre": "Health",
+    "accent": "British",
+    "voice": "Daniel",
+    "transcript": "Take this medicine twice a day, once in the morning and once at night.",
+    "question": "How often should the medicine be taken?",
+    "choices": ["Once a day", "Twice a day", "Three times a day", "Four times a day"],
     "answerIndex": 1,
-    "explanation": "Even 'the most charitable criticism must refuse' them knowledge of Christ's divinity."
+    "explanation": "Take the medicine 'twice a day.'"
   },
   {
     "id": "clip024",
-    "audioId": "174-168635-0000",
     "level": 1,
-    "genre": "Literature",
-    "transcript": "He had never been father, lover, husband, friend.",
-    "question": "What does this tell us about the man's life?",
-    "choices": [
-      "He had many friends",
-      "He had no close relationships with anyone",
-      "He was a loving father",
-      "He was happily married"
-    ],
-    "answerIndex": 1,
-    "explanation": "Never a father, lover, husband, or friend means he had no close relationships."
+    "genre": "Work",
+    "accent": "Australian",
+    "voice": "Karen",
+    "transcript": "You can park your car in the underground car park for free.",
+    "question": "How much does parking cost?",
+    "choices": ["Five dollars", "Ten dollars", "It is free", "Twenty dollars"],
+    "answerIndex": 2,
+    "explanation": "Parking is 'for free.'"
   },
   {
     "id": "clip025",
-    "audioId": "1919-142785-0001",
-    "level": 3,
-    "genre": "Science",
-    "transcript": "Long pepper: this is the produce of a different plant from that which produces the black, it consisting of the half-ripe flower heads of what naturalists call Piper Longum and Chaba.",
-    "question": "How is long pepper different from black pepper?",
-    "choices": [
-      "It tastes much stronger",
-      "It comes from a different kind of plant",
-      "It is the same plant but dried longer",
-      "It is not really pepper at all"
-    ],
+    "level": 1,
+    "genre": "Technology",
+    "accent": "British",
+    "voice": "Flo",
+    "transcript": "Charge your phone for at least two hours before using it.",
+    "question": "How long should you charge the phone?",
+    "choices": ["One hour", "At least two hours", "Three hours", "Four hours"],
     "answerIndex": 1,
-    "explanation": "Long pepper is 'the produce of a different plant from that which produces the black.'"
+    "explanation": "Charge 'for at least two hours.'"
   },
   {
     "id": "clip026",
-    "audioId": "1988-147956-0001",
     "level": 2,
-    "genre": "Literature",
-    "transcript": "Occasionally one of the horses would tear off with his teeth a plant full of blossoms and walk along munching it, the flowers nodding in time to his bites as he ate down toward them.",
-    "question": "What were the horses doing as they walked?",
-    "choices": [
-      "Running through the field",
-      "Eating flowers from plants they pulled up",
-      "Drinking from a stream",
-      "Sleeping by the road"
-    ],
+    "genre": "Daily Life",
+    "accent": "American",
+    "voice": "Samantha",
+    "transcript": "I used to drive to work every day, but now I cycle because it keeps me fit and saves money on petrol.",
+    "question": "Why did the speaker switch to cycling?",
+    "choices": ["The car broke down", "To stay fit and save money", "The office moved closer", "Cycling is faster"],
     "answerIndex": 1,
-    "explanation": "The horse would 'tear off a plant full of blossoms and walk along munching it.'"
+    "explanation": "Cycling 'keeps me fit and saves money on petrol.'"
   },
   {
     "id": "clip027",
-    "audioId": "1993-147149-0000",
     "level": 2,
-    "genre": "Literature",
-    "transcript": "How infinite the wealth of love and hope garnered in these same tiny treasure houses, and oh!",
-    "question": "What does the speaker say is kept in these small places?",
-    "choices": [
-      "Gold and silver",
-      "A great amount of love and hope",
-      "Books and papers",
-      "Food and water"
-    ],
-    "answerIndex": 1,
-    "explanation": "'Infinite wealth of love and hope' means a great amount of love and hope."
+    "genre": "Travel",
+    "accent": "British",
+    "voice": "Daniel",
+    "transcript": "If you check in online, you can skip the long queue at the airport and go straight to the gate.",
+    "question": "What is the advantage of checking in online?",
+    "choices": ["Cheaper tickets", "Better seats", "Skip the queue at the airport", "Free luggage"],
+    "answerIndex": 2,
+    "explanation": "You can 'skip the long queue' by checking in online."
   },
   {
     "id": "clip028",
-    "audioId": "2035-147960-0000",
     "level": 2,
-    "genre": "Literature",
-    "transcript": "She was four years older than I, to be sure, and had seen more of the world, but I was a boy and she was a girl, and I resented her protecting manner.",
-    "question": "Why did the boy feel upset with the girl?",
-    "choices": [
-      "She was younger than him",
-      "He didn't like the way she tried to look after him",
-      "She was unkind to him",
-      "She ignored him all the time"
-    ],
-    "answerIndex": 1,
-    "explanation": "He 'resented her protecting manner' — he didn't like being looked after by her."
+    "genre": "Health",
+    "accent": "Australian",
+    "voice": "Karen",
+    "transcript": "Getting enough sleep is just as important as eating well. Most adults need between seven and nine hours a night.",
+    "question": "How much sleep do most adults need?",
+    "choices": ["Five to six hours", "Six to seven hours", "Seven to nine hours", "Nine to eleven hours"],
+    "answerIndex": 2,
+    "explanation": "Most adults need 'between seven and nine hours a night.'"
   },
   {
     "id": "clip029",
-    "audioId": "2078-142845-0010",
-    "level": 3,
-    "genre": "Science",
-    "transcript": "Italian millet, or great Indian millet, is cultivated in Egypt and Nubia, where it is called dhourra, and is used as human food as well as for the fermentation of beer.",
-    "question": "What is the millet used for?",
-    "choices": [
-      "Only for feeding animals",
-      "Both as food for people and for making beer",
-      "Only for making bread",
-      "Only for making medicine"
-    ],
+    "level": 2,
+    "genre": "Education",
+    "accent": "Irish",
+    "voice": "Moira",
+    "transcript": "The university has set up a new programme to help international students settle in during their first week.",
+    "question": "What is the new programme for?",
+    "choices": ["Teaching local language", "Helping international students settle in", "Offering scholarships", "Finding part-time jobs"],
     "answerIndex": 1,
-    "explanation": "It is 'used as human food as well as for the fermentation of beer.'"
+    "explanation": "The programme helps 'international students settle in.'"
   },
   {
     "id": "clip030",
-    "audioId": "2086-149214-0000",
-    "level": 3,
-    "genre": "Literature",
-    "transcript": "The narrative, it may be, is woven of so humble a texture as to require this advantage, and at the same time to render it the more difficult of attainment.",
-    "question": "How does the author describe his own story?",
-    "choices": [
-      "He thinks it is very exciting",
-      "He admits it is simple and not very grand",
-      "He says it is the best ever",
-      "He believes it is too short"
-    ],
+    "level": 2,
+    "genre": "Work",
+    "accent": "Indian",
+    "voice": "Rishi",
+    "transcript": "Our team has been working overtime this month to meet the deadline for the new product launch.",
+    "question": "Why has the team been working overtime?",
+    "choices": ["Staff shortage", "To meet a product launch deadline", "Office renovation", "Training new employees"],
     "answerIndex": 1,
-    "explanation": "'So humble a texture' means the author sees his own story as simple and modest."
+    "explanation": "They work overtime 'to meet the deadline for the new product launch.'"
   },
   {
     "id": "clip031",
-    "audioId": "2277-149874-0001",
     "level": 2,
-    "genre": "Literature",
-    "transcript": "To Carrie, the sound of the little bells upon the horse cars, as they tinkled in and out of hearing, was as pleasing as it was novel.",
-    "question": "How did Carrie feel about the sound of the bells?",
-    "choices": [
-      "She thought it was annoying",
-      "She found it both pleasant and new to her",
-      "She was scared by it",
-      "She did not notice it at all"
-    ],
+    "genre": "Technology",
+    "accent": "South African",
+    "voice": "Tessa",
+    "transcript": "The latest update fixed several bugs and also added a dark mode feature that many users had been asking for.",
+    "question": "What new feature was added in the update?",
+    "choices": ["Voice control", "Dark mode", "Video calling", "Cloud backup"],
     "answerIndex": 1,
-    "explanation": "'As pleasing as it was novel' means the sound was both nice and new to Carrie."
+    "explanation": "The update 'added a dark mode feature.'"
   },
   {
     "id": "clip032",
-    "audioId": "2412-153947-0001",
-    "level": 1,
-    "genre": "Literature",
-    "transcript": "This is a mistake, though a perfectly natural one.",
-    "question": "What does the speaker think about the mistake?",
-    "choices": [
-      "It was done on purpose",
-      "It is wrong but easy to understand why someone would make it",
-      "It was a very serious error",
-      "It could never happen"
-    ],
+    "level": 2,
+    "genre": "Environment",
+    "accent": "American",
+    "voice": "Reed",
+    "transcript": "The city council has planted over two thousand trees this year as part of its plan to reduce air pollution.",
+    "question": "Why did the city plant trees?",
+    "choices": ["To attract tourists", "To reduce air pollution", "To create shade", "To sell timber"],
     "answerIndex": 1,
-    "explanation": "'A mistake, though a perfectly natural one' means it's wrong but understandable."
+    "explanation": "The trees are part of a plan 'to reduce air pollution.'"
   },
   {
     "id": "clip033",
-    "audioId": "2428-83699-0002",
-    "level": 1,
-    "genre": "Literature",
-    "transcript": "The reply was written in a sprawling feminine hand. It was a little vague.",
-    "question": "What was the letter like?",
-    "choices": [
-      "It was typed neatly",
-      "It was written by a woman and was not very clear",
-      "It was very long and detailed",
-      "It was written in a foreign language"
-    ],
+    "level": 2,
+    "genre": "Business",
+    "accent": "British",
+    "voice": "Flo",
+    "transcript": "Small businesses can apply for a government grant of up to ten thousand pounds to help with energy costs.",
+    "question": "What can small businesses apply for?",
+    "choices": ["A tax reduction", "A government grant for energy costs", "Free office space", "Lower rent"],
     "answerIndex": 1,
-    "explanation": "'Sprawling feminine hand' means a woman's writing; 'a little vague' means not very clear."
+    "explanation": "They can apply for 'a government grant to help with energy costs.'"
   },
   {
     "id": "clip034",
-    "audioId": "251-118436-0000",
-    "level": 1,
-    "genre": "Literature",
-    "transcript": "He was young. No spear had touched him, no poison lurked in his wine.",
-    "question": "What does this tell us about the young man?",
-    "choices": [
-      "He was a great fighter",
-      "He had not been hurt by weapons or poison",
-      "He was very sick",
-      "He loved to drink wine"
-    ],
-    "answerIndex": 1,
-    "explanation": "'No spear had touched him, no poison lurked' means he was unharmed by weapons or poison."
+    "level": 2,
+    "genre": "News",
+    "accent": "Australian",
+    "voice": "Karen",
+    "transcript": "Thousands of people turned out for the annual food festival, which featured dishes from over forty countries.",
+    "question": "How many countries were represented at the festival?",
+    "choices": ["Twenty", "Thirty", "Over forty", "Fifty"],
+    "answerIndex": 2,
+    "explanation": "The festival featured 'dishes from over forty countries.'"
   },
   {
     "id": "clip035",
-    "audioId": "2803-154320-0000",
     "level": 2,
-    "genre": "Literature",
-    "transcript": "Fortunately Will Halley was not a man in a hurry and did not use a press of canvas, or his masts would inevitably have come down.",
-    "question": "Why did Will Halley sail slowly?",
-    "choices": [
-      "He enjoyed watching the sea",
-      "Using too many sails would have broken the masts",
-      "He had no wind at all",
-      "He wanted to fish along the way"
-    ],
+    "genre": "Academic",
+    "accent": "Indian",
+    "voice": "Rishi",
+    "transcript": "For the group project, each team member should contribute at least two pages of research by next Wednesday.",
+    "question": "How much should each team member contribute?",
+    "choices": ["One page", "At least two pages", "Three pages", "Five pages"],
     "answerIndex": 1,
-    "explanation": "If he had used 'a press of canvas' (too many sails), 'his masts would have come down.'"
+    "explanation": "Each member should contribute 'at least two pages of research.'"
   },
   {
     "id": "clip036",
-    "audioId": "2902-9006-0000",
     "level": 2,
-    "genre": "Essay",
-    "transcript": "One who writes of such an era labours under a troublesome disadvantage.",
-    "question": "What does the writer say about writing about this time?",
-    "choices": [
-      "It is very easy",
-      "It is difficult and causes problems",
-      "It brings great fame",
-      "It is the most fun kind of writing"
-    ],
+    "genre": "Daily Life",
+    "accent": "British",
+    "voice": "Daniel",
+    "transcript": "I had to pick up my children from school early because the heating system broke down and the classrooms were too cold.",
+    "question": "Why were the children sent home early?",
+    "choices": ["A fire alarm", "The heating broke down", "A teacher was ill", "Heavy snow"],
     "answerIndex": 1,
-    "explanation": "'Labours under a troublesome disadvantage' means working with difficulty and problems."
+    "explanation": "The heating system broke down and 'the classrooms were too cold.'"
   },
   {
     "id": "clip037",
-    "audioId": "3000-15664-0002",
-    "level": 1,
-    "genre": "Essay",
-    "transcript": "Perhaps the profession of doing good may be full, but everybody should be kind at least to himself.",
-    "question": "What is the speaker's advice?",
-    "choices": [
-      "Help as many people as you can",
-      "Even if you cannot help everyone, at least be good to yourself",
-      "Never think about yourself",
-      "Working hard is what matters most"
-    ],
-    "answerIndex": 1,
-    "explanation": "Even if the job of 'doing good' is full, 'everybody should be kind at least to himself.'"
+    "level": 2,
+    "genre": "Travel",
+    "accent": "South African",
+    "voice": "Tessa",
+    "transcript": "The tour guide recommended visiting the market in the morning when it is less crowded and the produce is fresh.",
+    "question": "When is the best time to visit the market?",
+    "choices": ["In the afternoon", "In the evening", "In the morning", "At midday"],
+    "answerIndex": 2,
+    "explanation": "The guide recommended 'visiting the market in the morning.'"
   },
   {
     "id": "clip038",
-    "audioId": "3081-166546-0000",
     "level": 2,
-    "genre": "Drama",
-    "transcript": "When we took our seats at the breakfast table it was with the feeling of being no longer looked upon as connected in any way with this case.",
-    "question": "How did they feel at breakfast?",
-    "choices": [
-      "They were very hungry",
-      "They felt free from being linked to the case",
-      "They were worried about the case",
-      "They wanted to leave right away"
-    ],
+    "genre": "Health",
+    "accent": "American",
+    "voice": "Samantha",
+    "transcript": "Walking for thirty minutes a day can lower your risk of heart disease and help you maintain a healthy weight.",
+    "question": "What benefit of walking is mentioned?",
+    "choices": ["Improved eyesight", "Lower risk of heart disease", "Better memory", "Stronger bones"],
     "answerIndex": 1,
-    "explanation": "'No longer looked upon as connected with this case' means feeling free from the case."
+    "explanation": "Walking can 'lower your risk of heart disease.'"
   },
   {
     "id": "clip039",
-    "audioId": "3170-137482-0004",
-    "level": 1,
-    "genre": "Literature",
-    "transcript": "Our scandalous proceedings often exposed us to the greatest danger.",
-    "question": "What did their bad behavior lead to?",
-    "choices": [
-      "They became very rich",
-      "They were often put in very dangerous situations",
-      "People looked up to them",
-      "They received many rewards"
-    ],
+    "level": 2,
+    "genre": "Education",
+    "accent": "Australian",
+    "voice": "Karen",
+    "transcript": "Students who miss more than three classes without a valid reason will not be allowed to sit the final exam.",
+    "question": "What happens if a student misses too many classes?",
+    "choices": ["They get extra homework", "They cannot take the final exam", "They must repeat the course", "They lose their scholarship"],
     "answerIndex": 1,
-    "explanation": "'Scandalous proceedings exposed us to the greatest danger' means their bad actions brought danger."
+    "explanation": "They 'will not be allowed to sit the final exam.'"
   },
   {
     "id": "clip040",
-    "audioId": "3536-23268-0002",
-    "level": 3,
-    "genre": "Drama",
-    "transcript": "Yet did the watchful Miss Woodley oftentimes hear a sigh escape from her, unknown to herself, till she was reminded of it, and then a sudden blush would instantly overspread her face.",
-    "question": "What happened when the girl was told about her sighing?",
-    "choices": [
-      "She started to cry",
-      "Her face turned red right away",
-      "She laughed out loud",
-      "She ran out of the room"
-    ],
-    "answerIndex": 1,
-    "explanation": "'A sudden blush would instantly overspread her face' means she turned red with embarrassment."
+    "level": 2,
+    "genre": "Work",
+    "accent": "Irish",
+    "voice": "Moira",
+    "transcript": "The company is looking for someone with at least three years of experience and good communication skills.",
+    "question": "What experience is required for the job?",
+    "choices": ["One year", "Two years", "At least three years", "Five years"],
+    "answerIndex": 2,
+    "explanation": "They need someone with 'at least three years of experience.'"
   },
   {
     "id": "clip041",
-    "audioId": "3576-138058-0007",
-    "level": 1,
-    "genre": "Literature",
-    "transcript": "Dost thou revolt against thy master and natural lord?",
-    "question": "What is the speaker accusing someone of?",
-    "choices": [
-      "Stealing food",
-      "Fighting back against the person in charge",
-      "Running away from home",
-      "Telling lies to everyone"
-    ],
-    "answerIndex": 1,
-    "explanation": "'Revolt against thy master' means to fight or rebel against the person in charge."
+    "level": 2,
+    "genre": "Technology",
+    "accent": "American",
+    "voice": "Reed",
+    "transcript": "You should back up your files regularly in case your hard drive fails. Cloud storage is a convenient option.",
+    "question": "Why should you back up files regularly?",
+    "choices": ["To save space", "To share with friends", "In case the hard drive fails", "To speed up the computer"],
+    "answerIndex": 2,
+    "explanation": "Back up 'in case your hard drive fails.'"
   },
   {
     "id": "clip042",
-    "audioId": "3752-4943-0000",
-    "level": 3,
-    "genre": "Drama",
-    "transcript": "He had been a clerk in a banking house and was transported for embezzlement, though by some, grave doubts as to his guilt were entertained.",
-    "question": "Why was the man sent away?",
-    "choices": [
-      "He wanted to travel",
-      "He was accused of stealing money from the bank",
-      "He was given a better job",
-      "He was too old to work"
-    ],
+    "level": 2,
+    "genre": "Environment",
+    "accent": "British",
+    "voice": "Flo",
+    "transcript": "Plastic bags take hundreds of years to break down, which is why many shops now charge for them.",
+    "question": "Why do shops charge for plastic bags?",
+    "choices": ["To make money", "Because they take a long time to break down", "Because of new tax laws", "To encourage online shopping"],
     "answerIndex": 1,
-    "explanation": "'Transported for embezzlement' means sent away for stealing money, though some doubted his guilt."
+    "explanation": "Plastic bags 'take hundreds of years to break down.'"
   },
   {
     "id": "clip043",
-    "audioId": "3853-163249-0000",
-    "level": 3,
-    "genre": "Drama",
-    "transcript": "Her meeting with Letty was indescribably tender, and the days that followed were pretty equally divided between her and her brother, in nursing the one and loving the other.",
-    "question": "What did she spend her time doing after the meeting?",
-    "choices": [
-      "Working at a hospital",
-      "Taking care of one person and showing love to another",
-      "Traveling to a new city",
-      "Studying at a school"
-    ],
-    "answerIndex": 1,
-    "explanation": "'Nursing the one and loving the other' means caring for one and giving love to the other."
+    "level": 2,
+    "genre": "Business",
+    "accent": "Indian",
+    "voice": "Rishi",
+    "transcript": "Sales increased by twenty percent last quarter thanks to the new marketing campaign on social media.",
+    "question": "What caused the increase in sales?",
+    "choices": ["Lower prices", "New staff", "A social media marketing campaign", "A new store location"],
+    "answerIndex": 2,
+    "explanation": "Sales increased 'thanks to the new marketing campaign on social media.'"
   },
   {
     "id": "clip044",
-    "audioId": "422-122949-0001",
-    "level": 3,
-    "genre": "Essay",
-    "transcript": "The distinctions of moral values have either originated in a ruling caste, pleasantly conscious of being different from the ruled, or among the ruled class, the slaves and dependents of all sorts.",
-    "question": "Where did ideas about right and wrong come from?",
-    "choices": [
-      "From religious books only",
-      "From either the powerful group or the people they controlled",
-      "From nature itself",
-      "From schools and teachers"
-    ],
-    "answerIndex": 1,
-    "explanation": "Moral values came from 'a ruling caste' or 'the ruled class' — the powerful or the powerless."
+    "level": 2,
+    "genre": "News",
+    "accent": "South African",
+    "voice": "Tessa",
+    "transcript": "The local hospital has hired fifty new nurses to cope with the growing number of patients in the area.",
+    "question": "How many new nurses were hired?",
+    "choices": ["Thirty", "Forty", "Fifty", "Sixty"],
+    "answerIndex": 2,
+    "explanation": "The hospital 'hired fifty new nurses.'"
   },
   {
     "id": "clip045",
-    "audioId": "5338-24615-0000",
     "level": 2,
-    "genre": "Literature",
-    "transcript": "It was about noon when Captain Waverley entered the straggling village, or rather hamlet, of Tully-Veolan, close to which was situated the mansion of the proprietor.",
-    "question": "When did Captain Waverley arrive at the village?",
-    "choices": [
-      "Early in the morning",
-      "Around the middle of the day",
-      "Late at night",
-      "Just before sunset"
-    ],
-    "answerIndex": 1,
-    "explanation": "'About noon' means around the middle of the day."
+    "genre": "Academic",
+    "accent": "American",
+    "voice": "Samantha",
+    "transcript": "The essay should be between one thousand and fifteen hundred words. Please include a list of references at the end.",
+    "question": "What is the maximum word count for the essay?",
+    "choices": ["One thousand", "Twelve hundred", "Fifteen hundred", "Two thousand"],
+    "answerIndex": 2,
+    "explanation": "The essay should be 'between one thousand and fifteen hundred words.'"
   },
   {
     "id": "clip046",
-    "audioId": "5536-43358-0001",
-    "level": 3,
-    "genre": "Essay",
-    "transcript": "The original attitude of the American Indian toward the Eternal, the Great Mystery that surrounds and embraces us, was as simple as it was exalted.",
-    "question": "How did the American Indian view the great mystery of life?",
-    "choices": [
-      "With fear and anger",
-      "With a feeling that was both simple and noble",
-      "With no interest at all",
-      "With confusion and doubt"
-    ],
-    "answerIndex": 1,
-    "explanation": "'As simple as it was exalted' means their view was both simple and noble."
+    "level": 2,
+    "genre": "Daily Life",
+    "accent": "Australian",
+    "voice": "Karen",
+    "transcript": "My neighbour offered to look after our dog while we are away on holiday next month.",
+    "question": "Who will look after the dog?",
+    "choices": ["A pet hotel", "A family member", "The neighbour", "A friend from work"],
+    "answerIndex": 2,
+    "explanation": "The neighbour 'offered to look after our dog.'"
   },
   {
     "id": "clip047",
-    "audioId": "5694-64025-0001",
-    "level": 1,
-    "genre": "History",
-    "transcript": "This was the first big battle in which our regiment had ever been engaged.",
-    "question": "What was special about this battle for the soldiers?",
-    "choices": [
-      "They won very easily",
-      "It was the first large fight their group had been in",
-      "It lasted only a few minutes",
-      "They had the best weapons"
-    ],
+    "level": 2,
+    "genre": "Travel",
+    "accent": "Irish",
+    "voice": "Moira",
+    "transcript": "You can save money on accommodation by booking at least two weeks in advance through the website.",
+    "question": "How can you save money on accommodation?",
+    "choices": ["Stay with friends", "Book at least two weeks in advance", "Travel off-season", "Use a travel agent"],
     "answerIndex": 1,
-    "explanation": "'The first big battle' their regiment 'had ever been engaged' in — their first large fight."
+    "explanation": "Save money by 'booking at least two weeks in advance.'"
   },
   {
     "id": "clip048",
-    "audioId": "5895-34615-0002",
     "level": 2,
-    "genre": "Literature",
-    "transcript": "Had Gwynplaine, when a child, been so worthy of attention that his face had been subjected to transmutation? Why not?",
-    "question": "What happened to Gwynplaine's face as a child?",
-    "choices": [
-      "It was naturally beautiful",
-      "It was changed or altered on purpose",
-      "It was covered with paint",
-      "Nothing happened to it"
-    ],
+    "genre": "Work",
+    "accent": "British",
+    "voice": "Daniel",
+    "transcript": "All new employees must complete a safety training course within their first two weeks at the company.",
+    "question": "When must new employees complete safety training?",
+    "choices": ["Before starting", "Within two weeks", "Within a month", "Within three months"],
     "answerIndex": 1,
-    "explanation": "'Subjected to transmutation' means his face was changed or altered deliberately."
+    "explanation": "Training must be completed 'within their first two weeks.'"
   },
   {
     "id": "clip049",
-    "audioId": "6241-61943-0000",
     "level": 2,
-    "genre": "Literature",
-    "transcript": "On the second of the month, at two in the morning, our precious cargo of luggage was taken on board the good ship Valkyrie.",
-    "question": "When was the luggage loaded onto the ship?",
-    "choices": [
-      "In the afternoon",
-      "Very early in the morning",
-      "At sunset",
-      "The next evening"
-    ],
-    "answerIndex": 1,
-    "explanation": "'At two in the morning' is very early in the morning."
+    "genre": "Environment",
+    "accent": "American",
+    "voice": "Reed",
+    "transcript": "Solar panels on the roof can cut your electricity bill by up to sixty percent and are good for the environment.",
+    "question": "How much can solar panels reduce electricity bills?",
+    "choices": ["Up to thirty percent", "Up to forty percent", "Up to sixty percent", "Up to eighty percent"],
+    "answerIndex": 2,
+    "explanation": "Solar panels can cut bills 'by up to sixty percent.'"
   },
   {
     "id": "clip050",
-    "audioId": "6295-244435-0001",
     "level": 2,
-    "genre": "History",
-    "transcript": "Colonel Leonidas Talbot regarded the white flag with feelings in which triumph and sadness were mingled strangely.",
-    "question": "How did the Colonel feel about the white flag?",
-    "choices": [
-      "Only proud and happy",
-      "Both happy and sad at the same time",
-      "Very angry",
-      "He did not care at all"
-    ],
+    "genre": "Business",
+    "accent": "South African",
+    "voice": "Tessa",
+    "transcript": "The restaurant chain plans to open fifteen new locations across the country over the next two years.",
+    "question": "How many new locations are planned?",
+    "choices": ["Ten", "Fifteen", "Twenty", "Twenty-five"],
     "answerIndex": 1,
-    "explanation": "'Triumph and sadness were mingled' means he felt both happy and sad together."
+    "explanation": "The plan is to 'open fifteen new locations.'"
   },
   {
     "id": "clip051",
-    "audioId": "6313-66125-0000",
-    "level": 1,
-    "genre": "Literature",
-    "transcript": "You'll all be over if you don't have a care.",
-    "question": "What is the speaker warning about?",
-    "choices": [
-      "The game is almost done",
-      "Something bad will happen if they are not careful",
-      "They should go home now",
-      "The food is getting cold"
-    ],
+    "level": 3,
+    "genre": "Daily Life",
+    "accent": "British",
+    "voice": "Daniel",
+    "transcript": "The community centre, which was built in the nineteen sixties, is being renovated to include modern facilities such as a gym and a digital learning space.",
+    "question": "What is being added to the community centre?",
+    "choices": ["A swimming pool and café", "A gym and digital learning space", "A cinema and library", "A playground and parking"],
     "answerIndex": 1,
-    "explanation": "'You'll all be over if you don't have a care' is a warning to be careful."
+    "explanation": "The renovation includes 'a gym and a digital learning space.'"
   },
   {
     "id": "clip052",
-    "audioId": "6319-275224-0000",
-    "level": 1,
-    "genre": "Literature",
-    "transcript": "What a fuss is made about you, my dear little friends!",
-    "question": "What is the speaker saying about these little friends?",
-    "choices": [
-      "Nobody cares about them",
-      "People give them too much attention",
-      "They are very dangerous",
-      "They are hard to find"
-    ],
+    "level": 3,
+    "genre": "Travel",
+    "accent": "American",
+    "voice": "Samantha",
+    "transcript": "Travellers are advised to purchase comprehensive insurance before departing, as medical treatment abroad can be extremely expensive and is not always covered by domestic policies.",
+    "question": "Why should travellers buy comprehensive insurance?",
+    "choices": ["To get flight upgrades", "Because medical costs abroad can be very high", "To avoid visa fees", "Because hotels require it"],
     "answerIndex": 1,
-    "explanation": "'What a fuss is made about you' means people make too much of a big deal about them."
+    "explanation": "'Medical treatment abroad can be extremely expensive' and may not be covered domestically."
   },
   {
     "id": "clip053",
-    "audioId": "6345-64257-0002",
-    "level": 2,
-    "genre": "Drama",
-    "transcript": "When she opened the door of it, the bright fire which Beenie, undesired, had kindled there startled her. The room looked unnatural, uncanny, because it was cheerful.",
-    "question": "Why was the room strange to her?",
-    "choices": [
-      "It was completely dark",
-      "It looked too bright and cheerful, which felt wrong",
-      "The furniture was missing",
-      "There was a stranger inside"
-    ],
+    "level": 3,
+    "genre": "Health",
+    "accent": "Indian",
+    "voice": "Rishi",
+    "transcript": "Research has shown that people who eat a Mediterranean diet rich in olive oil, fish, and vegetables have a significantly lower risk of developing cardiovascular disease.",
+    "question": "What diet is linked to lower heart disease risk?",
+    "choices": ["Low-carbohydrate diet", "Mediterranean diet", "Vegetarian diet", "High-protein diet"],
     "answerIndex": 1,
-    "explanation": "The room looked 'unnatural, uncanny, because it was cheerful' — the brightness felt wrong."
+    "explanation": "A 'Mediterranean diet' is linked to 'lower risk of cardiovascular disease.'"
   },
   {
     "id": "clip054",
-    "audioId": "652-129742-0000",
-    "level": 1,
-    "genre": "Recipe",
-    "transcript": "Asparagus salad: cook the asparagus in salted water, drain, and chill.",
-    "question": "What should you do with the asparagus after cooking?",
-    "choices": [
-      "Add more salt to it",
-      "Remove the water and make it cold",
-      "Cook it again slowly",
-      "Cut it into small pieces"
-    ],
+    "level": 3,
+    "genre": "Education",
+    "accent": "Australian",
+    "voice": "Karen",
+    "transcript": "The scholarship, which covers tuition fees and living expenses, is awarded to students who demonstrate both academic excellence and community involvement.",
+    "question": "What criteria are used to award the scholarship?",
+    "choices": ["Only grades", "Academic excellence and community involvement", "Financial need", "Athletic achievement"],
     "answerIndex": 1,
-    "explanation": "'Drain and chill' means remove the water and make it cold."
+    "explanation": "It is awarded for 'academic excellence and community involvement.'"
   },
   {
     "id": "clip055",
-    "audioId": "777-126732-0002",
-    "level": 2,
-    "genre": "Essay",
-    "transcript": "At best they can only interpret the mind of the prophet and can have no objective value.",
-    "question": "What is the limit of what they can do?",
-    "choices": [
-      "They can see the future clearly",
-      "They can only try to explain what the prophet meant",
-      "They can create new ideas from nothing",
-      "They can change how people think"
-    ],
-    "answerIndex": 1,
-    "explanation": "'Only interpret the mind of the prophet' means they can only try to explain his meaning."
+    "level": 3,
+    "genre": "Work",
+    "accent": "Irish",
+    "voice": "Moira",
+    "transcript": "Employees who have worked at the company for more than five years are entitled to an additional week of paid leave, which can be taken at any time during the year.",
+    "question": "Who gets an extra week of leave?",
+    "choices": ["All employees", "Managers only", "Those with over five years of service", "New hires"],
+    "answerIndex": 2,
+    "explanation": "Employees 'who have worked for more than five years' get extra leave."
   },
   {
     "id": "clip056",
-    "audioId": "7850-111771-0000",
-    "level": 2,
-    "genre": "History",
-    "transcript": "Through the influence of Honorable Thomas L. Hamer, he was admitted at West Point in eighteen thirty-nine.",
-    "question": "How did he get into West Point?",
-    "choices": [
-      "He passed a very hard test",
-      "With the help of an important person",
-      "He paid a lot of money",
-      "He was the best student in school"
-    ],
+    "level": 3,
+    "genre": "Technology",
+    "accent": "South African",
+    "voice": "Tessa",
+    "transcript": "Artificial intelligence is being used in healthcare to analyse medical images more quickly and accurately than human doctors in certain diagnostic tasks.",
+    "question": "How is AI used in healthcare according to the speaker?",
+    "choices": ["To replace all doctors", "To analyse medical images", "To manufacture drugs", "To schedule appointments"],
     "answerIndex": 1,
-    "explanation": "'Through the influence of' Thomas Hamer means an important person helped him get in."
+    "explanation": "AI is used 'to analyse medical images more quickly and accurately.'"
   },
   {
     "id": "clip057",
-    "audioId": "7976-105575-0000",
     "level": 3,
-    "genre": "History",
-    "transcript": "Grant was only a few miles away, but although commander in chief, he knew nothing of the hardest-fought battle of the Civil War until it was over.",
-    "question": "What is surprising about Grant in this passage?",
-    "choices": [
-      "He fought in the battle himself",
-      "He was nearby but didn't know about the battle until it ended",
-      "He was far away from the fighting",
-      "He ordered the attack himself"
-    ],
+    "genre": "Environment",
+    "accent": "American",
+    "voice": "Reed",
+    "transcript": "Deforestation in tropical regions has accelerated in recent decades, leading to habitat loss for thousands of species and contributing significantly to global carbon emissions.",
+    "question": "What are the consequences of tropical deforestation?",
+    "choices": ["Increased rainfall only", "Habitat loss and higher carbon emissions", "Better farmland", "More tourism"],
     "answerIndex": 1,
-    "explanation": "Grant was 'only a few miles away' but 'knew nothing' of the battle 'until it was over.'"
+    "explanation": "Deforestation leads to 'habitat loss' and 'contributing to global carbon emissions.'"
   },
   {
     "id": "clip058",
-    "audioId": "8297-275154-0000",
-    "level": 2,
-    "genre": "Literature",
-    "transcript": "Not having heard from Captain Bennydeck for some little time, Randal thought it desirable, in Sydney's interests, to make inquiries at his club.",
-    "question": "Why did Randal go to the club?",
-    "choices": [
-      "To have dinner with friends",
-      "To find out about the Captain who had not been in touch",
-      "To play cards",
-      "To meet Sydney there"
-    ],
+    "level": 3,
+    "genre": "Business",
+    "accent": "British",
+    "voice": "Flo",
+    "transcript": "The quarterly report indicates that operating costs have been reduced by twelve percent, largely due to the automation of several administrative processes.",
+    "question": "What caused the reduction in operating costs?",
+    "choices": ["Staff layoffs", "Automation of administrative processes", "Moving to a smaller office", "Renegotiating contracts"],
     "answerIndex": 1,
-    "explanation": "'Not having heard from Captain Bennydeck,' Randal went to ask about him at the club."
+    "explanation": "Costs were reduced 'due to the automation of administrative processes.'"
   },
   {
     "id": "clip059",
-    "audioId": "84-121123-0003",
-    "level": 2,
-    "genre": "Drama",
-    "transcript": "And the cry issued from his pores, if we may thus speak, a cry frightful in its silence.",
-    "question": "What was unusual about the cry?",
-    "choices": [
-      "It was very loud",
-      "It was silent but still felt terrifying",
-      "It was happy and cheerful",
-      "It lasted for a very long time"
-    ],
-    "answerIndex": 1,
-    "explanation": "'A cry frightful in its silence' — the cry had no sound but was still terrifying."
+    "level": 3,
+    "genre": "News",
+    "accent": "Australian",
+    "voice": "Karen",
+    "transcript": "The government has announced a ban on single-use plastics starting next year, following pressure from environmental groups and widespread public support for the measure.",
+    "question": "When does the ban on single-use plastics begin?",
+    "choices": ["Immediately", "Next month", "Next year", "In two years"],
+    "answerIndex": 2,
+    "explanation": "The ban starts 'next year.'"
   },
   {
     "id": "clip060",
-    "audioId": "8842-302196-0001",
     "level": 3,
-    "genre": "Essay",
-    "transcript": "This book, in its original form, was received with favour and settled the claim of Rossetti to rank as a poetic translator, or indeed as a poet in his own right.",
-    "question": "What did the book prove about Rossetti?",
-    "choices": [
-      "That he was a bad writer",
-      "That he was a real poet and good at translating poetry",
-      "That he copied other people's work",
-      "That he should stop writing books"
-    ],
+    "genre": "Academic",
+    "accent": "Indian",
+    "voice": "Rishi",
+    "transcript": "In your dissertation, you are expected to demonstrate critical thinking by evaluating multiple perspectives and supporting your arguments with evidence from peer-reviewed sources.",
+    "question": "What must students include in their dissertation?",
+    "choices": ["Personal opinions only", "Evidence from peer-reviewed sources", "A summary of one textbook", "Interviews with classmates"],
     "answerIndex": 1,
-    "explanation": "The book 'settled the claim of Rossetti to rank as a poetic translator or as a poet.'"
+    "explanation": "Arguments must be supported with 'evidence from peer-reviewed sources.'"
   },
   {
     "id": "clip061",
-    "audioId": "1272-128104-0002",
     "level": 3,
-    "genre": "Essay",
-    "transcript": "He tells us that at this festive season of the year, with Christmas and roast beef looming before us, similes drawn from eating and its results occur most readily to the mind.",
-    "question": "Why does the speaker mention food comparisons?",
-    "choices": [
-      "Because the food was very bad",
-      "Because the Christmas season makes people think about eating",
-      "Because nobody could afford food",
-      "Because cooking is a great art form"
-    ],
+    "genre": "Daily Life",
+    "accent": "American",
+    "voice": "Samantha",
+    "transcript": "The farmers market, which is held every Saturday, has become increasingly popular with residents who prefer locally grown organic produce over supermarket alternatives.",
+    "question": "Why do residents prefer the farmers market?",
+    "choices": ["Lower prices", "Locally grown organic produce", "More variety", "Convenient parking"],
     "answerIndex": 1,
-    "explanation": "At Christmas time, with food on everyone's mind, food-based comparisons come easily."
+    "explanation": "Residents prefer 'locally grown organic produce.'"
   },
   {
     "id": "clip062",
-    "audioId": "1462-170138-0001",
-    "level": 1,
-    "genre": "Literature",
-    "transcript": "Hugh's written a delightful part for her, and she's quite inexpressible.",
-    "question": "What has Hugh done?",
-    "choices": [
-      "He painted a beautiful picture",
-      "He wrote a wonderful role for a woman to play",
-      "He built a new house",
-      "He wrote a sad letter to her"
-    ],
-    "answerIndex": 1,
-    "explanation": "'Written a delightful part for her' means he created a wonderful role for her."
+    "level": 3,
+    "genre": "Travel",
+    "accent": "British",
+    "voice": "Daniel",
+    "transcript": "Due to engineering works on the main line, passengers travelling to Edinburgh this weekend are advised to take the alternative route via York, which may add approximately forty minutes to the journey.",
+    "question": "How much longer will the alternative route take?",
+    "choices": ["Twenty minutes", "Thirty minutes", "About forty minutes", "One hour"],
+    "answerIndex": 2,
+    "explanation": "The alternative route 'may add approximately forty minutes.'"
   },
   {
     "id": "clip063",
-    "audioId": "1673-143396-0003",
     "level": 3,
-    "genre": "Literature",
-    "transcript": "His progress from infancy to youth and manhood was marked by a regular increase in stature and wisdom, and after a painful agony of mind and body, he expired on the cross.",
-    "question": "How did this person's life end?",
-    "choices": [
-      "He lived to a very old age",
-      "He died after great suffering",
-      "He disappeared without a trace",
-      "He became a king"
-    ],
+    "genre": "Health",
+    "accent": "South African",
+    "voice": "Tessa",
+    "transcript": "Mental health awareness campaigns have led to a significant increase in the number of people seeking professional help, which experts consider a positive development.",
+    "question": "What effect have mental health campaigns had?",
+    "choices": ["Fewer hospital visits", "More people seeking professional help", "Lower insurance costs", "Reduced medication use"],
     "answerIndex": 1,
-    "explanation": "'After a painful agony of mind and body, he expired' means he died after great suffering."
+    "explanation": "Campaigns led to 'a significant increase in people seeking professional help.'"
   },
   {
     "id": "clip064",
-    "audioId": "174-168635-0001",
-    "level": 1,
-    "genre": "Literature",
-    "transcript": "The heart of that ex-convict was full of virginity.",
-    "question": "What is surprising about the ex-convict?",
-    "choices": [
-      "He was very dangerous",
-      "Despite his past, his heart was pure and innocent",
-      "He had no feelings at all",
-      "He wanted to go back to prison"
-    ],
+    "level": 3,
+    "genre": "Education",
+    "accent": "Irish",
+    "voice": "Moira",
+    "transcript": "Online learning platforms have made education more accessible, particularly for students in remote areas who previously had limited access to qualified teachers and resources.",
+    "question": "Who benefits most from online learning platforms?",
+    "choices": ["Urban students", "Students in remote areas", "University professors", "Working professionals"],
     "answerIndex": 1,
-    "explanation": "'Heart full of virginity' means his heart was pure and innocent despite his criminal past."
+    "explanation": "'Students in remote areas who previously had limited access' benefit most."
   },
   {
     "id": "clip065",
-    "audioId": "1919-142785-0002",
-    "level": 2,
-    "genre": "History",
-    "transcript": "Originally the most valuable of these were found in the Spice Islands, or Moluccas, of the Indian Ocean, and were highly prized by the nations of antiquity.",
-    "question": "Where were the most valuable spices first found?",
-    "choices": [
-      "In the mountains of China",
-      "On islands in the Indian Ocean",
-      "In the forests of Africa",
-      "In the deserts of Arabia"
-    ],
+    "level": 3,
+    "genre": "Work",
+    "accent": "American",
+    "voice": "Reed",
+    "transcript": "The new flexible working policy allows employees to choose whether to work from home or the office on any given day, provided they attend at least two in-person meetings per week.",
+    "question": "What is the condition for flexible working?",
+    "choices": ["Work from home full-time", "Attend at least two in-person meetings weekly", "Get manager approval daily", "Complete extra training"],
     "answerIndex": 1,
-    "explanation": "The most valuable spices 'were found in the Spice Islands of the Indian Ocean.'"
+    "explanation": "Employees must 'attend at least two in-person meetings per week.'"
   },
   {
     "id": "clip066",
-    "audioId": "1988-147956-0002",
-    "level": 1,
-    "genre": "Literature",
-    "transcript": "It's no better than a badger hole, no proper dugout at all.",
-    "question": "What is the speaker complaining about?",
-    "choices": [
-      "There are too many animals",
-      "The shelter is very poor, like an animal's hole",
-      "The food is very bad",
-      "The weather is terrible"
-    ],
+    "level": 3,
+    "genre": "Technology",
+    "accent": "British",
+    "voice": "Flo",
+    "transcript": "Electric vehicles are expected to account for more than half of all new car sales by the end of the decade, driven by falling battery prices and stricter emission regulations.",
+    "question": "What is driving the growth of electric vehicle sales?",
+    "choices": ["Government subsidies only", "Falling battery prices and stricter regulations", "Consumer fashion trends", "Oil shortages"],
     "answerIndex": 1,
-    "explanation": "'No better than a badger hole' means the shelter is as bad as a hole an animal digs."
+    "explanation": "Growth is driven by 'falling battery prices and stricter emission regulations.'"
   },
   {
     "id": "clip067",
-    "audioId": "1993-147149-0001",
     "level": 3,
-    "genre": "Literature",
-    "transcript": "What bankrupts in the world we feel when death, like some remorseless creditor, seizes on all we fondly thought our own! The twins.",
-    "question": "How is death described in this passage?",
-    "choices": [
-      "Like a kind friend who comes gently",
-      "Like someone who takes away everything you thought was yours",
-      "Like a peaceful sleep at night",
-      "Like a quiet wind blowing past"
-    ],
-    "answerIndex": 1,
-    "explanation": "Death 'seizes on all we fondly thought our own' — it takes everything away from us."
+    "genre": "Environment",
+    "accent": "Australian",
+    "voice": "Karen",
+    "transcript": "Coral reefs, which are often called the rainforests of the sea, support approximately twenty-five percent of all marine species despite covering less than one percent of the ocean floor.",
+    "question": "What percentage of marine species do coral reefs support?",
+    "choices": ["Ten percent", "Fifteen percent", "Twenty-five percent", "Fifty percent"],
+    "answerIndex": 2,
+    "explanation": "Coral reefs support 'approximately twenty-five percent of all marine species.'"
   },
   {
     "id": "clip068",
-    "audioId": "2035-147960-0001",
-    "level": 1,
-    "genre": "Literature",
-    "transcript": "This change came about from an adventure we had together.",
-    "question": "What caused the change between them?",
-    "choices": [
-      "A long letter they wrote",
-      "Something exciting they experienced together",
-      "A fight they had at school",
-      "Moving to a different city"
-    ],
+    "level": 3,
+    "genre": "Business",
+    "accent": "Indian",
+    "voice": "Rishi",
+    "transcript": "The merger between the two telecommunications companies is expected to create the largest mobile network in the region, serving over fifty million customers.",
+    "question": "What will the merger create?",
+    "choices": ["A new brand", "The largest mobile network in the region", "A cheaper service", "More competition"],
     "answerIndex": 1,
-    "explanation": "'An adventure we had together' means an exciting experience they shared."
+    "explanation": "The merger will create 'the largest mobile network in the region.'"
   },
   {
     "id": "clip069",
-    "audioId": "2078-142845-0011",
-    "level": 1,
-    "genre": "Science",
-    "transcript": "It will grow on poor soils and is extremely productive.",
-    "question": "What is good about this plant?",
-    "choices": [
-      "It tastes very good",
-      "It grows well even in bad ground and produces a lot",
-      "It grows very tall and strong",
-      "It needs a lot of sunshine"
-    ],
-    "answerIndex": 1,
-    "explanation": "'Grow on poor soils and extremely productive' means it thrives in bad ground and yields a lot."
+    "level": 3,
+    "genre": "News",
+    "accent": "South African",
+    "voice": "Tessa",
+    "transcript": "Archaeologists have discovered the remains of a settlement dating back three thousand years, which could change our understanding of early human migration patterns in the area.",
+    "question": "How old is the discovered settlement?",
+    "choices": ["One thousand years", "Two thousand years", "Three thousand years", "Five thousand years"],
+    "answerIndex": 2,
+    "explanation": "The settlement dates back 'three thousand years.'"
   },
   {
     "id": "clip070",
-    "audioId": "2086-149214-0001",
-    "level": 2,
-    "genre": "Literature",
-    "transcript": "In good faith, however, he is not sufficiently imaginative to flatter himself with the slightest hope of this kind.",
-    "question": "What does the speaker say about this person?",
-    "choices": [
-      "He is very creative and hopeful",
-      "He is too honest to fool himself with false hope",
-      "He is always lying to others",
-      "He is sure he will succeed"
-    ],
+    "level": 3,
+    "genre": "Academic",
+    "accent": "American",
+    "voice": "Samantha",
+    "transcript": "The peer review process ensures that published research meets certain standards of quality and originality before it is made available to the wider academic community.",
+    "question": "What is the purpose of peer review?",
+    "choices": ["To speed up publication", "To ensure quality and originality standards", "To reduce costs", "To increase readership"],
     "answerIndex": 1,
-    "explanation": "'Not sufficiently imaginative to flatter himself with hope' means he's too honest to give himself false hope."
+    "explanation": "Peer review ensures research 'meets certain standards of quality and originality.'"
   },
   {
     "id": "clip071",
-    "audioId": "2277-149874-0002",
-    "level": 2,
-    "genre": "Drama",
-    "transcript": "To him, the presence or absence of his wife's sister was a matter of indifference.",
-    "question": "How did he feel about his wife's sister?",
-    "choices": [
-      "He loved her very much",
-      "He did not care whether she was there or not",
-      "He was afraid of her",
-      "He wanted her to leave quickly"
-    ],
+    "level": 3,
+    "genre": "Work",
+    "accent": "British",
+    "voice": "Daniel",
+    "transcript": "The human resources department has introduced a mentoring scheme in which senior staff are paired with recent graduates to help them develop their professional skills.",
+    "question": "What does the new mentoring scheme involve?",
+    "choices": ["Online courses for all staff", "Senior staff paired with recent graduates", "Monthly team-building events", "Annual performance reviews"],
     "answerIndex": 1,
-    "explanation": "'A matter of indifference' means he did not care at all about her being there or not."
+    "explanation": "'Senior staff are paired with recent graduates' in the mentoring scheme."
   },
   {
     "id": "clip072",
-    "audioId": "2412-153947-0002",
-    "level": 2,
-    "genre": "Literature",
-    "transcript": "On my return, I purposely avoided looking into it until I had sent back my last revises to the printer.",
-    "question": "Why did the narrator wait before looking at it?",
-    "choices": [
-      "He was too tired",
-      "He wanted to finish his other work first",
-      "He had lost his glasses",
-      "He was not interested in it"
-    ],
+    "level": 3,
+    "genre": "Technology",
+    "accent": "Irish",
+    "voice": "Moira",
+    "transcript": "Cybersecurity experts warn that phishing emails have become increasingly sophisticated, making it harder for ordinary users to distinguish them from legitimate communications.",
+    "question": "What makes modern phishing emails dangerous?",
+    "choices": ["They contain viruses", "They are increasingly sophisticated", "They target only businesses", "They arrive in bulk"],
     "answerIndex": 1,
-    "explanation": "He 'purposely avoided looking' until he finished sending 'his last revises to the printer.'"
+    "explanation": "Phishing emails 'have become increasingly sophisticated.'"
   },
   {
     "id": "clip073",
-    "audioId": "2428-83699-0003",
-    "level": 2,
-    "genre": "Literature",
-    "transcript": "It appeared that the terms would be five guineas, but there was no mention of the length of time which that fee would cover.",
-    "question": "What was unclear about the price?",
-    "choices": [
-      "How much it would cost",
-      "How long the payment would last for",
-      "Who should pay for it",
-      "Where to send the money"
-    ],
-    "answerIndex": 1,
-    "explanation": "'No mention of the length of time which that fee would cover' — the duration was unclear."
+    "level": 3,
+    "genre": "Health",
+    "accent": "American",
+    "voice": "Reed",
+    "transcript": "A new study suggests that regular mindfulness meditation can reduce symptoms of anxiety and depression by up to thirty percent over a twelve-week period.",
+    "question": "By how much can meditation reduce anxiety symptoms?",
+    "choices": ["Up to ten percent", "Up to twenty percent", "Up to thirty percent", "Up to fifty percent"],
+    "answerIndex": 2,
+    "explanation": "Meditation can reduce symptoms 'by up to thirty percent.'"
   },
   {
     "id": "clip074",
-    "audioId": "251-118436-0001",
-    "level": 1,
-    "genre": "Drama",
-    "transcript": "I tell you it is not poison, she cried.",
-    "question": "What is the woman trying to say?",
-    "choices": [
-      "She wants something to drink",
-      "She insists that it is not poison",
-      "She found poison in the food",
-      "She is asking someone for help"
-    ],
+    "level": 3,
+    "genre": "News",
+    "accent": "British",
+    "voice": "Flo",
+    "transcript": "The proposed high-speed rail link between the two cities would reduce travel time from four hours to just ninety minutes, but critics argue the cost is too high.",
+    "question": "How long would the journey take with the new rail link?",
+    "choices": ["Sixty minutes", "Ninety minutes", "Two hours", "Three hours"],
     "answerIndex": 1,
-    "explanation": "She cries out 'it is not poison' — she is strongly insisting something is safe."
+    "explanation": "The new link would reduce travel time 'to just ninety minutes.'"
   },
   {
     "id": "clip075",
-    "audioId": "2803-154320-0001",
     "level": 3,
-    "genre": "Literature",
-    "transcript": "John Mangles therefore hoped that the wretched hull would reach port without accident, but it grieved him that his companions should have to suffer so much discomfort from the defective arrangements of the brig.",
-    "question": "What worried John Mangles about the ship?",
-    "choices": [
-      "The ship was going too fast",
-      "His friends were very uncomfortable because the ship was in bad shape",
-      "There was not enough food on board",
-      "The weather was getting worse"
-    ],
+    "genre": "Business",
+    "accent": "Australian",
+    "voice": "Karen",
+    "transcript": "Customer satisfaction surveys revealed that delivery speed and product quality were the two most important factors influencing repeat purchases.",
+    "question": "What factors most influence repeat purchases?",
+    "choices": ["Price and advertising", "Delivery speed and product quality", "Brand name and packaging", "Location and opening hours"],
     "answerIndex": 1,
-    "explanation": "He was grieved that companions 'should suffer so much discomfort from the defective arrangements.'"
+    "explanation": "'Delivery speed and product quality' were the most important factors."
   },
   {
     "id": "clip076",
-    "audioId": "2902-9006-0002",
-    "level": 3,
-    "genre": "Essay",
-    "transcript": "Not, be it ever remembered, that the slightest suspicion of immorality attaches either to the heroine of this book or to the leading philosophers of her school for several centuries.",
-    "question": "What does the author say about the heroine's character?",
-    "choices": [
-      "She was often in trouble",
-      "No one has ever doubted her good behavior",
-      "Many people disliked her",
-      "She was known to be dishonest"
-    ],
+    "level": 4,
+    "genre": "Academic",
+    "accent": "British",
+    "voice": "Daniel",
+    "transcript": "The concept of neuroplasticity, which refers to the brain's ability to reorganise itself by forming new neural connections throughout life, has fundamentally challenged the long-held belief that the adult brain is essentially fixed and unchangeable after a certain age.",
+    "question": "What does neuroplasticity challenge?",
+    "choices": ["The idea that learning requires sleep", "The belief that the adult brain cannot change", "The theory that children learn faster", "The view that memory declines with age"],
     "answerIndex": 1,
-    "explanation": "'Not the slightest suspicion of immorality' means no one ever doubted her good character."
+    "explanation": "Neuroplasticity challenges 'the belief that the adult brain is fixed and unchangeable.'"
   },
   {
     "id": "clip077",
-    "audioId": "3000-15664-0003",
-    "level": 1,
-    "genre": "Literature",
-    "transcript": "Go quietly, alone; no harm will befall you.",
-    "question": "What is the speaker promising?",
-    "choices": [
-      "Someone will come with you",
-      "Nothing bad will happen if you go by yourself",
-      "You must stay here for safety",
-      "The road will be very dangerous"
-    ],
+    "level": 4,
+    "genre": "Environment",
+    "accent": "American",
+    "voice": "Samantha",
+    "transcript": "The transition to a circular economy, in which products are designed for reuse, repair, and recycling rather than disposal, requires fundamental changes in manufacturing processes, consumer behaviour, and government policy frameworks.",
+    "question": "What does a circular economy require?",
+    "choices": ["Only better recycling facilities", "Changes in manufacturing, consumer behaviour, and policy", "Higher product prices", "Less international trade"],
     "answerIndex": 1,
-    "explanation": "'No harm will befall you' means nothing bad will happen to you."
+    "explanation": "It requires 'changes in manufacturing processes, consumer behaviour, and government policy.'"
   },
   {
     "id": "clip078",
-    "audioId": "3081-166546-0001",
-    "level": 2,
-    "genre": "Drama",
-    "transcript": "Instantly they absorbed all my attention, though I dared not give them a direct look, and continued to observe them only in the glass.",
-    "question": "How did the narrator watch them?",
-    "choices": [
-      "By hiding behind a door",
-      "By looking at them in a mirror, not directly",
-      "Through a small window",
-      "From very far away with a telescope"
-    ],
+    "level": 4,
+    "genre": "Technology",
+    "accent": "Indian",
+    "voice": "Rishi",
+    "transcript": "Quantum computing, which harnesses the principles of quantum mechanics to process information exponentially faster than classical computers, has the potential to revolutionise fields such as cryptography, drug discovery, and climate modelling within the next two decades.",
+    "question": "What fields could quantum computing transform?",
+    "choices": ["Only data storage", "Cryptography, drug discovery, and climate modelling", "Social media and gaming", "Transportation and logistics only"],
     "answerIndex": 1,
-    "explanation": "'Observe them only in the glass' means watching them through a mirror reflection."
+    "explanation": "Quantum computing could revolutionise 'cryptography, drug discovery, and climate modelling.'"
   },
   {
     "id": "clip079",
-    "audioId": "3170-137482-0005",
-    "level": 2,
-    "genre": "Literature",
-    "transcript": "We would very often spend the whole night rambling about the city, inventing and carrying into execution the most impertinent practical jokes.",
-    "question": "What did they do at night in the city?",
-    "choices": [
-      "They worked late at a shop",
-      "They walked around playing rude tricks on people",
-      "They studied at the library",
-      "They helped sick people"
-    ],
+    "level": 4,
+    "genre": "Business",
+    "accent": "Australian",
+    "voice": "Karen",
+    "transcript": "The globalisation of supply chains has created unprecedented levels of economic interdependence between nations, which, while driving down costs and increasing efficiency, has also exposed vulnerabilities that became strikingly apparent during recent worldwide disruptions.",
+    "question": "What vulnerability has globalisation exposed?",
+    "choices": ["Cultural conflicts", "Risks from supply chain interdependence", "Language barriers", "Currency fluctuations only"],
     "answerIndex": 1,
-    "explanation": "'Rambling about the city' playing 'impertinent practical jokes' means walking around doing rude tricks."
+    "explanation": "Globalisation 'exposed vulnerabilities' from economic interdependence between nations."
   },
   {
     "id": "clip080",
-    "audioId": "3536-23268-0003",
-    "level": 3,
-    "genre": "Drama",
-    "transcript": "Night after night his sleep had been disturbed by fears for her when abroad; morning after morning it had been broken by the clamour of her return.",
-    "question": "What troubled his sleep?",
-    "choices": [
-      "He had bad dreams about work",
-      "He worried about her at night and her noisy return woke him each morning",
-      "The weather was too hot to sleep",
-      "His bed was very uncomfortable"
-    ],
+    "level": 4,
+    "genre": "Health",
+    "accent": "Irish",
+    "voice": "Moira",
+    "transcript": "Epigenetics, the study of how environmental factors can switch genes on and off without altering the underlying DNA sequence, has opened new avenues for understanding how lifestyle choices such as diet, exercise, and stress management can influence not only individual health but also the well-being of future generations.",
+    "question": "What does epigenetics study?",
+    "choices": ["How DNA mutates over time", "How environment affects gene expression without changing DNA", "How to edit genes directly", "How diseases spread between species"],
     "answerIndex": 1,
-    "explanation": "Fears 'for her when abroad' at night, and 'the clamour of her return' in the morning."
+    "explanation": "Epigenetics studies how 'environmental factors can switch genes on and off without altering DNA.'"
   },
   {
     "id": "clip081",
-    "audioId": "3576-138058-0008",
-    "level": 1,
-    "genre": "Literature",
-    "transcript": "Dost thou rise against him who gives thee his bread?",
-    "question": "What is the speaker asking?",
-    "choices": [
-      "Do you want more food?",
-      "Are you fighting the person who feeds you?",
-      "Are you feeling hungry?",
-      "Can you pass me the bread?"
-    ],
+    "level": 4,
+    "genre": "Education",
+    "accent": "South African",
+    "voice": "Tessa",
+    "transcript": "The democratisation of knowledge through open educational resources has challenged traditional models of higher education by making high-quality course materials freely available to anyone with an internet connection, thereby reducing the barriers of cost and geography that have historically limited access.",
+    "question": "How do open educational resources challenge traditional education?",
+    "choices": ["By replacing teachers with AI", "By making quality materials freely available online", "By shortening degree programmes", "By eliminating examinations"],
     "answerIndex": 1,
-    "explanation": "'Rise against him who gives thee his bread' means rebelling against the one who provides for you."
+    "explanation": "They challenge traditional models by 'making high-quality materials freely available.'"
   },
   {
     "id": "clip082",
-    "audioId": "3752-4943-0001",
-    "level": 3,
-    "genre": "Drama",
-    "transcript": "When the muster bell rang and the gang broke up, Rufus Dawes, on his silent way to his separate cell, observed a notable change of custom in the disposition of the new convict.",
-    "question": "What did Rufus Dawes notice about the new prisoner?",
-    "choices": [
-      "The new prisoner was very tall",
-      "Something was different about how the new prisoner was being treated",
-      "The bell was louder than usual",
-      "His own cell had been changed"
-    ],
+    "level": 4,
+    "genre": "News",
+    "accent": "American",
+    "voice": "Reed",
+    "transcript": "The rapid proliferation of misinformation on social media platforms has prompted governments and technology companies to explore regulatory frameworks that balance the protection of free speech with the need to prevent the spread of false and potentially harmful content.",
+    "question": "What challenge does misinformation on social media present?",
+    "choices": ["Slow internet speeds", "Balancing free speech with preventing false content", "Decline in advertising revenue", "Reduced platform usage"],
     "answerIndex": 1,
-    "explanation": "He 'observed a notable change of custom in the disposition of the new convict.'"
+    "explanation": "The challenge is balancing 'free speech with the need to prevent false content.'"
   },
   {
     "id": "clip083",
-    "audioId": "3853-163249-0001",
-    "level": 3,
-    "genre": "Drama",
-    "transcript": "But even while she enjoyed every hour of life and begrudged the time given to sleep, she felt as if the dream was too beautiful to last, and often said.",
-    "question": "What did she worry about despite being happy?",
-    "choices": [
-      "That she was sleeping too much",
-      "That her happiness was too good to continue",
-      "That her friends would leave her",
-      "That she was getting too old"
-    ],
+    "level": 4,
+    "genre": "Work",
+    "accent": "British",
+    "voice": "Flo",
+    "transcript": "The gig economy, characterised by short-term contracts and freelance work rather than permanent employment, has raised important questions about workers' rights, including access to healthcare, pension contributions, and protection against unfair dismissal.",
+    "question": "What concerns does the gig economy raise?",
+    "choices": ["Lack of office space", "Workers' rights such as healthcare and pensions", "Too much vacation time", "Excessive regulation"],
     "answerIndex": 1,
-    "explanation": "'The dream was too beautiful to last' means she feared her happiness would not continue."
+    "explanation": "The gig economy raises questions about 'workers' rights, including healthcare and pensions.'"
   },
   {
     "id": "clip084",
-    "audioId": "422-122949-0002",
-    "level": 1,
-    "genre": "Essay",
-    "transcript": "We truthful ones, the nobility in ancient Greece called themselves.",
-    "question": "What did the noble class in ancient Greece call themselves?",
-    "choices": [
-      "The strongest fighters",
-      "The truthful or honest ones",
-      "The wisest teachers",
-      "The richest people in the land"
-    ],
+    "level": 4,
+    "genre": "Daily Life",
+    "accent": "Australian",
+    "voice": "Karen",
+    "transcript": "Urban planners are increasingly recognising that walkable neighbourhoods with mixed-use development, which combine residential, commercial, and recreational spaces, contribute not only to reduced carbon emissions but also to stronger community bonds and improved mental health among residents.",
+    "question": "What benefit of walkable neighbourhoods is mentioned?",
+    "choices": ["Higher property values only", "Reduced emissions, stronger communities, and better mental health", "More parking space", "Lower construction costs"],
     "answerIndex": 1,
-    "explanation": "'We truthful ones' is what the Greek nobility called themselves."
+    "explanation": "They contribute to 'reduced carbon emissions, stronger community bonds, and improved mental health.'"
   },
   {
     "id": "clip085",
-    "audioId": "5338-24615-0003",
-    "level": 3,
-    "genre": "Essay",
-    "transcript": "The evil and remedy, such as it is, still exist, but this is remote from our present purpose and is only thrown out for consideration of the collectors under Mister Dent's Dog Bill.",
-    "question": "Why does the speaker mention this problem?",
-    "choices": [
-      "It is the most important point of all",
-      "Just as a side note, not as the main topic",
-      "Everyone should fix it right now",
-      "It has already been solved completely"
-    ],
+    "level": 4,
+    "genre": "Travel",
+    "accent": "Indian",
+    "voice": "Rishi",
+    "transcript": "Sustainable tourism initiatives aim to minimise the environmental and cultural impact of mass travel by encouraging visitors to support local economies, respect indigenous customs, and choose accommodation and transport options that prioritise ecological responsibility.",
+    "question": "What is the goal of sustainable tourism?",
+    "choices": ["To increase tourist numbers", "To minimise environmental and cultural impact", "To build more luxury hotels", "To offer cheaper flights"],
     "answerIndex": 1,
-    "explanation": "'Remote from our present purpose' and 'only thrown out' means it's just a side note."
+    "explanation": "Sustainable tourism aims 'to minimise environmental and cultural impact of mass travel.'"
   },
   {
     "id": "clip086",
-    "audioId": "5536-43358-0002",
-    "level": 2,
-    "genre": "Essay",
-    "transcript": "It was silent because all speech is of necessity feeble and imperfect; therefore the souls of my ancestors ascended to God in wordless adoration.",
-    "question": "Why did they pray without speaking?",
-    "choices": [
-      "They did not know how to talk",
-      "They believed words were too weak to express their feelings",
-      "Speaking was against the rules",
-      "They were praying in a quiet place"
-    ],
+    "level": 4,
+    "genre": "Environment",
+    "accent": "Irish",
+    "voice": "Moira",
+    "transcript": "Carbon capture and storage technology, which involves trapping carbon dioxide emissions at their source and storing them underground, is considered by many scientists to be an essential component of any realistic strategy to achieve net-zero emissions, despite concerns about its long-term viability and cost.",
+    "question": "Why is carbon capture considered essential?",
+    "choices": ["It eliminates all pollution", "It is a key part of achieving net-zero emissions", "It is the cheapest option", "It replaces renewable energy"],
     "answerIndex": 1,
-    "explanation": "'All speech is feeble and imperfect' so they prayed in 'wordless adoration.'"
+    "explanation": "It is considered 'an essential component of achieving net-zero emissions.'"
   },
   {
     "id": "clip087",
-    "audioId": "5694-64025-0002",
-    "level": 3,
-    "genre": "History",
-    "transcript": "I do not pretend to tell of what command distinguished itself, of heroes, of blood and wounds, of shrieks and groans, of brilliant charges, of cannon captured, et cetera.",
-    "question": "What is the speaker saying about the battle?",
-    "choices": [
-      "He saw everything that happened",
-      "He will not try to describe all the details of the fighting",
-      "He was the hero of the battle himself",
-      "He captured many cannons that day"
-    ],
+    "level": 4,
+    "genre": "Academic",
+    "accent": "South African",
+    "voice": "Tessa",
+    "transcript": "Interdisciplinary research, which draws on methodologies and insights from multiple academic fields, has become increasingly valued in addressing complex global challenges such as climate change, public health crises, and economic inequality, where no single discipline can provide a comprehensive solution.",
+    "question": "Why is interdisciplinary research valued?",
+    "choices": ["It is easier to publish", "Complex problems need insights from multiple fields", "It costs less than traditional research", "It requires fewer researchers"],
     "answerIndex": 1,
-    "explanation": "'I do not pretend to tell' means he won't try to describe all the battle details."
+    "explanation": "It is valued because 'no single discipline can provide a comprehensive solution' to complex challenges."
   },
   {
     "id": "clip088",
-    "audioId": "5895-34615-0003",
-    "level": 2,
-    "genre": "Literature",
-    "transcript": "According to all appearance, industrious manipulators of children had worked upon his face.",
-    "question": "What seems to have happened to his face?",
-    "choices": [
-      "He was born with a nice face",
-      "It was changed by people who did this to children",
-      "He hurt his face by accident",
-      "He painted his own face for fun"
-    ],
+    "level": 4,
+    "genre": "Technology",
+    "accent": "American",
+    "voice": "Samantha",
+    "transcript": "The ethical implications of facial recognition technology have sparked intense debate, with proponents arguing it enhances public safety and security, while critics warn that it poses serious threats to individual privacy and could disproportionately affect marginalised communities through algorithmic bias.",
+    "question": "What concern do critics have about facial recognition?",
+    "choices": ["It is too expensive", "It threatens privacy and may have algorithmic bias", "It slows down security checks", "It only works outdoors"],
     "answerIndex": 1,
-    "explanation": "'Industrious manipulators of children had worked upon his face' — people had changed it."
+    "explanation": "Critics warn it 'poses threats to privacy and could disproportionately affect marginalised communities.'"
   },
   {
     "id": "clip089",
-    "audioId": "6241-61943-0001",
-    "level": 1,
-    "genre": "Science",
-    "transcript": "But in the cause of science, men are expected to suffer.",
-    "question": "What does the speaker say about working for science?",
-    "choices": [
-      "Science is always fun and easy",
-      "People should be ready to go through hard times for it",
-      "Scientists never face any problems",
-      "Science does not need much effort"
-    ],
+    "level": 4,
+    "genre": "Business",
+    "accent": "British",
+    "voice": "Daniel",
+    "transcript": "Behavioural economics, which integrates psychological insights into economic models, has demonstrated that consumers frequently make irrational decisions influenced by cognitive biases such as anchoring, loss aversion, and the framing effect, challenging the classical assumption of the rational economic agent.",
+    "question": "What does behavioural economics challenge?",
+    "choices": ["The existence of markets", "The assumption that consumers are always rational", "The need for government regulation", "The importance of supply and demand"],
     "answerIndex": 1,
-    "explanation": "'Men are expected to suffer' for science means being ready for hardship."
+    "explanation": "It challenges 'the classical assumption of the rational economic agent.'"
   },
   {
     "id": "clip090",
-    "audioId": "6295-244435-0002",
-    "level": 2,
-    "genre": "History",
-    "transcript": "But the emotions of Harry and his comrades were, for the moment, those of victory only.",
-    "question": "What were Harry and his friends feeling?",
-    "choices": [
-      "They were very scared",
-      "At that moment, they only felt the joy of winning",
-      "They felt sad and tired",
-      "They were angry at each other"
-    ],
+    "level": 4,
+    "genre": "Health",
+    "accent": "American",
+    "voice": "Reed",
+    "transcript": "The gut microbiome, a complex ecosystem of trillions of microorganisms living in the human digestive tract, has been shown to play a crucial role in immune function, mental health, and metabolic processes, leading researchers to describe it as a previously overlooked organ of the human body.",
+    "question": "Why is the gut microbiome compared to an organ?",
+    "choices": ["It can be transplanted", "It plays crucial roles in immunity, mental health, and metabolism", "It has a fixed structure", "It grows independently"],
     "answerIndex": 1,
-    "explanation": "'Emotions of victory only' means they felt nothing but the joy of winning at that moment."
+    "explanation": "It plays 'a crucial role in immune function, mental health, and metabolic processes.'"
   },
   {
     "id": "clip091",
-    "audioId": "6313-66125-0001",
-    "level": 1,
-    "genre": "Literature",
-    "transcript": "Looks like a clump of bushes down there, but I ain't sure. Can you make it out?",
-    "question": "What is the speaker trying to do?",
-    "choices": [
-      "Cut down some trees",
-      "Figure out what they see in the distance",
-      "Find a place to eat",
-      "Hide from someone nearby"
-    ],
+    "level": 4,
+    "genre": "News",
+    "accent": "Australian",
+    "voice": "Karen",
+    "transcript": "The increasing frequency and severity of extreme weather events, attributed by the scientific consensus to anthropogenic climate change, has prompted governments worldwide to reassess their disaster preparedness strategies and invest heavily in resilient infrastructure.",
+    "question": "What has caused governments to reassess disaster preparedness?",
+    "choices": ["Budget surpluses", "More frequent and severe extreme weather events", "Advances in construction technology", "Population decline in rural areas"],
     "answerIndex": 1,
-    "explanation": "'Can you make it out?' means 'Can you see what it is?' — trying to identify something far away."
+    "explanation": "The 'increasing frequency and severity of extreme weather events' prompted reassessment."
   },
   {
     "id": "clip092",
-    "audioId": "6319-275224-0001",
-    "level": 2,
-    "genre": "Literature",
-    "transcript": "You surely cannot suppose that in a natural state you would be forced to climb regularly up one tall bare stick, such as I see you upon now.",
-    "question": "What point is the speaker making?",
-    "choices": [
-      "Climbing is very good for your health",
-      "In nature, you would not have to climb something like this",
-      "Everyone should climb trees more often",
-      "This stick is too short to climb"
-    ],
+    "level": 4,
+    "genre": "Education",
+    "accent": "Irish",
+    "voice": "Moira",
+    "transcript": "Critical pedagogy, an educational philosophy rooted in the work of Paulo Freire, advocates for teaching as a practice of freedom in which students are encouraged to question dominant narratives, examine power structures, and develop the analytical skills necessary to become active and informed citizens.",
+    "question": "What does critical pedagogy encourage students to do?",
+    "choices": ["Memorise facts for exams", "Question dominant narratives and examine power structures", "Follow instructions without questioning", "Focus exclusively on vocational skills"],
     "answerIndex": 1,
-    "explanation": "'In a natural state you would not be forced to climb' — this is not natural behavior."
+    "explanation": "Students are encouraged 'to question dominant narratives and examine power structures.'"
   },
   {
     "id": "clip093",
-    "audioId": "6345-64257-0003",
-    "level": 2,
-    "genre": "Drama",
-    "transcript": "She stood for a moment on the hearth and, in sad dreamy mood, listened to the howling swoops of the wind, making the house quiver and shake.",
-    "question": "What was she doing by the fireplace?",
-    "choices": [
-      "Cooking a warm meal",
-      "Standing sadly and listening to the strong wind",
-      "Reading a favorite book",
-      "Talking to her friend nearby"
-    ],
+    "level": 4,
+    "genre": "Work",
+    "accent": "Indian",
+    "voice": "Rishi",
+    "transcript": "The concept of psychological safety in the workplace, defined as an environment where employees feel comfortable expressing ideas, admitting mistakes, and challenging the status quo without fear of punishment or ridicule, has been identified as a key predictor of high-performing teams.",
+    "question": "What is psychological safety in the workplace?",
+    "choices": ["Physical safety measures", "Freedom to express ideas without fear of punishment", "Guaranteed job security", "Mental health counselling services"],
     "answerIndex": 1,
-    "explanation": "She stood 'in sad dreamy mood' and 'listened to the howling swoops of the wind.'"
+    "explanation": "It is 'an environment where employees feel comfortable expressing ideas without fear of punishment.'"
   },
   {
     "id": "clip094",
-    "audioId": "652-129742-0001",
-    "level": 2,
-    "genre": "Recipe",
-    "transcript": "Bird's nest salad: have ready as many crisp leaves of lettuce as may be required to make a dainty little nest for each person.",
-    "question": "What is the lettuce used for in this recipe?",
-    "choices": [
-      "To cover the whole plate",
-      "To make a small pretty nest shape for each plate",
-      "To mix together with meat",
-      "To make a green soup"
-    ],
+    "level": 4,
+    "genre": "Daily Life",
+    "accent": "South African",
+    "voice": "Tessa",
+    "transcript": "The growing prevalence of remote work has fundamentally altered patterns of urban migration, with many professionals choosing to relocate from expensive city centres to more affordable regional towns, a trend that has revitalised some rural communities while placing new demands on local infrastructure and services.",
+    "question": "What effect has remote work had on migration patterns?",
+    "choices": ["More people moving to cities", "Professionals relocating from cities to regional towns", "Reduced international travel", "Fewer people working overall"],
     "answerIndex": 1,
-    "explanation": "Lettuce leaves are shaped into 'a dainty little nest for each person.'"
+    "explanation": "Professionals are 'choosing to relocate from expensive city centres to more affordable regional towns.'"
   },
   {
     "id": "clip095",
-    "audioId": "777-126732-0003",
-    "level": 3,
-    "genre": "Literature",
-    "transcript": "Michaelis, the ticket-of-leave apostle, was speaking in an even voice, a voice that wheezed as if deadened and oppressed by the layer of fat on his chest.",
-    "question": "What was wrong with Michaelis's voice?",
-    "choices": [
-      "He spoke too loudly",
-      "It sounded heavy and weak because he was very fat",
-      "He had a high-pitched voice",
-      "He was speaking much too fast"
-    ],
+    "level": 4,
+    "genre": "Travel",
+    "accent": "British",
+    "voice": "Flo",
+    "transcript": "Heritage tourism, which involves visiting historically and culturally significant sites, raises complex ethical questions about the commodification of cultural identity, the potential for misrepresentation of indigenous narratives, and the responsibility of both operators and visitors to engage with these places in a respectful and informed manner.",
+    "question": "What ethical concern about heritage tourism is raised?",
+    "choices": ["Environmental damage only", "Commodification of culture and misrepresentation of indigenous narratives", "Overcrowding at airports", "High ticket prices"],
     "answerIndex": 1,
-    "explanation": "His voice 'wheezed as if deadened and oppressed by the layer of fat' — heavy and weak from being fat."
+    "explanation": "It raises questions about 'commodification of cultural identity and misrepresentation of indigenous narratives.'"
   },
   {
     "id": "clip096",
-    "audioId": "7850-111771-0001",
-    "level": 2,
-    "genre": "History",
-    "transcript": "At this time Grant was not taken with war, and probably evinced little interest in army tactics.",
-    "question": "How did Grant feel about war at this time?",
-    "choices": [
-      "He loved war and battles",
-      "He was not interested in fighting or military plans",
-      "He was already a great general",
-      "He wanted to join the army right away"
-    ],
+    "level": 4,
+    "genre": "Environment",
+    "accent": "American",
+    "voice": "Reed",
+    "transcript": "Biodiversity loss, driven by habitat destruction, pollution, and the introduction of invasive species, threatens the stability of ecosystems on which human societies depend for essential services such as pollination, water purification, and climate regulation.",
+    "question": "What essential services are threatened by biodiversity loss?",
+    "choices": ["Internet connectivity", "Pollination, water purification, and climate regulation", "Public transportation", "Energy production only"],
     "answerIndex": 1,
-    "explanation": "'Not taken with war' and 'little interest in army tactics' means he didn't care about military matters."
+    "explanation": "Biodiversity loss threatens 'pollination, water purification, and climate regulation.'"
   },
   {
     "id": "clip097",
-    "audioId": "7976-105575-0003",
-    "level": 2,
-    "genre": "History",
-    "transcript": "There were no breastworks, yet that one little brigade of Hamilton's division stood there in the open and repulsed assault after assault.",
-    "question": "What made this small group's fight remarkable?",
-    "choices": [
-      "They had the best weapons",
-      "They fought without any walls or protection",
-      "They had thousands of soldiers",
-      "They were hiding in the forest"
-    ],
+    "level": 4,
+    "genre": "Academic",
+    "accent": "British",
+    "voice": "Daniel",
+    "transcript": "The reproducibility crisis in scientific research, in which a significant proportion of published findings cannot be replicated by independent researchers, has raised serious concerns about the reliability of the evidence base upon which policy decisions, medical treatments, and technological innovations are built.",
+    "question": "What is the reproducibility crisis?",
+    "choices": ["A shortage of researchers", "Published findings that cannot be independently replicated", "A lack of funding for science", "Too many journals being published"],
     "answerIndex": 1,
-    "explanation": "'No breastworks' and 'stood in the open' means they fought without any protection at all."
+    "explanation": "It refers to 'a significant proportion of published findings' that 'cannot be replicated.'"
   },
   {
     "id": "clip098",
-    "audioId": "8297-275154-0001",
-    "level": 2,
-    "genre": "Literature",
-    "transcript": "The sailing master announced that he had orders to take the vessel back to her port, with no other explanation than that the cruise was over.",
-    "question": "What was the sailing master told to do?",
-    "choices": [
-      "Continue the journey forward",
-      "Bring the ship home with no reason given",
-      "Wait for more orders to arrive",
-      "Fix the ship before leaving"
-    ],
+    "level": 4,
+    "genre": "News",
+    "accent": "Indian",
+    "voice": "Rishi",
+    "transcript": "The digital divide, the gap between those who have access to modern information and communication technologies and those who do not, remains a significant barrier to social and economic development in many parts of the world, perpetuating existing inequalities in education, healthcare, and employment opportunities.",
+    "question": "What does the digital divide perpetuate?",
+    "choices": ["Technological innovation", "Inequalities in education, healthcare, and employment", "Government spending", "Environmental damage"],
     "answerIndex": 1,
-    "explanation": "'Take the vessel back to her port' with 'no other explanation' — return home, reason unknown."
+    "explanation": "The digital divide perpetuates 'existing inequalities in education, healthcare, and employment.'"
   },
   {
     "id": "clip099",
-    "audioId": "84-121123-0004",
-    "level": 1,
-    "genre": "Drama",
-    "transcript": "D'Avrigny rushed towards the old man and made him inhale a powerful restorative.",
-    "question": "What did D'Avrigny do to help the old man?",
-    "choices": [
-      "He gave him food to eat",
-      "He quickly gave him something strong to breathe in",
-      "He carried him outside",
-      "He called for another doctor"
-    ],
+    "level": 4,
+    "genre": "Business",
+    "accent": "Australian",
+    "voice": "Karen",
+    "transcript": "Stakeholder capitalism, an approach that holds corporations accountable not only to their shareholders but also to their employees, customers, communities, and the environment, represents a significant departure from the shareholder primacy model that has dominated corporate governance for decades.",
+    "question": "How does stakeholder capitalism differ from the traditional model?",
+    "choices": ["It focuses only on profit", "It holds companies accountable to multiple groups, not just shareholders", "It eliminates the role of management", "It reduces employee involvement"],
     "answerIndex": 1,
-    "explanation": "'Rushed towards' and 'made him inhale a powerful restorative' means giving him something to breathe quickly."
+    "explanation": "It holds corporations accountable 'not only to shareholders but also to employees, customers, communities, and the environment.'"
   },
   {
     "id": "clip100",
-    "audioId": "8842-302196-0002",
-    "level": 2,
-    "genre": "Essay",
-    "transcript": "The life-blood of rhythmical translation is this commandment: that a good poem shall not be turned into a bad one.",
-    "question": "What is the most important rule of translation?",
-    "choices": [
-      "Every word must be kept exactly the same",
-      "A good poem must stay good when translated",
-      "Only short poems should be translated",
-      "Translation is not possible for poetry"
-    ],
+    "level": 4,
+    "genre": "Daily Life",
+    "accent": "South African",
+    "voice": "Tessa",
+    "transcript": "The philosophy of minimalism, which advocates for intentionally living with fewer material possessions in order to focus on experiences and relationships, has gained considerable traction in recent years as a response to the perceived excesses of consumer culture and the growing awareness of the environmental costs of overproduction and waste.",
+    "question": "Why has minimalism gained popularity?",
+    "choices": ["Economic recession only", "As a response to consumer excess and environmental concerns", "Because of government promotion", "Due to housing shortages"],
     "answerIndex": 1,
-    "explanation": "'A good poem shall not be turned into a bad one' — the quality must be kept in translation."
+    "explanation": "Minimalism is 'a response to perceived excesses of consumer culture and environmental costs.'"
   }
 ]
